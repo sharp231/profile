@@ -149,3 +149,19 @@ SP
     margin-bottom: 30px;
   }
 }
+
+/* お問い合わせ */
+.footer{
+  background: #e4eeef;
+  padding: 100px 0;
+  margin: 100px auto 0;
+}
+
+.essential {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Noto Sans JP', sans-serif;
+  letter-spacing: 0.05em;
+  width: 100%;
+  margin-bottom: 40px;
+}
