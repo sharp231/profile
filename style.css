@@ -156,6 +156,12 @@ SP
   padding: 100px 0;
   margin: 100px auto 0;
 }
+.footer-left {
+  text-align: center;
+  font-size: 20px;
+  line-height: 2;
+  margin-bottom: 50px;
+}
 
 .essential {
   display: flex;
@@ -164,4 +170,27 @@ SP
   letter-spacing: 0.05em;
   width: 100%;
   margin-bottom: 40px;
+}
+
+.button {
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  margin: 30px auto 0;
+  background-color: #e4eeef;
+  cursor: pointer;
+  border: 1px solid #e4eeef;
+  color: #000;
+  text-align: center;
+  text-decoration: none;
+  line-height: 1.5;
+  outline: none;
+  -webkit-transition: all .3s;
+  transition: all .5s;
+  padding: 20px 100px;
+}
+.button:hover {
+  background: #cae1e3;
+  color: #000;
+  border: 1px solid #cae1e3;
 }
