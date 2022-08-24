@@ -163,13 +163,48 @@ SP
   margin-bottom: 50px;
 }
 
-.essential {
+.table-list {
   display: flex;
   justify-content: space-between;
   font-family: 'Noto Sans JP', sans-serif;
   letter-spacing: 0.05em;
   width: 100%;
   margin-bottom: 40px;
+}
+
+.table-list th {
+  font-size: 15px;
+  font-weight: bold;
+  width: 250px;
+  text-align: left;
+}
+input[type="text"]{
+  font-family: 'Noto Sans JP', sans-serif;
+  letter-spacing: 0.05em;
+  padding: 0 10px;
+  border: none;
+  width: 550px;
+  height: 40px;
+  box-sizing: border-box;
+  border: 1px solid #c4c4c4;
+}
+.input-area {
+  font-family: 'Noto Sans JP', sans-serif;
+  letter-spacing: 0.05em;
+  padding: 0 10px;
+  border: none;
+  width: 550px;
+  height: 40px;
+  box-sizing: border-box;
+  border: 1px solid #c4c4c4;
+}
+textarea {
+  border: none;
+  width: 550px;
+  height: 200px;
+  padding: 0;
+  border: 1px solid #c4c4c4;
+  resize: vertical; /* 横方向のみサイズを固定する */
 }
 
 .button {
@@ -192,5 +227,5 @@ SP
 .button:hover {
   background: #cae1e3;
   color: #000;
-  border: 1px solid #cae1e3;
+  border: 1px solid #33FF33;
 }
