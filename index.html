@@ -27,7 +27,7 @@
             <ul>
               <li><a href="#">Home</a></li>
               <li><a href="#Profile">Profile</a></li>
-              <li><a href="#otoiawase">Contact</a></li>
+              <li><a href="#Contact">Contact</a></li>
             </ul>
           </nav>
       </nav>
@@ -54,12 +54,12 @@
       </section>
 
       <section id="hobby" class="headline">
-        <h2 class="section-title">Profile</h2>
+        <h2 id ="Profile" class="section-title">Profile</h2>
         <ul>
           <li>
             <img src="onair.png">
             <h3 class="content-title">知識のアップデート</h3>
-            <p><a id ="Profile">読書。SNSで「アウトプット」をしています。</a></p>
+            <p><a >読書。SNSで「アウトプット」をしています。</a></p>
             <a href="https://note.com/simba0522/">noteはこちら</a>
           </li>
           <li>
@@ -81,7 +81,7 @@
     
        
 
-               <div class="footer">
+               <!-- <div class="footer">
                    
                 <div class="footer-left">
                   <ul>
@@ -126,10 +126,68 @@
 
                   </table>
                       </form>
+
                       <input type="submit" value="送信する" class="button">
                      
+                    </div> -->
+               <!-- </div>  -->
+
+               <div class="contact-bg">
+                <div class="contact-area inner">
+                    <p id ="Contact"class="contact-message">Contact<br>                        
+         
+                    <div class="contact-inner">
+                        <form method="post">
+                            <table class="contact-table">
+         
+         
+         
+                                <tr class="table-list">
+                                    <th>
+                                        <label for="name">お名前<span class="essential">必須</span></label>
+                                    </th>
+                                    <td>
+                                        <input type="text" name="yourname" id="name"  class="input-area" autocomplete="name">
+                                    </td>
+                                </tr>
+         
+         
+         
+                                <tr class="table-list">
+                                    <th><label for="furigana">ふりがな<span class="essential">必須</span></label></th>
+                                    <td>
+                                        <input type="text" name="yourname" id="furigana"  class="input-area">
+                                    </td>
+                                </tr>
+         
+                                <tr class="table-list">
+                                    <th><label for="mail">メールアドレス<span class="essential">必須</span></label></th>
+                                    <td>
+                                        <input id="mail" type="email" name="mail"  class="input-area" autocomplete="email">
+                                    </td>
+                                </tr>
+         
+         
+         
+                                <tr class="table-list">
+                                    <th><label for="comment">お問い合わせ内容<span class="essential">必須</span></label></th>
+                                    <td>
+                                        <textarea id="comment" name="comment"></textarea>
+                                    </td>
+                                </tr>
+         
+                            </table>
+                        </form>
+         
+         
+         
+                        <input type="submit" value="送信する" class="button">
+         
+         
                     </div>
-               </div> 
+                </div>
+            </div>
+
                <footer id="footer">
                 <p>&copy; 2022 Profile</p>
               </footer>
