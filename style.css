@@ -366,7 +366,7 @@ textarea {
 } */
 
 .contact-bg {
-  background: #e4eeef;
+  background: #CCFFCC;
   padding: 100px 0;
   margin: 100px auto 0;
 }
@@ -484,7 +484,7 @@ input[type="text"] {
   position: relative;
   display: block;
   margin: 30px auto 0;
-  background-color: #e4eeef;
+  background-color: #CCFFCC;
   cursor: pointer;
   border: 1px solid #e4eeef;
   color: #000;
@@ -498,9 +498,9 @@ input[type="text"] {
 }
 
 .button:hover {
-  background: #cae1e3;
+  background: #CCFFCC;
   color: #000;
-  border: 1px solid #33FF33;
+  border: 1px solid #FFCC33;
 }
 
 
