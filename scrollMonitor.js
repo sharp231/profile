@@ -1,10 +1,6 @@
 
 
 
-
-
-
-
 <!DOCTYPE html>
 <html lang="en" data-color-mode="auto" data-light-theme="light" data-dark-theme="dark" data-a11y-animated-images="disabled">
   <head>
@@ -64,13 +60,13 @@
 <script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/diffs-e2b9e4bbb696.js"></script>
   
 
-  <title>BlockRevealers/main.js at master · codrops/BlockRevealers</title>
+  <title>BlockRevealers/scrollMonitor.js at master · codrops/BlockRevealers</title>
 
 
 
     
 
-  <meta name="request-id" content="FA0A:035D:3DF57:137260:630F14E0" data-pjax-transient="true" /><meta name="html-safe-nonce" content="3091b14120cb44f08598057b5d2d5c965df4c1b37042eb762c65ea698dac53f5" data-pjax-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS9jb2Ryb3BzL0Jsb2NrUmV2ZWFsZXJzL3RyZWUvbWFzdGVyL2pzIiwicmVxdWVzdF9pZCI6IkZBMEE6MDM1RDozREY1NzoxMzcyNjA6NjMwRjE0RTAiLCJ2aXNpdG9yX2lkIjoiMzUyODc4NjYyNTczMjc1MTE0NCIsInJlZ2lvbl9lZGdlIjoiamFwYW5lYXN0IiwicmVnaW9uX3JlbmRlciI6ImlhZCJ9" data-pjax-transient="true" /><meta name="visitor-hmac" content="11aa385082ea759d57efe90045f47b05098d1a45e9d793bda4d8514def85ab66" data-pjax-transient="true" />
+  <meta name="request-id" content="FA0A:035D:3DF6B:1372CE:630F14E7" data-pjax-transient="true" /><meta name="html-safe-nonce" content="3091b14120cb44f08598057b5d2d5c965df4c1b37042eb762c65ea698dac53f5" data-pjax-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS9jb2Ryb3BzL0Jsb2NrUmV2ZWFsZXJzL3RyZWUvbWFzdGVyL2pzIiwicmVxdWVzdF9pZCI6IkZBMEE6MDM1RDozREY2QjoxMzcyQ0U6NjMwRjE0RTciLCJ2aXNpdG9yX2lkIjoiMzUyODc4NjYyNTczMjc1MTE0NCIsInJlZ2lvbl9lZGdlIjoiamFwYW5lYXN0IiwicmVnaW9uX3JlbmRlciI6ImlhZCJ9" data-pjax-transient="true" /><meta name="visitor-hmac" content="66d9d80829f6d624b50b95b2ab0ce28189de658366d8cf5f7a781c87d5fc48f6" data-pjax-transient="true" />
 
     <meta name="hovercard-subject-tag" content="repository:77051936" data-pjax-transient>
 
@@ -102,16 +98,16 @@
 
     <meta name="viewport" content="width=device-width">
     
-      <meta name="description" content="Ideas for revealing content in a schematic box look as seen around the Web lately. - BlockRevealers/main.js at master · codrops/BlockRevealers">
+      <meta name="description" content="Ideas for revealing content in a schematic box look as seen around the Web lately. - BlockRevealers/scrollMonitor.js at master · codrops/BlockRevealers">
       <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
     <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
     <meta property="fb:app_id" content="1401488693436528">
     <meta name="apple-itunes-app" content="app-id=1477376905" />
-      <meta name="twitter:image:src" content="https://opengraph.githubassets.com/4dbf9121e607c10cf6b0371703f22be08a5199396880d37ba4b2082863926605/codrops/BlockRevealers" /><meta name="twitter:site" content="@github" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:title" content="BlockRevealers/main.js at master · codrops/BlockRevealers" /><meta name="twitter:description" content="Ideas for revealing content in a schematic box look as seen around the Web lately. - BlockRevealers/main.js at master · codrops/BlockRevealers" />
-      <meta property="og:image" content="https://opengraph.githubassets.com/4dbf9121e607c10cf6b0371703f22be08a5199396880d37ba4b2082863926605/codrops/BlockRevealers" /><meta property="og:image:alt" content="Ideas for revealing content in a schematic box look as seen around the Web lately. - BlockRevealers/main.js at master · codrops/BlockRevealers" /><meta property="og:image:width" content="1200" /><meta property="og:image:height" content="600" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="BlockRevealers/main.js at master · codrops/BlockRevealers" /><meta property="og:url" content="https://github.com/codrops/BlockRevealers" /><meta property="og:description" content="Ideas for revealing content in a schematic box look as seen around the Web lately. - BlockRevealers/main.js at master · codrops/BlockRevealers" />
+      <meta name="twitter:image:src" content="https://opengraph.githubassets.com/4dbf9121e607c10cf6b0371703f22be08a5199396880d37ba4b2082863926605/codrops/BlockRevealers" /><meta name="twitter:site" content="@github" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:title" content="BlockRevealers/scrollMonitor.js at master · codrops/BlockRevealers" /><meta name="twitter:description" content="Ideas for revealing content in a schematic box look as seen around the Web lately. - BlockRevealers/scrollMonitor.js at master · codrops/BlockRevealers" />
+      <meta property="og:image" content="https://opengraph.githubassets.com/4dbf9121e607c10cf6b0371703f22be08a5199396880d37ba4b2082863926605/codrops/BlockRevealers" /><meta property="og:image:alt" content="Ideas for revealing content in a schematic box look as seen around the Web lately. - BlockRevealers/scrollMonitor.js at master · codrops/BlockRevealers" /><meta property="og:image:width" content="1200" /><meta property="og:image:height" content="600" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="BlockRevealers/scrollMonitor.js at master · codrops/BlockRevealers" /><meta property="og:url" content="https://github.com/codrops/BlockRevealers" /><meta property="og:description" content="Ideas for revealing content in a schematic box look as seen around the Web lately. - BlockRevealers/scrollMonitor.js at master · codrops/BlockRevealers" />
       
     <link rel="assets" href="https://github.githubassets.com/">
-      <link rel="shared-web-socket" href="wss://alive.github.com/_sockets/u/102702826/ws?session=eyJ2IjoiVjMiLCJ1IjoxMDI3MDI4MjYsInMiOjkzMjIwNjIzOSwiYyI6MTYxNjc1NDI3LCJ0IjoxNjYxOTMyNzc2fQ==--f4631c0fd89f71ccb77f2ab9402ae4964669b50edaf00b92a39d34f30975fe1c" data-refresh-url="/_alive" data-session-id="c57204c9971e1d74eb4a7d757f9c587b5e68e87bd5950a382a6ec3d9cee1757e">
+      <link rel="shared-web-socket" href="wss://alive.github.com/_sockets/u/102702826/ws?session=eyJ2IjoiVjMiLCJ1IjoxMDI3MDI4MjYsInMiOjkzMjIwNjIzOSwiYyI6MTgwNDQxNDQzMywidCI6MTY2MTkzMjc4M30=--2a31bf7bc24ec04872c0fd53d360ca24eeac3cce72da4a80ae8a7a52d7e513e7" data-refresh-url="/_alive" data-session-id="c57204c9971e1d74eb4a7d757f9c587b5e68e87bd5950a382a6ec3d9cee1757e">
       <link rel="shared-web-socket-src" href="/assets-cdn/worker/socket-worker-b87581f5816c.js">
 
 
@@ -140,7 +136,7 @@
 
 
 
-    <link rel="canonical" href="https://github.com/codrops/BlockRevealers/blob/master/js/main.js" data-pjax-transient>
+    <link rel="canonical" href="https://github.com/codrops/BlockRevealers/blob/master/js/scrollMonitor.js" data-pjax-transient>
   <meta name="turbo-body-classes" content="logged-in env-production page-responsive page-blob">
 
 
@@ -231,7 +227,7 @@
           spellcheck="false"
           autocomplete="off"
         >
-        <input type="hidden" value="IIKXB9iqDA0eF79ApUePOkCfhqgWskVQ5qwTLnSRedPzV5Qnrf4NbUZ6vOqqqS7uE92Nn9m5Y6vtsQciuFEGLg" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" />
+        <input type="hidden" value="5-VOa9NLRpB63rot1zYQAlO76WATIO0mJ9bL4zbXXmE0ME1Lph9H8CKzuYfY2LHWAPniV9wry90sy9_v-hchnA" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" />
         <input type="hidden" class="js-site-search-type-field" name="type" >
             <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" aria-hidden="true" class="mr-1 header-search-key-slash"><path fill="none" stroke="#979A9C" opacity=".4" d="M3.5.5h12c1.7 0 3 1.3 3 3v13c0 1.7-1.3 3-3 3h-12c-1.7 0-3-1.3-3-3v-13c0-1.7 1.3-3 3-3z"></path><path fill="#979A9C" d="M11.8 6L8 15.1h-.9L10.8 6h1z"></path></svg>
 
@@ -431,7 +427,7 @@
     <a class="js-selected-navigation-item Header-link mt-md-n3 mb-md-n3 py-2 py-md-3 mr-0 mr-md-3 border-top border-md-top-0 border-white-fade" data-ga-click="Header, click, Nav menu - item:explore" data-turbo="false" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship showcases showcases_search showcases_landing /explore" href="/explore">Explore</a>
 
 
-      <a class="js-selected-navigation-item Header-link d-block d-md-none py-2 py-md-3 border-top border-md-top-0 border-white-fade" data-ga-click="Header, click, Nav menu - item:Sponsors" data-hydro-click="{&quot;event_type&quot;:&quot;sponsors.button_click&quot;,&quot;payload&quot;:{&quot;button&quot;:&quot;HEADER_SPONSORS_DASHBOARD&quot;,&quot;sponsorable_login&quot;:&quot;SimBa296&quot;,&quot;originating_url&quot;:&quot;https://github.com/codrops/BlockRevealers/blob/master/js/main.js&quot;,&quot;user_id&quot;:102702826}}" data-hydro-click-hmac="58dc65eff3fded9446afc88b0f6d0e4fac92c9079bc6a62ccf59c80d50944982" data-turbo="false" data-selected-links=" /sponsors/accounts" href="/sponsors/accounts">Sponsors</a>
+      <a class="js-selected-navigation-item Header-link d-block d-md-none py-2 py-md-3 border-top border-md-top-0 border-white-fade" data-ga-click="Header, click, Nav menu - item:Sponsors" data-hydro-click="{&quot;event_type&quot;:&quot;sponsors.button_click&quot;,&quot;payload&quot;:{&quot;button&quot;:&quot;HEADER_SPONSORS_DASHBOARD&quot;,&quot;sponsorable_login&quot;:&quot;SimBa296&quot;,&quot;originating_url&quot;:&quot;https://github.com/codrops/BlockRevealers/blob/master/js/scrollMonitor.js&quot;,&quot;user_id&quot;:102702826}}" data-hydro-click-hmac="6b41453235c6e287987260c484e7f382cc2b3e28d90067f46674fd0dc30898d5" data-turbo="false" data-selected-links=" /sponsors/accounts" href="/sponsors/accounts">Sponsors</a>
 
     <a class="Header-link d-block d-md-none mr-0 mr-md-3 py-2 py-md-3 border-top border-md-top-0 border-white-fade" data-turbo="false" href="/settings/profile">Settings</a>
 
@@ -439,7 +435,7 @@
       <img class="avatar avatar-user" loading="lazy" decoding="async" src="https://avatars.githubusercontent.com/u/102702826?s=40&amp;v=4" width="20" height="20" alt="@SimBa296" />
       SimBa296
 </a>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-turbo="false" action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="XiWplSF61R_ygU-0FflxiEUdbCJiH-xH8vJbLpY60msMzli0NoG1Ms0K0NWJ62ZAG0UzJTr54vaddJrISqcrJA" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-turbo="false" action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="Hseq3FynBKSG1C3oA9NgUF1kdQMFmxydQrOIUJGGs41MLFv9S1xkiblfsomfwXeYAzwqBF19EiwtNUm2TRtKwg" />
       <button
         type="submit"
         class="Header-link mr-0 mr-md-3 py-2 py-md-3 border-top border-md-top-0 border-white-fade d-md-none btn-link d-block width-full text-left"
@@ -476,7 +472,7 @@
 <notification-indicator
   
   class="js-socket-channel"
-  data-channel="eyJjIjoibm90aWZpY2F0aW9uLWNoYW5nZWQ6MTAyNzAyODI2IiwidCI6MTY2MTkzMjc3Nn0=--ff47c4d941f463c6c0fab03570102227118d96bdcb29bd54c29d4c73e428309f"
+  data-channel="eyJjIjoibm90aWZpY2F0aW9uLWNoYW5nZWQ6MTAyNzAyODI2IiwidCI6MTY2MTkzMjc4M30=--8963e35fd43e3f12a97eeca24a88540a2e78ac935653c3e8c62e56af988ad00e"
   data-indicator-mode="none"
   data-tooltip-global="You have unread notifications"
   data-tooltip-unavailable="Notifications are unavailable at the moment."
@@ -634,7 +630,7 @@
   <details-dialog class="command-palette-details-dialog d-flex flex-column flex-justify-center height-fit" aria-label="command palette">
     <command-palette
       class="command-palette color-bg-default rounded-3 border color-shadow-small"
-      return-to=/codrops/BlockRevealers/blob/master/js/main.js
+      return-to=/codrops/BlockRevealers/blob/master/js/scrollMonitor.js
       user-id="102702826"
       activation-hotkey="Mod+k,Mod+Alt+k"
       command-mode-hotkey="Mod+Shift+k"
@@ -1600,7 +1596,7 @@
         data-action="toggle:notifications-list-subscription-form#detailsToggled"
       >
 
-        <summary data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:77051936,&quot;originating_url&quot;:&quot;https://github.com/codrops/BlockRevealers/blob/master/js/main.js&quot;,&quot;user_id&quot;:102702826}}" data-hydro-click-hmac="6f249101fdfe6cb4faed7ad6253cef1bd6c60d40826d9b610af80e079fd1a2d6" data-ga-click="Repository, click Watch settings, action:blob#show" aria-label="Notification settings" data-view-component="true" class="btn-sm btn">    <span data-menu-button>
+        <summary data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:77051936,&quot;originating_url&quot;:&quot;https://github.com/codrops/BlockRevealers/blob/master/js/scrollMonitor.js&quot;,&quot;user_id&quot;:102702826}}" data-hydro-click-hmac="4a05c0d8762e39ee553cde60e8935b09e103fab198c1223a08431cf2c5200c2c" data-ga-click="Repository, click Watch settings, action:blob#show" aria-label="Notification settings" data-view-component="true" class="btn-sm btn">    <span data-menu-button>
             <span
               hidden
               
@@ -1652,7 +1648,7 @@
             </header>
 
             <div class="SelectMenu-list">
-              <form data-target="notifications-list-subscription-form.form" data-action="submit:notifications-list-subscription-form#submitForm" data-turbo="false" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="QA19GIqdxHy7Bd0tJupUWqvumk-zStkhrXTLuAjTKeO9x1563Jw9lA695eLsCdYu0V0Cd0gfXiQvmOzQjbY_1Q" autocomplete="off" />
+              <form data-target="notifications-list-subscription-form.form" data-action="submit:notifications-list-subscription-form#submitForm" data-turbo="false" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="NwULj5UEJxfy0b50qqn7jgFLU5AUwVAs509cB9Fbn-XKzyjtwwXe_0dphrtgSnn6e_jLqO-U1yllo3tvVD6J0w" autocomplete="off" />
 
                 <input type="hidden" name="repository_id" value="77051936">
 
@@ -1780,7 +1776,7 @@
           hidden
         >
           <div class="SelectMenu-modal notifications-component-dialog-modal overflow-visible">
-            <form data-target="notifications-list-subscription-form.customform" data-action="submit:notifications-list-subscription-form#submitCustomForm" data-turbo="false" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="QbOeg01CjaN8FL2rKfKXu9aWvy7QgEnMSPZgZVLJlui8eb3hG0N0S8mshWTjERXPrCUnFivVzsnKGkcN16yA3g" autocomplete="off" />
+            <form data-target="notifications-list-subscription-form.customform" data-action="submit:notifications-list-subscription-form#submitCustomForm" data-turbo="false" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="GmNQFVK8Bzrut6yWlMsvr4rsZqyzFOCFoyGVkZYUucrnqXN3BL3-0lsPlFleKK3b8F_-lEhBZ4AhzbL5E3Gv_A" autocomplete="off" />
 
               <input type="hidden" name="repository_id" value="77051936">
 
@@ -1927,7 +1923,7 @@
   <li>
       
   <div data-view-component="true" class="BtnGroup">
-        <a href="/codrops/BlockRevealers/fork" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:77051936,&quot;originating_url&quot;:&quot;https://github.com/codrops/BlockRevealers/blob/master/js/main.js&quot;,&quot;user_id&quot;:102702826}}" data-hydro-click-hmac="c3ebb7f846d2e94a2c40c6f328172d58eb509a01f3d03afe2c78853d033dcd22" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" aria-label="Fork your own copy of codrops/BlockRevealers" data-view-component="true" class="btn-sm btn BtnGroup-item">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo-forked mr-2">
+        <a href="/codrops/BlockRevealers/fork" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:77051936,&quot;originating_url&quot;:&quot;https://github.com/codrops/BlockRevealers/blob/master/js/scrollMonitor.js&quot;,&quot;user_id&quot;:102702826}}" data-hydro-click-hmac="496a945d63fa1e719ee566335b73bec445f647c644c3145c33ca5217cfa30089" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" aria-label="Fork your own copy of codrops/BlockRevealers" data-view-component="true" class="btn-sm btn BtnGroup-item">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo-forked mr-2">
     <path fill-rule="evenodd" d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z"></path>
 </svg>Fork
           <span id="repo-network-counter" data-pjax-replace="true" data-turbo-replace="true" title="91" data-view-component="true" class="Counter">91</span>
@@ -1945,13 +1941,13 @@
       
 >
     <div class="SelectMenu-modal">
-        <button class="SelectMenu-closeButton position-absolute right-0 m-2" type="button" aria-label="Close menu" data-toggle-for="details-2f5ba4">
+        <button class="SelectMenu-closeButton position-absolute right-0 m-2" type="button" aria-label="Close menu" data-toggle-for="details-161c2d">
           <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
     <path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path>
 </svg>
         </button>
       <div
-        id="filter-menu-2f5ba4"
+        id="filter-menu-161c2d"
         class="d-flex flex-column flex-1 overflow-hidden"
 >
         <div
@@ -1992,18 +1988,18 @@
 </template>
 
   <div data-view-component="true" class="js-toggler-container js-social-container starring-container BtnGroup d-flex">
-    <form class="starred js-social-form BtnGroup-parent flex-auto js-deferred-toggler-target" data-turbo="false" action="/codrops/BlockRevealers/unstar" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="jIXwDIjxOPNwLGC00GtkYjOsh2vVc5tY3YLwXu5l1CRTgRuTCiy2oceZIVadh6eCLfbkd2YaDMPXDF28CuKXCQ" autocomplete="off" />
-        <input type="hidden" value="aTEybyFowLvzZp--s5CdDOlJbCtRqjER09O0gOZBl1-2Ndnwo7VO6UTT3lz-fF7s9xMPN-LDporZXRliAsbUcg" data-csrf="true" class="js-confirm-csrf-token" />
+    <form class="starred js-social-form BtnGroup-parent flex-auto js-deferred-toggler-target" data-turbo="false" action="/codrops/BlockRevealers/unstar" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="tFBQkwF8eyMUqLPUID2MSPNKMLQJbF6-oJX7M7kf5MdrVLsMg6H1caMd8jZt0U-o7RBTqLoFySWqG1bRXZin6g" autocomplete="off" />
+        <input type="hidden" value="M6bF46IddRILm1XtMHN9v6AF5iHs12MIs4CpBnLLYarsoi58IMD7QLwuFA99n75fvl-FPV--9JO5DgTklkwihw" data-csrf="true" class="js-confirm-csrf-token" />
       <input type="hidden" name="context" value="repository">
-        <button data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:77051936,&quot;originating_url&quot;:&quot;https://github.com/codrops/BlockRevealers/blob/master/js/main.js&quot;,&quot;user_id&quot;:102702826}}" data-hydro-click-hmac="234df60475f63ffe82f948685e228c84e377da3423d0b2d43127afd966e1f912" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar" aria-label="Unstar this repository" type="submit" data-view-component="true" class="rounded-left-2 border-right-0 btn-sm btn BtnGroup-item">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star-fill starred-button-icon d-inline-block mr-2">
+        <button data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:77051936,&quot;originating_url&quot;:&quot;https://github.com/codrops/BlockRevealers/blob/master/js/scrollMonitor.js&quot;,&quot;user_id&quot;:102702826}}" data-hydro-click-hmac="0f807682b2828150bebe91b2d75892c84484cb3d572fb4eb04461666c915decc" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar" aria-label="Unstar this repository" type="submit" data-view-component="true" class="rounded-left-2 border-right-0 btn-sm btn BtnGroup-item">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star-fill starred-button-icon d-inline-block mr-2">
     <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"></path>
 </svg><span data-view-component="true" class="d-inline">
           Starred
 </span>          <span id="repo-stars-counter-unstar" aria-label="557 users starred this repository" data-singular-suffix="user starred this repository" data-plural-suffix="users starred this repository" data-pjax-replace="true" data-turbo-replace="true" title="557" data-view-component="true" class="Counter js-social-count">557</span>
 </button></form>
-    <form class="unstarred js-social-form BtnGroup-parent flex-auto" data-turbo="false" action="/codrops/BlockRevealers/star" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="PEnBMw5H6c5t_Z6uapotK6cbQP1fN-eX0Nl3vmKqHjBqVke9z77t4wkxJb55Yfoipko6dWdKv3C_W0UWZ3ksfw" autocomplete="off" />
+    <form class="unstarred js-social-form BtnGroup-parent flex-auto" data-turbo="false" action="/codrops/BlockRevealers/star" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="iRu4BendccrS7XyyNAJNwmaLxg3v97mLpQL373MpNpjfBD6LKCR157Yhx6In-ZrLZ9q8hdeK4WzKgMVHdvoE1w" autocomplete="off" />
       <input type="hidden" name="context" value="repository">
-        <button data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:77051936,&quot;originating_url&quot;:&quot;https://github.com/codrops/BlockRevealers/blob/master/js/main.js&quot;,&quot;user_id&quot;:102702826}}" data-hydro-click-hmac="8e722f58a2d3accb50a0f8610a26dd2cd5279044cab83daa83736b25488a2d47" data-ga-click="Repository, click star button, action:blob#show; text:Star" aria-label="Star this repository" type="submit" data-view-component="true" class="js-toggler-target rounded-left-2 btn-sm btn BtnGroup-item">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star d-inline-block mr-2">
+        <button data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:77051936,&quot;originating_url&quot;:&quot;https://github.com/codrops/BlockRevealers/blob/master/js/scrollMonitor.js&quot;,&quot;user_id&quot;:102702826}}" data-hydro-click-hmac="3e144112c5de94b96cc772710d742580de8c4b13708e93ad5a7d16d76a23c46a" data-ga-click="Repository, click star button, action:blob#show; text:Star" aria-label="Star this repository" type="submit" data-view-component="true" class="js-toggler-target rounded-left-2 btn-sm btn BtnGroup-item">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star d-inline-block mr-2">
     <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path>
 </svg><span data-view-component="true" class="d-inline">
           Star
@@ -2022,13 +2018,13 @@
       
 >
     <div class="SelectMenu-modal">
-        <button class="SelectMenu-closeButton position-absolute right-0 m-2" type="button" aria-label="Close menu" data-toggle-for="details-062865">
+        <button class="SelectMenu-closeButton position-absolute right-0 m-2" type="button" aria-label="Close menu" data-toggle-for="details-423c2c">
           <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
     <path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path>
 </svg>
         </button>
       <div
-        id="filter-menu-062865"
+        id="filter-menu-423c2c"
         class="d-flex flex-column flex-1 overflow-hidden"
 >
         <div
@@ -2222,7 +2218,7 @@
 
 
     
-<a class="d-none js-permalink-shortcut" data-hotkey="y" href="/codrops/BlockRevealers/blob/f8bc11a648756c32701106a33f19f0b795f1d794/js/main.js">Permalink</a>
+<a class="d-none js-permalink-shortcut" data-hotkey="y" href="/codrops/BlockRevealers/blob/f8bc11a648756c32701106a33f19f0b795f1d794/js/scrollMonitor.js">Permalink</a>
 
 <div class="d-flex flex-items-start flex-shrink-0 pb-3 flex-wrap flex-md-nowrap flex-justify-between flex-md-justify-start">
   
@@ -2306,7 +2302,7 @@
             </div>
 
               <template data-target="ref-selector.itemTemplate">
-  <a href="https://github.com/codrops/BlockRevealers/blob/{{ urlEncodedRefName }}/js/main.js" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}">
+  <a href="https://github.com/codrops/BlockRevealers/blob/{{ urlEncodedRefName }}/js/scrollMonitor.js" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}">
     <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
     <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
 </svg>
@@ -2346,7 +2342,7 @@
             </template>
 
               <template data-target="ref-selector.itemTemplate">
-  <a href="https://github.com/codrops/BlockRevealers/blob/{{ urlEncodedRefName }}/js/main.js" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}">
+  <a href="https://github.com/codrops/BlockRevealers/blob/{{ urlEncodedRefName }}/js/scrollMonitor.js" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}">
     <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
     <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
 </svg>
@@ -2377,9 +2373,9 @@
 </div>
 
   <h2 id="blob-path" class="breadcrumb flex-auto flex-self-center min-width-0 text-normal mx-2 width-full width-md-auto flex-order-1 flex-md-order-none mt-3 mt-md-0">
-    <span class="js-repo-root text-bold"><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" href="/codrops/BlockRevealers"><span>BlockRevealers</span></a></span></span><span class="separator">/</span><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" href="/codrops/BlockRevealers/tree/master/js"><span>js</span></a></span><span class="separator">/</span><strong class="final-path">main.js</strong>
+    <span class="js-repo-root text-bold"><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" href="/codrops/BlockRevealers"><span>BlockRevealers</span></a></span></span><span class="separator">/</span><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" href="/codrops/BlockRevealers/tree/master/js"><span>js</span></a></span><span class="separator">/</span><strong class="final-path">scrollMonitor.js</strong>
       <span class="separator">/</span><details class="details-reset details-overlay d-inline" id="jumpto-symbol-select-menu">
-    <summary aria-haspopup="true" data-hotkey="r" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.click_on_blob_definitions&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;click_on_blob_definitions&quot;,&quot;repository_id&quot;:77051936,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/codrops/BlockRevealers/blob/master/js/main.js&quot;,&quot;user_id&quot;:102702826}}" data-hydro-click-hmac="0d60fc04ba66716d04e801a91f709b8771ed90ea4efdbb1a9946aac52817c298" data-view-component="true" class="Link--secondary css-truncate btn-link">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-code">
+    <summary aria-haspopup="true" data-hotkey="r" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.click_on_blob_definitions&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;click_on_blob_definitions&quot;,&quot;repository_id&quot;:77051936,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/codrops/BlockRevealers/blob/master/js/scrollMonitor.js&quot;,&quot;user_id&quot;:102702826}}" data-hydro-click-hmac="6799fcb810e2ceb397fabc25fb22311bd130c767d7e40ea71d1fd45383706ada" data-view-component="true" class="Link--secondary css-truncate btn-link">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-code">
     <path fill-rule="evenodd" d="M4.72 3.22a.75.75 0 011.06 1.06L2.06 8l3.72 3.72a.75.75 0 11-1.06 1.06L.47 8.53a.75.75 0 010-1.06l4.25-4.25zm6.56 0a.75.75 0 10-1.06 1.06L13.94 8l-3.72 3.72a.75.75 0 101.06 1.06l4.25-4.25a.75.75 0 000-1.06l-4.25-4.25z"></path>
 </svg>
     <span data-menu-button>Jump to</span>
@@ -2407,77 +2403,215 @@
         </div>
       <div class="SelectMenu-list">
         <div data-filterable-for="jumpto-symbols-filter-field" data-filterable-type="substring">
-            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:77051936,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/codrops/BlockRevealers/blob/master/js/main.js&quot;,&quot;user_id&quot;:102702826}}" data-hydro-click-hmac="5b04c27af091fce58204ba009278ac29b3f5da9712a129fb728bb7cf01a079ac" href="/codrops/BlockRevealers/blob/master/js/main.js#L16">
+            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:77051936,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/codrops/BlockRevealers/blob/master/js/scrollMonitor.js&quot;,&quot;user_id&quot;:102702826}}" data-hydro-click-hmac="26b9c0f53f137041eeeffda017f6b6e862be65c263268ea3d073cb8acb3d51af" href="/codrops/BlockRevealers/blob/master/js/scrollMonitor.js#L1">
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
     <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
 </svg>
-              <span class="flex-auto css-truncate-target" data-menu-button-text>extend</span>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>e</span>
               <span class="flex-auto d-flex flex-justify-end">Function</span>
-</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:77051936,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/codrops/BlockRevealers/blob/master/js/main.js&quot;,&quot;user_id&quot;:102702826}}" data-hydro-click-hmac="5b04c27af091fce58204ba009278ac29b3f5da9712a129fb728bb7cf01a079ac" href="/codrops/BlockRevealers/blob/master/js/main.js#L25">
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:77051936,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/codrops/BlockRevealers/blob/master/js/scrollMonitor.js&quot;,&quot;user_id&quot;:102702826}}" data-hydro-click-hmac="26b9c0f53f137041eeeffda017f6b6e862be65c263268ea3d073cb8acb3d51af" href="/codrops/BlockRevealers/blob/master/js/scrollMonitor.js#L1">
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
     <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
 </svg>
-              <span class="flex-auto css-truncate-target" data-menu-button-text>createDOMEl</span>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>o</span>
               <span class="flex-auto d-flex flex-justify-end">Function</span>
-</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:77051936,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/codrops/BlockRevealers/blob/master/js/main.js&quot;,&quot;user_id&quot;:102702826}}" data-hydro-click-hmac="5b04c27af091fce58204ba009278ac29b3f5da9712a129fb728bb7cf01a079ac" href="/codrops/BlockRevealers/blob/master/js/main.js#L35">
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:77051936,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/codrops/BlockRevealers/blob/master/js/scrollMonitor.js&quot;,&quot;user_id&quot;:102702826}}" data-hydro-click-hmac="26b9c0f53f137041eeeffda017f6b6e862be65c263268ea3d073cb8acb3d51af" href="/codrops/BlockRevealers/blob/master/js/scrollMonitor.js#L1">
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
     <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
 </svg>
-              <span class="flex-auto css-truncate-target" data-menu-button-text>RevealFx</span>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>s</span>
               <span class="flex-auto d-flex flex-justify-end">Function</span>
-</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:77051936,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/codrops/BlockRevealers/blob/master/js/main.js&quot;,&quot;user_id&quot;:102702826}}" data-hydro-click-hmac="5b04c27af091fce58204ba009278ac29b3f5da9712a129fb728bb7cf01a079ac" href="/codrops/BlockRevealers/blob/master/js/main.js#L61">
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:77051936,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/codrops/BlockRevealers/blob/master/js/scrollMonitor.js&quot;,&quot;user_id&quot;:102702826}}" data-hydro-click-hmac="26b9c0f53f137041eeeffda017f6b6e862be65c263268ea3d073cb8acb3d51af" href="/codrops/BlockRevealers/blob/master/js/scrollMonitor.js#L1">
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
     <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
 </svg>
-              <span class="flex-auto css-truncate-target" data-menu-button-text>onCover</span>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>n</span>
               <span class="flex-auto d-flex flex-justify-end">Function</span>
-</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:77051936,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/codrops/BlockRevealers/blob/master/js/main.js&quot;,&quot;user_id&quot;:102702826}}" data-hydro-click-hmac="5b04c27af091fce58204ba009278ac29b3f5da9712a129fb728bb7cf01a079ac" href="/codrops/BlockRevealers/blob/master/js/main.js#L63">
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:77051936,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/codrops/BlockRevealers/blob/master/js/scrollMonitor.js&quot;,&quot;user_id&quot;:102702826}}" data-hydro-click-hmac="26b9c0f53f137041eeeffda017f6b6e862be65c263268ea3d073cb8acb3d51af" href="/codrops/BlockRevealers/blob/master/js/scrollMonitor.js#L1">
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
     <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
 </svg>
-              <span class="flex-auto css-truncate-target" data-menu-button-text>onStart</span>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>r</span>
               <span class="flex-auto d-flex flex-justify-end">Function</span>
-</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:77051936,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/codrops/BlockRevealers/blob/master/js/main.js&quot;,&quot;user_id&quot;:102702826}}" data-hydro-click-hmac="5b04c27af091fce58204ba009278ac29b3f5da9712a129fb728bb7cf01a079ac" href="/codrops/BlockRevealers/blob/master/js/main.js#L65">
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:77051936,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/codrops/BlockRevealers/blob/master/js/scrollMonitor.js&quot;,&quot;user_id&quot;:102702826}}" data-hydro-click-hmac="26b9c0f53f137041eeeffda017f6b6e862be65c263268ea3d073cb8acb3d51af" href="/codrops/BlockRevealers/blob/master/js/scrollMonitor.js#L1">
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
     <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
 </svg>
-              <span class="flex-auto css-truncate-target" data-menu-button-text>onComplete</span>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>t</span>
               <span class="flex-auto d-flex flex-justify-end">Function</span>
-</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:77051936,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/codrops/BlockRevealers/blob/master/js/main.js&quot;,&quot;user_id&quot;:102702826}}" data-hydro-click-hmac="5b04c27af091fce58204ba009278ac29b3f5da9712a129fb728bb7cf01a079ac" href="/codrops/BlockRevealers/blob/master/js/main.js#L72">
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:77051936,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/codrops/BlockRevealers/blob/master/js/scrollMonitor.js&quot;,&quot;user_id&quot;:102702826}}" data-hydro-click-hmac="26b9c0f53f137041eeeffda017f6b6e862be65c263268ea3d073cb8acb3d51af" href="/codrops/BlockRevealers/blob/master/js/scrollMonitor.js#L1">
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
     <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
 </svg>
-              <span class="flex-auto css-truncate-target" data-menu-button-text>_init</span>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>h</span>
               <span class="flex-auto d-flex flex-justify-end">Function</span>
-</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:77051936,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/codrops/BlockRevealers/blob/master/js/main.js&quot;,&quot;user_id&quot;:102702826}}" data-hydro-click-hmac="5b04c27af091fce58204ba009278ac29b3f5da9712a129fb728bb7cf01a079ac" href="/codrops/BlockRevealers/blob/master/js/main.js#L79">
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:77051936,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/codrops/BlockRevealers/blob/master/js/scrollMonitor.js&quot;,&quot;user_id&quot;:102702826}}" data-hydro-click-hmac="26b9c0f53f137041eeeffda017f6b6e862be65c263268ea3d073cb8acb3d51af" href="/codrops/BlockRevealers/blob/master/js/scrollMonitor.js#L1">
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
     <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
 </svg>
-              <span class="flex-auto css-truncate-target" data-menu-button-text>_layout</span>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>c</span>
               <span class="flex-auto d-flex flex-justify-end">Function</span>
-</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:77051936,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/codrops/BlockRevealers/blob/master/js/main.js&quot;,&quot;user_id&quot;:102702826}}" data-hydro-click-hmac="5b04c27af091fce58204ba009278ac29b3f5da9712a129fb728bb7cf01a079ac" href="/codrops/BlockRevealers/blob/master/js/main.js#L100">
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:77051936,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/codrops/BlockRevealers/blob/master/js/scrollMonitor.js&quot;,&quot;user_id&quot;:102702826}}" data-hydro-click-hmac="26b9c0f53f137041eeeffda017f6b6e862be65c263268ea3d073cb8acb3d51af" href="/codrops/BlockRevealers/blob/master/js/scrollMonitor.js#L1">
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
     <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
 </svg>
-              <span class="flex-auto css-truncate-target" data-menu-button-text>_getTransformSettings</span>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>DOMListener</span>
               <span class="flex-auto d-flex flex-justify-end">Function</span>
-</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:77051936,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/codrops/BlockRevealers/blob/master/js/main.js&quot;,&quot;user_id&quot;:102702826}}" data-hydro-click-hmac="5b04c27af091fce58204ba009278ac29b3f5da9712a129fb728bb7cf01a079ac" href="/codrops/BlockRevealers/blob/master/js/main.js#L142">
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:77051936,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/codrops/BlockRevealers/blob/master/js/scrollMonitor.js&quot;,&quot;user_id&quot;:102702826}}" data-hydro-click-hmac="26b9c0f53f137041eeeffda017f6b6e862be65c263268ea3d073cb8acb3d51af" href="/codrops/BlockRevealers/blob/master/js/scrollMonitor.js#L1">
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
     <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
 </svg>
-              <span class="flex-auto css-truncate-target" data-menu-button-text>reveal</span>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>update</span>
               <span class="flex-auto d-flex flex-justify-end">Function</span>
-</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:77051936,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/codrops/BlockRevealers/blob/master/js/main.js&quot;,&quot;user_id&quot;:102702826}}" data-hydro-click-hmac="5b04c27af091fce58204ba009278ac29b3f5da9712a129fb728bb7cf01a079ac" href="/codrops/BlockRevealers/blob/master/js/main.js#L175">
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:77051936,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/codrops/BlockRevealers/blob/master/js/scrollMonitor.js&quot;,&quot;user_id&quot;:102702826}}" data-hydro-click-hmac="26b9c0f53f137041eeeffda017f6b6e862be65c263268ea3d073cb8acb3d51af" href="/codrops/BlockRevealers/blob/master/js/scrollMonitor.js#L1">
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
     <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
 </svg>
-              <span class="flex-auto css-truncate-target" data-menu-button-text>complete</span>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>recalculateLocations</span>
               <span class="flex-auto d-flex flex-justify-end">Function</span>
-</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:77051936,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/codrops/BlockRevealers/blob/master/js/main.js&quot;,&quot;user_id&quot;:102702826}}" data-hydro-click-hmac="5b04c27af091fce58204ba009278ac29b3f5da9712a129fb728bb7cf01a079ac" href="/codrops/BlockRevealers/blob/master/js/main.js#L185">
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:77051936,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/codrops/BlockRevealers/blob/master/js/scrollMonitor.js&quot;,&quot;user_id&quot;:102702826}}" data-hydro-click-hmac="26b9c0f53f137041eeeffda017f6b6e862be65c263268ea3d073cb8acb3d51af" href="/codrops/BlockRevealers/blob/master/js/scrollMonitor.js#L1">
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
     <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
 </svg>
-              <span class="flex-auto css-truncate-target" data-menu-button-text>complete</span>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>listenToDOM</span>
+              <span class="flex-auto d-flex flex-justify-end">Function</span>
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:77051936,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/codrops/BlockRevealers/blob/master/js/scrollMonitor.js&quot;,&quot;user_id&quot;:102702826}}" data-hydro-click-hmac="26b9c0f53f137041eeeffda017f6b6e862be65c263268ea3d073cb8acb3d51af" href="/codrops/BlockRevealers/blob/master/js/scrollMonitor.js#L1">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>destroy</span>
+              <span class="flex-auto d-flex flex-justify-end">Function</span>
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:77051936,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/codrops/BlockRevealers/blob/master/js/scrollMonitor.js&quot;,&quot;user_id&quot;:102702826}}" data-hydro-click-hmac="26b9c0f53f137041eeeffda017f6b6e862be65c263268ea3d073cb8acb3d51af" href="/codrops/BlockRevealers/blob/master/js/scrollMonitor.js#L1">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>destroy</span>
+              <span class="flex-auto d-flex flex-justify-end">Function</span>
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:77051936,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/codrops/BlockRevealers/blob/master/js/scrollMonitor.js&quot;,&quot;user_id&quot;:102702826}}" data-hydro-click-hmac="26b9c0f53f137041eeeffda017f6b6e862be65c263268ea3d073cb8acb3d51af" href="/codrops/BlockRevealers/blob/master/js/scrollMonitor.js#L1">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>DOMListener</span>
+              <span class="flex-auto d-flex flex-justify-end">Function</span>
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:77051936,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/codrops/BlockRevealers/blob/master/js/scrollMonitor.js&quot;,&quot;user_id&quot;:102702826}}" data-hydro-click-hmac="26b9c0f53f137041eeeffda017f6b6e862be65c263268ea3d073cb8acb3d51af" href="/codrops/BlockRevealers/blob/master/js/scrollMonitor.js#L1">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>setStateFromDOM</span>
+              <span class="flex-auto d-flex flex-justify-end">Function</span>
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:77051936,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/codrops/BlockRevealers/blob/master/js/scrollMonitor.js&quot;,&quot;user_id&quot;:102702826}}" data-hydro-click-hmac="26b9c0f53f137041eeeffda017f6b6e862be65c263268ea3d073cb8acb3d51af" href="/codrops/BlockRevealers/blob/master/js/scrollMonitor.js#L1">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>setState</span>
+              <span class="flex-auto d-flex flex-justify-end">Function</span>
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:77051936,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/codrops/BlockRevealers/blob/master/js/scrollMonitor.js&quot;,&quot;user_id&quot;:102702826}}" data-hydro-click-hmac="26b9c0f53f137041eeeffda017f6b6e862be65c263268ea3d073cb8acb3d51af" href="/codrops/BlockRevealers/blob/master/js/scrollMonitor.js#L1">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>updateAndTriggerWatchers</span>
+              <span class="flex-auto d-flex flex-justify-end">Function</span>
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:77051936,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/codrops/BlockRevealers/blob/master/js/scrollMonitor.js&quot;,&quot;user_id&quot;:102702826}}" data-hydro-click-hmac="26b9c0f53f137041eeeffda017f6b6e862be65c263268ea3d073cb8acb3d51af" href="/codrops/BlockRevealers/blob/master/js/scrollMonitor.js#L1">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>createCustomContainer</span>
+              <span class="flex-auto d-flex flex-justify-end">Function</span>
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:77051936,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/codrops/BlockRevealers/blob/master/js/scrollMonitor.js&quot;,&quot;user_id&quot;:102702826}}" data-hydro-click-hmac="26b9c0f53f137041eeeffda017f6b6e862be65c263268ea3d073cb8acb3d51af" href="/codrops/BlockRevealers/blob/master/js/scrollMonitor.js#L1">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>createContainer</span>
+              <span class="flex-auto d-flex flex-justify-end">Function</span>
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:77051936,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/codrops/BlockRevealers/blob/master/js/scrollMonitor.js&quot;,&quot;user_id&quot;:102702826}}" data-hydro-click-hmac="26b9c0f53f137041eeeffda017f6b6e862be65c263268ea3d073cb8acb3d51af" href="/codrops/BlockRevealers/blob/master/js/scrollMonitor.js#L1">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>create</span>
+              <span class="flex-auto d-flex flex-justify-end">Function</span>
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:77051936,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/codrops/BlockRevealers/blob/master/js/scrollMonitor.js&quot;,&quot;user_id&quot;:102702826}}" data-hydro-click-hmac="26b9c0f53f137041eeeffda017f6b6e862be65c263268ea3d073cb8acb3d51af" href="/codrops/BlockRevealers/blob/master/js/scrollMonitor.js#L1">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>beget</span>
+              <span class="flex-auto d-flex flex-justify-end">Function</span>
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:77051936,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/codrops/BlockRevealers/blob/master/js/scrollMonitor.js&quot;,&quot;user_id&quot;:102702826}}" data-hydro-click-hmac="26b9c0f53f137041eeeffda017f6b6e862be65c263268ea3d073cb8acb3d51af" href="/codrops/BlockRevealers/blob/master/js/scrollMonitor.js#L1">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>o</span>
+              <span class="flex-auto d-flex flex-justify-end">Function</span>
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:77051936,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/codrops/BlockRevealers/blob/master/js/scrollMonitor.js&quot;,&quot;user_id&quot;:102702826}}" data-hydro-click-hmac="26b9c0f53f137041eeeffda017f6b6e862be65c263268ea3d073cb8acb3d51af" href="/codrops/BlockRevealers/blob/master/js/scrollMonitor.js#L1">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>o</span>
+              <span class="flex-auto d-flex flex-justify-end">Function</span>
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:77051936,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/codrops/BlockRevealers/blob/master/js/scrollMonitor.js&quot;,&quot;user_id&quot;:102702826}}" data-hydro-click-hmac="26b9c0f53f137041eeeffda017f6b6e862be65c263268ea3d073cb8acb3d51af" href="/codrops/BlockRevealers/blob/master/js/scrollMonitor.js#L1">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>triggerCallbacks</span>
+              <span class="flex-auto d-flex flex-justify-end">Function</span>
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:77051936,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/codrops/BlockRevealers/blob/master/js/scrollMonitor.js&quot;,&quot;user_id&quot;:102702826}}" data-hydro-click-hmac="26b9c0f53f137041eeeffda017f6b6e862be65c263268ea3d073cb8acb3d51af" href="/codrops/BlockRevealers/blob/master/js/scrollMonitor.js#L1">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>recalculateLocation</span>
+              <span class="flex-auto d-flex flex-justify-end">Function</span>
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:77051936,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/codrops/BlockRevealers/blob/master/js/scrollMonitor.js&quot;,&quot;user_id&quot;:102702826}}" data-hydro-click-hmac="26b9c0f53f137041eeeffda017f6b6e862be65c263268ea3d073cb8acb3d51af" href="/codrops/BlockRevealers/blob/master/js/scrollMonitor.js#L1">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>on</span>
+              <span class="flex-auto d-flex flex-justify-end">Function</span>
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:77051936,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/codrops/BlockRevealers/blob/master/js/scrollMonitor.js&quot;,&quot;user_id&quot;:102702826}}" data-hydro-click-hmac="26b9c0f53f137041eeeffda017f6b6e862be65c263268ea3d073cb8acb3d51af" href="/codrops/BlockRevealers/blob/master/js/scrollMonitor.js#L1">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>off</span>
+              <span class="flex-auto d-flex flex-justify-end">Function</span>
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:77051936,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/codrops/BlockRevealers/blob/master/js/scrollMonitor.js&quot;,&quot;user_id&quot;:102702826}}" data-hydro-click-hmac="26b9c0f53f137041eeeffda017f6b6e862be65c263268ea3d073cb8acb3d51af" href="/codrops/BlockRevealers/blob/master/js/scrollMonitor.js#L1">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>one</span>
+              <span class="flex-auto d-flex flex-justify-end">Function</span>
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:77051936,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/codrops/BlockRevealers/blob/master/js/scrollMonitor.js&quot;,&quot;user_id&quot;:102702826}}" data-hydro-click-hmac="26b9c0f53f137041eeeffda017f6b6e862be65c263268ea3d073cb8acb3d51af" href="/codrops/BlockRevealers/blob/master/js/scrollMonitor.js#L1">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>recalculateSize</span>
+              <span class="flex-auto d-flex flex-justify-end">Function</span>
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:77051936,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/codrops/BlockRevealers/blob/master/js/scrollMonitor.js&quot;,&quot;user_id&quot;:102702826}}" data-hydro-click-hmac="26b9c0f53f137041eeeffda017f6b6e862be65c263268ea3d073cb8acb3d51af" href="/codrops/BlockRevealers/blob/master/js/scrollMonitor.js#L1">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>update</span>
+              <span class="flex-auto d-flex flex-justify-end">Function</span>
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:77051936,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/codrops/BlockRevealers/blob/master/js/scrollMonitor.js&quot;,&quot;user_id&quot;:102702826}}" data-hydro-click-hmac="26b9c0f53f137041eeeffda017f6b6e862be65c263268ea3d073cb8acb3d51af" href="/codrops/BlockRevealers/blob/master/js/scrollMonitor.js#L1">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>destroy</span>
+              <span class="flex-auto d-flex flex-justify-end">Function</span>
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:77051936,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/codrops/BlockRevealers/blob/master/js/scrollMonitor.js&quot;,&quot;user_id&quot;:102702826}}" data-hydro-click-hmac="26b9c0f53f137041eeeffda017f6b6e862be65c263268ea3d073cb8acb3d51af" href="/codrops/BlockRevealers/blob/master/js/scrollMonitor.js#L1">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>lock</span>
+              <span class="flex-auto d-flex flex-justify-end">Function</span>
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:77051936,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/codrops/BlockRevealers/blob/master/js/scrollMonitor.js&quot;,&quot;user_id&quot;:102702826}}" data-hydro-click-hmac="26b9c0f53f137041eeeffda017f6b6e862be65c263268ea3d073cb8acb3d51af" href="/codrops/BlockRevealers/blob/master/js/scrollMonitor.js#L1">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>unlock</span>
+              <span class="flex-auto d-flex flex-justify-end">Function</span>
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:77051936,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/codrops/BlockRevealers/blob/master/js/scrollMonitor.js&quot;,&quot;user_id&quot;:102702826}}" data-hydro-click-hmac="26b9c0f53f137041eeeffda017f6b6e862be65c263268ea3d073cb8acb3d51af" href="/codrops/BlockRevealers/blob/master/js/scrollMonitor.js#L1">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>d</span>
               <span class="flex-auto d-flex flex-justify-end">Function</span>
 </a>        </div>
       </div>
@@ -2501,7 +2635,7 @@
 </summary>
   <div data-view-component="true">      <ul class="dropdown-menu dropdown-menu-sw">
         <li class="d-block d-md-none">
-          <a class="dropdown-item d-flex flex-items-baseline" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FIND_FILE_BUTTON&quot;,&quot;repository_id&quot;:77051936,&quot;originating_url&quot;:&quot;https://github.com/codrops/BlockRevealers/blob/master/js/main.js&quot;,&quot;user_id&quot;:102702826}}" data-hydro-click-hmac="38753480d4d8c59ca70b978034e7df0c227d9c93e85e24f7a5fd56213df9cbe6" data-ga-click="Repository, find file, location:repo overview" data-hotkey="t" data-pjax="true" href="/codrops/BlockRevealers/find/master">
+          <a class="dropdown-item d-flex flex-items-baseline" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FIND_FILE_BUTTON&quot;,&quot;repository_id&quot;:77051936,&quot;originating_url&quot;:&quot;https://github.com/codrops/BlockRevealers/blob/master/js/scrollMonitor.js&quot;,&quot;user_id&quot;:102702826}}" data-hydro-click-hmac="27abfae9dcc178b65100966863a914aa33978400df32ddd084e6f1668d1792e5" data-ga-click="Repository, find file, location:repo overview" data-hotkey="t" data-pjax="true" href="/codrops/BlockRevealers/find/master">
             <span class="flex-auto">Go to file</span>
             <span class="text-small color-fg-muted" aria-hidden="true">T</span>
 </a>        </li>
@@ -2519,13 +2653,13 @@
 </button>        </li>
         <li class="dropdown-divider" role="none"></li>
         <li>
-          <clipboard-copy data-toggle-for="blob-more-options-details" aria-label="Copy path" value="js/main.js" data-view-component="true" class="dropdown-item cursor-pointer">
+          <clipboard-copy data-toggle-for="blob-more-options-details" aria-label="Copy path" value="js/scrollMonitor.js" data-view-component="true" class="dropdown-item cursor-pointer">
     
             Copy path
 
 </clipboard-copy>        </li>
         <li>
-          <clipboard-copy data-toggle-for="blob-more-options-details" aria-label="Copy permalink" value="https://github.com/codrops/BlockRevealers/blob/f8bc11a648756c32701106a33f19f0b795f1d794/js/main.js" data-view-component="true" class="dropdown-item cursor-pointer">
+          <clipboard-copy data-toggle-for="blob-more-options-details" aria-label="Copy permalink" value="https://github.com/codrops/BlockRevealers/blob/f8bc11a648756c32701106a33f19f0b795f1d794/js/scrollMonitor.js" data-view-component="true" class="dropdown-item cursor-pointer">
     
             <span class="d-flex flex-items-baseline">
               <span class="flex-auto">Copy permalink</span>
@@ -2557,80 +2691,17 @@
     <include-fragment src="/codrops/BlockRevealers/spoofed_commit_check/f8bc11a648756c32701106a33f19f0b795f1d794" data-test-selector="spoofed-commit-check"></include-fragment>
 
     <div class="Box d-flex flex-column flex-shrink-0 mb-3">
-  
-  <div class="Box-header Details js-details-container">
-      <div class="d-flex flex-items-center">
-        <span class="flex-shrink-0 ml-n1 mr-n1 mt-n1 mb-n1">
-          <a rel="contributor" data-skip-pjax="true" data-hovercard-type="user" data-hovercard-url="/users/crnacura/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/crnacura"><img class="avatar avatar-user" src="https://avatars.githubusercontent.com/u/1044196?s=48&amp;v=4" width="24" height="24" alt="@crnacura" /></a>
-        </span>
-        <div class="flex-1 d-flex flex-items-center ml-3 min-width-0">
-          <div class="css-truncate css-truncate-overflow">
-            <a class="text-bold Link--primary" rel="contributor" data-hovercard-type="user" data-hovercard-url="/users/crnacura/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/crnacura">crnacura</a>
+  <include-fragment src="/codrops/BlockRevealers/contributors/master/js/scrollMonitor.js" class="commit-loader">
+    <div class="Box-header d-flex flex-items-center">
+      <div class="Skeleton avatar avatar-user flex-shrink-0 ml-n1 mr-n1 mt-n1 mb-n1" style="width:24px;height:24px;"></div>
+      <div class="Skeleton Skeleton--text col-5 ml-2">&nbsp;</div>
+    </div>
 
-              <span class="markdown-title">
-                <a data-pjax="true" title="First commit" class="Link--secondary" href="/codrops/BlockRevealers/commit/200c0a72cd67b9cba9def10bd92d878e2cfaa48b">First commit</a>
-              </span>
-          </div>
-
-
-          <span class="ml-2">
-            <include-fragment accept="text/fragment+html" src="/codrops/BlockRevealers/commit/200c0a72cd67b9cba9def10bd92d878e2cfaa48b/rollup?direction=e" class="d-inline"></include-fragment>
-          </span>
-        </div>
-        <div class="ml-3 d-flex flex-shrink-0 flex-items-center flex-justify-end color-fg-muted no-wrap">
-          <span class="d-none d-md-inline">
-            <span>Latest commit</span>
-            <a class="text-small text-mono Link--secondary" href="/codrops/BlockRevealers/commit/200c0a72cd67b9cba9def10bd92d878e2cfaa48b" data-pjax>200c0a7</a>
-            <span itemprop="dateModified"><relative-time datetime="2016-12-21T12:54:37Z" class="no-wrap">Dec 21, 2016</relative-time></span>
-          </span>
-
-          <a data-pjax href="/codrops/BlockRevealers/commits/master/js/main.js" class="ml-3 no-wrap Link--primary no-underline">
-            <svg text="gray" aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-history">
-    <path fill-rule="evenodd" d="M1.643 3.143L.427 1.927A.25.25 0 000 2.104V5.75c0 .138.112.25.25.25h3.646a.25.25 0 00.177-.427L2.715 4.215a6.5 6.5 0 11-1.18 4.458.75.75 0 10-1.493.154 8.001 8.001 0 101.6-5.684zM7.75 4a.75.75 0 01.75.75v2.992l2.028.812a.75.75 0 01-.557 1.392l-2.5-1A.75.75 0 017 8.25v-3.5A.75.75 0 017.75 4z"></path>
-</svg>
-            <span class="d-none d-sm-inline">
-              <strong>History</strong>
-            </span>
-          </a>
-        </div>
-      </div>
-
-  </div>
-
-  <div class="Box-body d-flex flex-items-center flex-auto border-bottom-0 flex-wrap" >
-    <details class="details-reset details-overlay details-overlay-dark lh-default color-fg-default float-left mr-3" id="blob_contributors_box">
-      <summary class="Link--primary">
-        <svg text="gray" aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-people">
-    <path fill-rule="evenodd" d="M5.5 3.5a2 2 0 100 4 2 2 0 000-4zM2 5.5a3.5 3.5 0 115.898 2.549 5.507 5.507 0 013.034 4.084.75.75 0 11-1.482.235 4.001 4.001 0 00-7.9 0 .75.75 0 01-1.482-.236A5.507 5.507 0 013.102 8.05 3.49 3.49 0 012 5.5zM11 4a.75.75 0 100 1.5 1.5 1.5 0 01.666 2.844.75.75 0 00-.416.672v.352a.75.75 0 00.574.73c1.2.289 2.162 1.2 2.522 2.372a.75.75 0 101.434-.44 5.01 5.01 0 00-2.56-3.012A3 3 0 0011 4z"></path>
-</svg>
-        <strong>1</strong>
-        
-        contributor
-      </summary>
-      <details-dialog
-        class="Box Box--overlay d-flex flex-column anim-fade-in fast"
-        aria-label="Users who have contributed to this file"
-        src="/codrops/BlockRevealers/contributors-list/master/js/main.js" preload>
-        <div class="Box-header">
-          <button class="Box-btn-octicon btn-octicon float-right" type="button" aria-label="Close dialog" data-close-dialog>
-            <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
-    <path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path>
-</svg>
-          </button>
-          <h3 class="Box-title">
-            Users who have contributed to this file
-          </h3>
-        </div>
-        <include-fragment>
-          <svg style="box-sizing: content-box; color: var(--color-icon-primary);" width="32" height="32" viewBox="0 0 16 16" fill="none" data-view-component="true" class="my-3 mx-auto d-block anim-rotate">
-  <circle cx="8" cy="8" r="7" stroke="currentColor" stroke-opacity="0.25" stroke-width="2" vector-effect="non-scaling-stroke" />
-  <path d="M15 8a7.002 7.002 0 00-7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" vector-effect="non-scaling-stroke" />
-</svg>
-        </include-fragment>
-      </details-dialog>
-    </details>
-  </div>
-</div>
+    <div class="Box-body d-flex flex-items-center" >
+      <div class="Skeleton Skeleton--text col-1">&nbsp;</div>
+      <span class="color-fg-danger h6 loader-error">Cannot retrieve contributors at this time</span>
+    </div>
+</include-fragment></div>
 
 
 
@@ -2654,23 +2725,23 @@
 
   <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1">
 
-      216 lines (195 sloc)
+      2 lines (2 sloc)
       <span class="file-info-divider"></span>
-    6.24 KB
+    8.6 KB
   </div>
 
   <div class="d-flex py-1 py-md-0 flex-auto flex-order-1 flex-md-order-2 flex-sm-grow-0 flex-justify-between hide-sm hide-md">
       
 
     <div class="BtnGroup">
-        <a data-permalink-href="/codrops/BlockRevealers/raw/f8bc11a648756c32701106a33f19f0b795f1d794/js/main.js" href="/codrops/BlockRevealers/raw/master/js/main.js" id="raw-url" data-view-component="true" class="js-permalink-replaceable-link btn-sm btn BtnGroup-item">    Raw
-</a>          <a data-permalink-href="/codrops/BlockRevealers/blame/f8bc11a648756c32701106a33f19f0b795f1d794/js/main.js" href="/codrops/BlockRevealers/blame/master/js/main.js" data-hotkey="b" data-view-component="true" class="js-update-url-with-hash js-permalink-replaceable-link btn-sm btn BtnGroup-item">    Blame
+        <a data-permalink-href="/codrops/BlockRevealers/raw/f8bc11a648756c32701106a33f19f0b795f1d794/js/scrollMonitor.js" href="/codrops/BlockRevealers/raw/master/js/scrollMonitor.js" id="raw-url" data-view-component="true" class="js-permalink-replaceable-link btn-sm btn BtnGroup-item">    Raw
+</a>          <a data-permalink-href="/codrops/BlockRevealers/blame/f8bc11a648756c32701106a33f19f0b795f1d794/js/scrollMonitor.js" href="/codrops/BlockRevealers/blame/master/js/scrollMonitor.js" data-hotkey="b" data-view-component="true" class="js-update-url-with-hash js-permalink-replaceable-link btn-sm btn BtnGroup-item">    Blame
 </a>    </div>
 
     <div class="d-flex">
         
 <div class="ml-1" data-test-selector="edit-dropdown-menu-component">
-  <form class="BtnGroup-parent js-update-url-with-hash " data-turbo="false" action="/codrops/BlockRevealers/edit/master/js/main.js" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="TPLh3yp4bwdkwlpLZZUMovkixzS2_cvD0qY6Q6VxL6IbJPjCJ44PX1YiV3YWSqgITMchuPlAFydqLl-mUdVXkw" autocomplete="off" />
+  <form class="BtnGroup-parent js-update-url-with-hash " data-turbo="false" action="/codrops/BlockRevealers/edit/master/js/scrollMonitor.js" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="B88bacZkVgIxolxb671qyo_cL64y_tTlJqE83ryeV74P76hCNOYykXmQM4DSdCNt8x4qmICsk33Pma-LZ-cLTA" autocomplete="off" />
       <button title="Fork this project and edit the file" data-hotkey="e" data-disable-with="" data-test-selector="edit-icon-button" type="submit" data-view-component="true" class="btn-sm BtnGroup-item btn">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-pencil">
     <path fill-rule="evenodd" d="M11.013 1.427a1.75 1.75 0 012.474 0l1.086 1.086a1.75 1.75 0 010 2.474l-8.61 8.61c-.21.21-.47.364-.756.445l-3.251.93a.75.75 0 01-.927-.928l.929-3.25a1.75 1.75 0 01.445-.758l8.61-8.61zm1.414 1.06a.25.25 0 00-.354 0L10.811 3.75l1.439 1.44 1.263-1.263a.25.25 0 000-.354l-1.086-1.086zM11.189 6.25L9.75 4.81l-6.286 6.287a.25.25 0 00-.064.108l-.558 1.953 1.953-.558a.249.249 0 00.108-.064l6.286-6.286z"></path>
 </svg>
@@ -2680,7 +2751,7 @@
 </summary>    <div class="SelectMenu right-0">
       <div class="SelectMenu-modal width-full">
         <div class="SelectMenu-list SelectMenu-list--borderless py-2">
-          <form class="SelectMenu-item js-update-url-with-hash " data-turbo="false" action="/codrops/BlockRevealers/edit/master/js/main.js" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="foxkhT9fyrLABX5LG3BtzKgd3VyKZSaLbPvqsGwecHopWn2YMqmq6vLlc3Zor8lmHfg70MXY-m_Uc49VmLoISw" autocomplete="off" />
+          <form class="SelectMenu-item js-update-url-with-hash " data-turbo="false" action="/codrops/BlockRevealers/edit/master/js/scrollMonitor.js" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="oIxVYa8MBPIUF3b8U_9XAgK5b14l5DgRxrHqQNgjT-yorOZKXY5gYVwlGSdqNh6lfntqaJe2f4kviXkVA1oTHg" autocomplete="off" />
               <button title="Fork this project and edit the file" data-test-selector="edit-text-button" type="submit" data-view-component="true" class="btn-invisible btn width-full d-flex flex-justify-between color-fg-default text-normal p-0">    <div class="mr-5">Edit this file</div>
               <div class="color-fg-muted">E</div>
 </button></form>
@@ -2699,10 +2770,10 @@
 
         
 <div data-test-selector="remote-clipboard-copy">
-  <remote-clipboard-copy class="d-inline-block btn-octicon" style="height: 26px" data-src="/codrops/BlockRevealers/raw/master/js/main.js" data-action="click:remote-clipboard-copy#remoteCopy">
+  <remote-clipboard-copy class="d-inline-block btn-octicon" style="height: 26px" data-src="/codrops/BlockRevealers/raw/master/js/scrollMonitor.js" data-action="click:remote-clipboard-copy#remoteCopy">
   
 
-  <span data-target="remote-clipboard-copy.idle">      <span class="tooltipped tooltipped-nw cursor-pointer" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;COPY_RAW_CONTENTS_BUTTON&quot;,&quot;repository_id&quot;:77051936,&quot;originating_url&quot;:&quot;https://github.com/codrops/BlockRevealers/blob/master/js/main.js&quot;,&quot;user_id&quot;:102702826}}" data-hydro-click-hmac="45f5b27eb443cfe548019130fad25211564377675ad35d8b4ce14c08b9ca1139" aria-label="Copy raw contents">
+  <span data-target="remote-clipboard-copy.idle">      <span class="tooltipped tooltipped-nw cursor-pointer" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;COPY_RAW_CONTENTS_BUTTON&quot;,&quot;repository_id&quot;:77051936,&quot;originating_url&quot;:&quot;https://github.com/codrops/BlockRevealers/blob/master/js/scrollMonitor.js&quot;,&quot;user_id&quot;:102702826}}" data-hydro-click-hmac="dca73639d6dbcc3d943dcd8a2b845e9cfcfda66d94b706ba625041140ce374c8" aria-label="Copy raw contents">
         <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy">
     <path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path>
 </svg>
@@ -2727,7 +2798,7 @@
 </remote-clipboard-copy></div>
 
 
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" data-turbo="false" action="/codrops/BlockRevealers/delete/master/js/main.js" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="F2kgSMv0sTXU0bjFmV9aL6MpVsMGeIbD5dSYvOrOdSOI_HRg2Ffa048YatzjxBAjHhsP7jbPWvRCZ1aNla_bCQ" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" data-turbo="false" action="/codrops/BlockRevealers/delete/master/js/scrollMonitor.js" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="yX3FAeMs30X6PbDb48sNWJseE27WjNxaAgzbS8I03xcJ1WFW8fCOQrR5PSFzv6SkBsF2IrYAaSengcHLHaIpqA" />
             <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
               aria-label="Fork this project and delete the file" data-disable-with>
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-trash">
@@ -2760,15 +2831,15 @@
                 </a>
             </li>
           <li>
-            <a class="dropdown-item" href="/codrops/BlockRevealers/raw/master/js/main.js">
+            <a class="dropdown-item" href="/codrops/BlockRevealers/raw/master/js/scrollMonitor.js">
               View raw
             </a>
           </li>
             <li>
-              <remote-clipboard-copy class="dropdown-item" data-src="/codrops/BlockRevealers/raw/master/js/main.js" data-action="click:remote-clipboard-copy#remoteCopy">
+              <remote-clipboard-copy class="dropdown-item" data-src="/codrops/BlockRevealers/raw/master/js/scrollMonitor.js" data-action="click:remote-clipboard-copy#remoteCopy">
   
 
-  <span data-target="remote-clipboard-copy.idle">                  <span class="cursor-pointer" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;COPY_RAW_CONTENTS_BUTTON&quot;,&quot;repository_id&quot;:77051936,&quot;originating_url&quot;:&quot;https://github.com/codrops/BlockRevealers/blob/master/js/main.js&quot;,&quot;user_id&quot;:102702826}}" data-hydro-click-hmac="45f5b27eb443cfe548019130fad25211564377675ad35d8b4ce14c08b9ca1139">
+  <span data-target="remote-clipboard-copy.idle">                  <span class="cursor-pointer" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;COPY_RAW_CONTENTS_BUTTON&quot;,&quot;repository_id&quot;:77051936,&quot;originating_url&quot;:&quot;https://github.com/codrops/BlockRevealers/blob/master/js/scrollMonitor.js&quot;,&quot;user_id&quot;:102702826}}" data-hydro-click-hmac="dca73639d6dbcc3d943dcd8a2b845e9cfcfda66d94b706ba625041140ce374c8">
                     Copy raw contents
 </span></span>
   <span data-target="remote-clipboard-copy.fetching" hidden="hidden">                  Copy raw contents
@@ -2791,20 +2862,20 @@
 </span>
 </remote-clipboard-copy>            </li>
             <li>
-              <a class="dropdown-item" href="/codrops/BlockRevealers/blame/master/js/main.js">
+              <a class="dropdown-item" href="/codrops/BlockRevealers/blame/master/js/scrollMonitor.js">
                 View blame
               </a>
             </li>
 
               <li class="dropdown-divider" role="none"></li>
               <li>
-                <a class="dropdown-item" href="/codrops/BlockRevealers/edit/master/js/main.js">Edit file</a>
+                <a class="dropdown-item" href="/codrops/BlockRevealers/edit/master/js/scrollMonitor.js">Edit file</a>
               </li>
                 <li>
                   <a class="dropdown-item js-github-dev-shortcut js-blob-dropdown-click" data-test-selector="small-screen-github-dev-link" data-dropdown-tracking="{&quot;type&quot;:&quot;blob_edit_dropdown.dev_link_click&quot;,&quot;context&quot;:{&quot;repository_id&quot;:77051936,&quot;actor_id&quot;:102702826,&quot;edit_enabled&quot;:true,&quot;small_screen&quot;:true}}" href="https://github.dev/">Open with github.dev</a>
                 </li>
               <li>
-                <a class="dropdown-item menu-item-danger" href="/codrops/BlockRevealers/delete/master/js/main.js">Delete file</a>
+                <a class="dropdown-item menu-item-danger" href="/codrops/BlockRevealers/delete/master/js/scrollMonitor.js">Delete file</a>
               </li>
         </ul>
       </details>
@@ -2841,887 +2912,14 @@
 </svg>
 </span></template>
 
-  <table data-hpc class="highlight tab-size js-file-line-container js-code-nav-container js-tagsearch-file" data-tab-size="8" data-paste-markdown-skip data-tagsearch-lang="JavaScript" data-tagsearch-path="js/main.js">
+  <table data-hpc class="highlight tab-size js-file-line-container js-code-nav-container js-tagsearch-file" data-tab-size="8" data-paste-markdown-skip data-tagsearch-lang="JavaScript" data-tagsearch-path="js/scrollMonitor.js">
         <tr>
           <td id="L1" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="1"></td>
-          <td id="LC1" class="blob-code blob-code-inner js-file-line"><span class=pl-c>/**</span></td>
+          <td id="LC1" class="blob-code blob-code-inner js-file-line"><span class=pl-c1>!</span><span class=pl-k>function</span><span class=pl-kos>(</span><span class=pl-s1>t</span><span class=pl-kos>,</span><span class=pl-s1>e</span><span class=pl-kos>)</span><span class=pl-kos>{</span><span class=pl-s>&quot;object&quot;</span><span class=pl-c1>==</span><span class=pl-k>typeof</span> <span class=pl-s1>exports</span><span class=pl-c1>&amp;&amp;</span><span class=pl-s>&quot;object&quot;</span><span class=pl-c1>==</span><span class=pl-k>typeof</span> <span class=pl-smi>module</span>?<span class=pl-smi>module</span><span class=pl-kos>.</span><span class=pl-c1>exports</span><span class=pl-c1>=</span><span class=pl-s1>e</span><span class=pl-kos>(</span><span class=pl-kos>)</span>:<span class=pl-s>&quot;function&quot;</span><span class=pl-c1>==</span><span class=pl-k>typeof</span> <span class=pl-s1>define</span><span class=pl-c1>&amp;&amp;</span><span class=pl-s1>define</span><span class=pl-kos>.</span><span class=pl-c1>amd</span>?<span class=pl-en>define</span><span class=pl-kos>(</span><span class=pl-s>&quot;scrollMonitor&quot;</span><span class=pl-kos>,</span><span class=pl-kos>[</span><span class=pl-kos>]</span><span class=pl-kos>,</span><span class=pl-s1>e</span><span class=pl-kos>)</span>:<span class=pl-s>&quot;object&quot;</span><span class=pl-c1>==</span><span class=pl-k>typeof</span> <span class=pl-s1>exports</span>?<span class=pl-s1>exports</span><span class=pl-kos>.</span><span class=pl-c1>scrollMonitor</span><span class=pl-c1>=</span><span class=pl-s1>e</span><span class=pl-kos>(</span><span class=pl-kos>)</span>:<span class=pl-s1>t</span><span class=pl-kos>.</span><span class=pl-c1>scrollMonitor</span><span class=pl-c1>=</span><span class=pl-s1>e</span><span class=pl-kos>(</span><span class=pl-kos>)</span><span class=pl-kos>}</span><span class=pl-kos>(</span><span class=pl-smi>this</span><span class=pl-kos>,</span><span class=pl-k>function</span><span class=pl-kos>(</span><span class=pl-kos>)</span><span class=pl-kos>{</span><span class=pl-k>return</span> <span class=pl-k>function</span><span class=pl-kos>(</span><span class=pl-s1>t</span><span class=pl-kos>)</span><span class=pl-kos>{</span><span class=pl-k>function</span> <span class=pl-en>e</span><span class=pl-kos>(</span><span class=pl-s1>o</span><span class=pl-kos>)</span><span class=pl-kos>{</span><span class=pl-k>if</span><span class=pl-kos>(</span><span class=pl-s1>i</span><span class=pl-kos>[</span><span class=pl-s1>o</span><span class=pl-kos>]</span><span class=pl-kos>)</span><span class=pl-k>return</span> <span class=pl-s1>i</span><span class=pl-kos>[</span><span class=pl-s1>o</span><span class=pl-kos>]</span><span class=pl-kos>.</span><span class=pl-c1>exports</span><span class=pl-kos>;</span><span class=pl-k>var</span> <span class=pl-s1>s</span><span class=pl-c1>=</span><span class=pl-s1>i</span><span class=pl-kos>[</span><span class=pl-s1>o</span><span class=pl-kos>]</span><span class=pl-c1>=</span><span class=pl-kos>{</span><span class=pl-c1>exports</span>:<span class=pl-kos>{</span><span class=pl-kos>}</span><span class=pl-kos>,</span><span class=pl-c1>id</span>:<span class=pl-s1>o</span><span class=pl-kos>,</span><span class=pl-c1>loaded</span>:<span class=pl-c1>!</span><span class=pl-c1>1</span><span class=pl-kos>}</span><span class=pl-kos>;</span><span class=pl-k>return</span> <span class=pl-s1>t</span><span class=pl-kos>[</span><span class=pl-s1>o</span><span class=pl-kos>]</span><span class=pl-kos>.</span><span class=pl-en>call</span><span class=pl-kos>(</span><span class=pl-s1>s</span><span class=pl-kos>.</span><span class=pl-c1>exports</span><span class=pl-kos>,</span><span class=pl-s1>s</span><span class=pl-kos>,</span><span class=pl-s1>s</span><span class=pl-kos>.</span><span class=pl-c1>exports</span><span class=pl-kos>,</span><span class=pl-s1>e</span><span class=pl-kos>)</span><span class=pl-kos>,</span><span class=pl-s1>s</span><span class=pl-kos>.</span><span class=pl-c1>loaded</span><span class=pl-c1>=</span><span class=pl-c1>!</span><span class=pl-c1>0</span><span class=pl-kos>,</span><span class=pl-s1>s</span><span class=pl-kos>.</span><span class=pl-c1>exports</span><span class=pl-kos>}</span><span class=pl-k>var</span> <span class=pl-s1>i</span><span class=pl-c1>=</span><span class=pl-kos>{</span><span class=pl-kos>}</span><span class=pl-kos>;</span><span class=pl-k>return</span> <span class=pl-s1>e</span><span class=pl-kos>.</span><span class=pl-c1>m</span><span class=pl-c1>=</span><span class=pl-s1>t</span><span class=pl-kos>,</span><span class=pl-s1>e</span><span class=pl-kos>.</span><span class=pl-c1>c</span><span class=pl-c1>=</span><span class=pl-s1>i</span><span class=pl-kos>,</span><span class=pl-s1>e</span><span class=pl-kos>.</span><span class=pl-c1>p</span><span class=pl-c1>=</span><span class=pl-s>&quot;&quot;</span><span class=pl-kos>,</span><span class=pl-en>e</span><span class=pl-kos>(</span><span class=pl-c1>0</span><span class=pl-kos>)</span><span class=pl-kos>}</span><span class=pl-kos>(</span><span class=pl-kos>[</span><span class=pl-k>function</span><span class=pl-kos>(</span><span class=pl-s1>t</span><span class=pl-kos>,</span><span class=pl-s1>e</span><span class=pl-kos>,</span><span class=pl-s1>i</span><span class=pl-kos>)</span><span class=pl-kos>{</span><span class=pl-s>&quot;use strict&quot;</span><span class=pl-kos>;</span><span class=pl-k>var</span> <span class=pl-s1>o</span><span class=pl-c1>=</span><span class=pl-s1>i</span><span class=pl-kos>(</span><span class=pl-c1>1</span><span class=pl-kos>)</span><span class=pl-kos>,</span><span class=pl-s1>s</span><span class=pl-c1>=</span><span class=pl-s1>o</span><span class=pl-kos>.</span><span class=pl-c1>isInBrowser</span><span class=pl-kos>,</span><span class=pl-s1>n</span><span class=pl-c1>=</span><span class=pl-s1>i</span><span class=pl-kos>(</span><span class=pl-c1>2</span><span class=pl-kos>)</span><span class=pl-kos>,</span><span class=pl-s1>r</span><span class=pl-c1>=</span><span class=pl-k>new</span> <span class=pl-s1>n</span><span class=pl-kos>(</span><span class=pl-s1>s</span>?<span class=pl-smi>document</span><span class=pl-kos>.</span><span class=pl-c1>body</span>:<span class=pl-c1>null</span><span class=pl-kos>)</span><span class=pl-kos>;</span><span class=pl-s1>r</span><span class=pl-kos>.</span><span class=pl-en>setStateFromDOM</span><span class=pl-kos>(</span><span class=pl-c1>null</span><span class=pl-kos>)</span><span class=pl-kos>,</span><span class=pl-s1>r</span><span class=pl-kos>.</span><span class=pl-en>listenToDOM</span><span class=pl-kos>(</span><span class=pl-kos>)</span><span class=pl-kos>,</span><span class=pl-s1>s</span><span class=pl-c1>&amp;&amp;</span><span class=pl-kos>(</span><span class=pl-smi>window</span><span class=pl-kos>.</span><span class=pl-c1>scrollMonitor</span><span class=pl-c1>=</span><span class=pl-s1>r</span><span class=pl-kos>)</span><span class=pl-kos>,</span><span class=pl-s1>t</span><span class=pl-kos>.</span><span class=pl-c1>exports</span><span class=pl-c1>=</span><span class=pl-s1>r</span><span class=pl-kos>}</span><span class=pl-kos>,</span><span class=pl-k>function</span><span class=pl-kos>(</span><span class=pl-s1>t</span><span class=pl-kos>,</span><span class=pl-s1>e</span><span class=pl-kos>)</span><span class=pl-kos>{</span><span class=pl-s>&quot;use strict&quot;</span><span class=pl-kos>;</span><span class=pl-s1>e</span><span class=pl-kos>.</span><span class=pl-c1>VISIBILITYCHANGE</span><span class=pl-c1>=</span><span class=pl-s>&quot;visibilityChange&quot;</span><span class=pl-kos>,</span><span class=pl-s1>e</span><span class=pl-kos>.</span><span class=pl-c1>ENTERVIEWPORT</span><span class=pl-c1>=</span><span class=pl-s>&quot;enterViewport&quot;</span><span class=pl-kos>,</span><span class=pl-s1>e</span><span class=pl-kos>.</span><span class=pl-c1>FULLYENTERVIEWPORT</span><span class=pl-c1>=</span><span class=pl-s>&quot;fullyEnterViewport&quot;</span><span class=pl-kos>,</span><span class=pl-s1>e</span><span class=pl-kos>.</span><span class=pl-c1>EXITVIEWPORT</span><span class=pl-c1>=</span><span class=pl-s>&quot;exitViewport&quot;</span><span class=pl-kos>,</span><span class=pl-s1>e</span><span class=pl-kos>.</span><span class=pl-c1>PARTIALLYEXITVIEWPORT</span><span class=pl-c1>=</span><span class=pl-s>&quot;partiallyExitViewport&quot;</span><span class=pl-kos>,</span><span class=pl-s1>e</span><span class=pl-kos>.</span><span class=pl-c1>LOCATIONCHANGE</span><span class=pl-c1>=</span><span class=pl-s>&quot;locationChange&quot;</span><span class=pl-kos>,</span><span class=pl-s1>e</span><span class=pl-kos>.</span><span class=pl-c1>STATECHANGE</span><span class=pl-c1>=</span><span class=pl-s>&quot;stateChange&quot;</span><span class=pl-kos>,</span><span class=pl-s1>e</span><span class=pl-kos>.</span><span class=pl-c1>eventTypes</span><span class=pl-c1>=</span><span class=pl-kos>[</span><span class=pl-s1>e</span><span class=pl-kos>.</span><span class=pl-c1>VISIBILITYCHANGE</span><span class=pl-kos>,</span><span class=pl-s1>e</span><span class=pl-kos>.</span><span class=pl-c1>ENTERVIEWPORT</span><span class=pl-kos>,</span><span class=pl-s1>e</span><span class=pl-kos>.</span><span class=pl-c1>FULLYENTERVIEWPORT</span><span class=pl-kos>,</span><span class=pl-s1>e</span><span class=pl-kos>.</span><span class=pl-c1>EXITVIEWPORT</span><span class=pl-kos>,</span><span class=pl-s1>e</span><span class=pl-kos>.</span><span class=pl-c1>PARTIALLYEXITVIEWPORT</span><span class=pl-kos>,</span><span class=pl-s1>e</span><span class=pl-kos>.</span><span class=pl-c1>LOCATIONCHANGE</span><span class=pl-kos>,</span><span class=pl-s1>e</span><span class=pl-kos>.</span><span class=pl-c1>STATECHANGE</span><span class=pl-kos>]</span><span class=pl-kos>,</span><span class=pl-s1>e</span><span class=pl-kos>.</span><span class=pl-c1>isOnServer</span><span class=pl-c1>=</span><span class=pl-s>&quot;undefined&quot;</span><span class=pl-c1>==</span><span class=pl-k>typeof</span> <span class=pl-smi>window</span><span class=pl-kos>,</span><span class=pl-s1>e</span><span class=pl-kos>.</span><span class=pl-c1>isInBrowser</span><span class=pl-c1>=</span><span class=pl-c1>!</span><span class=pl-s1>e</span><span class=pl-kos>.</span><span class=pl-c1>isOnServer</span><span class=pl-kos>,</span><span class=pl-s1>e</span><span class=pl-kos>.</span><span class=pl-c1>defaultOffsets</span><span class=pl-c1>=</span><span class=pl-kos>{</span><span class=pl-c1>top</span>:<span class=pl-c1>0</span><span class=pl-kos>,</span><span class=pl-c1>bottom</span>:<span class=pl-c1>0</span><span class=pl-kos>}</span><span class=pl-kos>}</span><span class=pl-kos>,</span><span class=pl-k>function</span><span class=pl-kos>(</span><span class=pl-s1>t</span><span class=pl-kos>,</span><span class=pl-s1>e</span><span class=pl-kos>,</span><span class=pl-s1>i</span><span class=pl-kos>)</span><span class=pl-kos>{</span><span class=pl-s>&quot;use strict&quot;</span><span class=pl-kos>;</span><span class=pl-k>function</span> <span class=pl-en>o</span><span class=pl-kos>(</span><span class=pl-s1>t</span><span class=pl-kos>,</span><span class=pl-s1>e</span><span class=pl-kos>)</span><span class=pl-kos>{</span><span class=pl-k>if</span><span class=pl-kos>(</span><span class=pl-c1>!</span><span class=pl-kos>(</span><span class=pl-s1>t</span> <span class=pl-k>instanceof</span> <span class=pl-s1>e</span><span class=pl-kos>)</span><span class=pl-kos>)</span><span class=pl-k>throw</span> <span class=pl-k>new</span> <span class=pl-v>TypeError</span><span class=pl-kos>(</span><span class=pl-s>&quot;Cannot call a class as a function&quot;</span><span class=pl-kos>)</span><span class=pl-kos>}</span><span class=pl-k>function</span> <span class=pl-en>s</span><span class=pl-kos>(</span><span class=pl-s1>t</span><span class=pl-kos>)</span><span class=pl-kos>{</span><span class=pl-k>return</span> <span class=pl-s1>c</span>?<span class=pl-c1>0</span>:<span class=pl-s1>t</span><span class=pl-c1>===</span><span class=pl-smi>document</span><span class=pl-kos>.</span><span class=pl-c1>body</span>?<span class=pl-smi>window</span><span class=pl-kos>.</span><span class=pl-c1>innerHeight</span><span class=pl-c1>||</span><span class=pl-smi>document</span><span class=pl-kos>.</span><span class=pl-c1>documentElement</span><span class=pl-kos>.</span><span class=pl-c1>clientHeight</span>:<span class=pl-s1>t</span><span class=pl-kos>.</span><span class=pl-c1>clientHeight</span><span class=pl-kos>}</span><span class=pl-k>function</span> <span class=pl-en>n</span><span class=pl-kos>(</span><span class=pl-s1>t</span><span class=pl-kos>)</span><span class=pl-kos>{</span><span class=pl-k>return</span> <span class=pl-s1>c</span>?<span class=pl-c1>0</span>:<span class=pl-s1>t</span><span class=pl-c1>===</span><span class=pl-smi>document</span><span class=pl-kos>.</span><span class=pl-c1>body</span>?<span class=pl-v>Math</span><span class=pl-kos>.</span><span class=pl-en>max</span><span class=pl-kos>(</span><span class=pl-smi>document</span><span class=pl-kos>.</span><span class=pl-c1>body</span><span class=pl-kos>.</span><span class=pl-c1>scrollHeight</span><span class=pl-kos>,</span><span class=pl-smi>document</span><span class=pl-kos>.</span><span class=pl-c1>documentElement</span><span class=pl-kos>.</span><span class=pl-c1>scrollHeight</span><span class=pl-kos>,</span><span class=pl-smi>document</span><span class=pl-kos>.</span><span class=pl-c1>body</span><span class=pl-kos>.</span><span class=pl-c1>offsetHeight</span><span class=pl-kos>,</span><span class=pl-smi>document</span><span class=pl-kos>.</span><span class=pl-c1>documentElement</span><span class=pl-kos>.</span><span class=pl-c1>offsetHeight</span><span class=pl-kos>,</span><span class=pl-smi>document</span><span class=pl-kos>.</span><span class=pl-c1>documentElement</span><span class=pl-kos>.</span><span class=pl-c1>clientHeight</span><span class=pl-kos>)</span>:<span class=pl-s1>t</span><span class=pl-kos>.</span><span class=pl-c1>scrollHeight</span><span class=pl-kos>}</span><span class=pl-k>function</span> <span class=pl-en>r</span><span class=pl-kos>(</span><span class=pl-s1>t</span><span class=pl-kos>)</span><span class=pl-kos>{</span><span class=pl-k>return</span> <span class=pl-s1>c</span>?<span class=pl-c1>0</span>:<span class=pl-s1>t</span><span class=pl-c1>===</span><span class=pl-smi>document</span><span class=pl-kos>.</span><span class=pl-c1>body</span>?<span class=pl-smi>window</span><span class=pl-kos>.</span><span class=pl-c1>pageYOffset</span><span class=pl-c1>||</span><span class=pl-smi>document</span><span class=pl-kos>.</span><span class=pl-c1>documentElement</span><span class=pl-c1>&amp;&amp;</span><span class=pl-smi>document</span><span class=pl-kos>.</span><span class=pl-c1>documentElement</span><span class=pl-kos>.</span><span class=pl-c1>scrollTop</span><span class=pl-c1>||</span><span class=pl-smi>document</span><span class=pl-kos>.</span><span class=pl-c1>body</span><span class=pl-kos>.</span><span class=pl-c1>scrollTop</span>:<span class=pl-s1>t</span><span class=pl-kos>.</span><span class=pl-c1>scrollTop</span><span class=pl-kos>}</span><span class=pl-k>var</span> <span class=pl-s1>h</span><span class=pl-c1>=</span><span class=pl-s1>i</span><span class=pl-kos>(</span><span class=pl-c1>1</span><span class=pl-kos>)</span><span class=pl-kos>,</span><span class=pl-s1>c</span><span class=pl-c1>=</span><span class=pl-s1>h</span><span class=pl-kos>.</span><span class=pl-c1>isOnServer</span><span class=pl-kos>,</span><span class=pl-s1>a</span><span class=pl-c1>=</span><span class=pl-s1>h</span><span class=pl-kos>.</span><span class=pl-c1>isInBrowser</span><span class=pl-kos>,</span><span class=pl-s1>l</span><span class=pl-c1>=</span><span class=pl-s1>h</span><span class=pl-kos>.</span><span class=pl-c1>eventTypes</span><span class=pl-kos>,</span><span class=pl-s1>p</span><span class=pl-c1>=</span><span class=pl-s1>i</span><span class=pl-kos>(</span><span class=pl-c1>3</span><span class=pl-kos>)</span><span class=pl-kos>,</span><span class=pl-s1>u</span><span class=pl-c1>=</span><span class=pl-k>function</span><span class=pl-kos>(</span><span class=pl-kos>)</span><span class=pl-kos>{</span><span class=pl-k>function</span> <span class=pl-s1>t</span><span class=pl-kos>(</span><span class=pl-s1>e</span><span class=pl-kos>,</span><span class=pl-s1>i</span><span class=pl-kos>)</span><span class=pl-kos>{</span><span class=pl-k>function</span> <span class=pl-s1>h</span><span class=pl-kos>(</span><span class=pl-kos>)</span><span class=pl-kos>{</span><span class=pl-k>if</span><span class=pl-kos>(</span><span class=pl-s1>a</span><span class=pl-kos>.</span><span class=pl-c1>viewportTop</span><span class=pl-c1>=</span><span class=pl-en>r</span><span class=pl-kos>(</span><span class=pl-s1>e</span><span class=pl-kos>)</span><span class=pl-kos>,</span><span class=pl-s1>a</span><span class=pl-kos>.</span><span class=pl-c1>viewportBottom</span><span class=pl-c1>=</span><span class=pl-s1>a</span><span class=pl-kos>.</span><span class=pl-c1>viewportTop</span><span class=pl-c1>+</span><span class=pl-s1>a</span><span class=pl-kos>.</span><span class=pl-c1>viewportHeight</span><span class=pl-kos>,</span><span class=pl-s1>a</span><span class=pl-kos>.</span><span class=pl-c1>documentHeight</span><span class=pl-c1>=</span><span class=pl-en>n</span><span class=pl-kos>(</span><span class=pl-s1>e</span><span class=pl-kos>)</span><span class=pl-kos>,</span><span class=pl-s1>a</span><span class=pl-kos>.</span><span class=pl-c1>documentHeight</span><span class=pl-c1>!==</span><span class=pl-s1>p</span><span class=pl-kos>)</span><span class=pl-kos>{</span><span class=pl-k>for</span><span class=pl-kos>(</span><span class=pl-s1>u</span><span class=pl-c1>=</span><span class=pl-s1>a</span><span class=pl-kos>.</span><span class=pl-c1>watchers</span><span class=pl-kos>.</span><span class=pl-c1>length</span><span class=pl-kos>;</span><span class=pl-s1>u</span><span class=pl-c1>--</span><span class=pl-kos>;</span><span class=pl-kos>)</span><span class=pl-s1>a</span><span class=pl-kos>.</span><span class=pl-c1>watchers</span><span class=pl-kos>[</span><span class=pl-s1>u</span><span class=pl-kos>]</span><span class=pl-kos>.</span><span class=pl-en>recalculateLocation</span><span class=pl-kos>(</span><span class=pl-kos>)</span><span class=pl-kos>;</span><span class=pl-s1>p</span><span class=pl-c1>=</span><span class=pl-s1>a</span><span class=pl-kos>.</span><span class=pl-c1>documentHeight</span><span class=pl-kos>}</span><span class=pl-kos>}</span><span class=pl-k>function</span> <span class=pl-s1>c</span><span class=pl-kos>(</span><span class=pl-kos>)</span><span class=pl-kos>{</span><span class=pl-k>for</span><span class=pl-kos>(</span><span class=pl-s1>w</span><span class=pl-c1>=</span><span class=pl-s1>a</span><span class=pl-kos>.</span><span class=pl-c1>watchers</span><span class=pl-kos>.</span><span class=pl-c1>length</span><span class=pl-kos>;</span><span class=pl-s1>w</span><span class=pl-c1>--</span><span class=pl-kos>;</span><span class=pl-kos>)</span><span class=pl-s1>a</span><span class=pl-kos>.</span><span class=pl-c1>watchers</span><span class=pl-kos>[</span><span class=pl-s1>w</span><span class=pl-kos>]</span><span class=pl-kos>.</span><span class=pl-en>update</span><span class=pl-kos>(</span><span class=pl-kos>)</span><span class=pl-kos>;</span><span class=pl-k>for</span><span class=pl-kos>(</span><span class=pl-s1>w</span><span class=pl-c1>=</span><span class=pl-s1>a</span><span class=pl-kos>.</span><span class=pl-c1>watchers</span><span class=pl-kos>.</span><span class=pl-c1>length</span><span class=pl-kos>;</span><span class=pl-s1>w</span><span class=pl-c1>--</span><span class=pl-kos>;</span><span class=pl-kos>)</span><span class=pl-s1>a</span><span class=pl-kos>.</span><span class=pl-c1>watchers</span><span class=pl-kos>[</span><span class=pl-s1>w</span><span class=pl-kos>]</span><span class=pl-kos>.</span><span class=pl-en>triggerCallbacks</span><span class=pl-kos>(</span><span class=pl-kos>)</span><span class=pl-kos>}</span><span class=pl-en>o</span><span class=pl-kos>(</span><span class=pl-smi>this</span><span class=pl-kos>,</span><span class=pl-s1>t</span><span class=pl-kos>)</span><span class=pl-kos>;</span><span class=pl-k>var</span> <span class=pl-s1>a</span><span class=pl-c1>=</span><span class=pl-smi>this</span><span class=pl-kos>;</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>item</span><span class=pl-c1>=</span><span class=pl-s1>e</span><span class=pl-kos>,</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>watchers</span><span class=pl-c1>=</span><span class=pl-kos>[</span><span class=pl-kos>]</span><span class=pl-kos>,</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>viewportTop</span><span class=pl-c1>=</span><span class=pl-c1>null</span><span class=pl-kos>,</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>viewportBottom</span><span class=pl-c1>=</span><span class=pl-c1>null</span><span class=pl-kos>,</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>documentHeight</span><span class=pl-c1>=</span><span class=pl-en>n</span><span class=pl-kos>(</span><span class=pl-s1>e</span><span class=pl-kos>)</span><span class=pl-kos>,</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>viewportHeight</span><span class=pl-c1>=</span><span class=pl-en>s</span><span class=pl-kos>(</span><span class=pl-s1>e</span><span class=pl-kos>)</span><span class=pl-kos>,</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-en>DOMListener</span><span class=pl-c1>=</span><span class=pl-k>function</span><span class=pl-kos>(</span><span class=pl-kos>)</span><span class=pl-kos>{</span><span class=pl-s1>t</span><span class=pl-kos>.</span><span class=pl-c1>prototype</span><span class=pl-kos>.</span><span class=pl-c1>DOMListener</span><span class=pl-kos>.</span><span class=pl-en>apply</span><span class=pl-kos>(</span><span class=pl-s1>a</span><span class=pl-kos>,</span><span class=pl-smi>arguments</span><span class=pl-kos>)</span><span class=pl-kos>}</span><span class=pl-kos>,</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>eventTypes</span><span class=pl-c1>=</span><span class=pl-s1>l</span><span class=pl-kos>,</span><span class=pl-s1>i</span><span class=pl-c1>&amp;&amp;</span><span class=pl-kos>(</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>containerWatcher</span><span class=pl-c1>=</span><span class=pl-s1>i</span><span class=pl-kos>.</span><span class=pl-en>create</span><span class=pl-kos>(</span><span class=pl-s1>e</span><span class=pl-kos>)</span><span class=pl-kos>)</span><span class=pl-kos>;</span><span class=pl-k>var</span> <span class=pl-s1>p</span><span class=pl-kos>,</span><span class=pl-s1>u</span><span class=pl-kos>,</span><span class=pl-s1>w</span><span class=pl-kos>;</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-en>update</span><span class=pl-c1>=</span><span class=pl-k>function</span><span class=pl-kos>(</span><span class=pl-kos>)</span><span class=pl-kos>{</span><span class=pl-s1>h</span><span class=pl-kos>(</span><span class=pl-kos>)</span><span class=pl-kos>,</span><span class=pl-s1>c</span><span class=pl-kos>(</span><span class=pl-kos>)</span><span class=pl-kos>}</span><span class=pl-kos>,</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-en>recalculateLocations</span><span class=pl-c1>=</span><span class=pl-k>function</span><span class=pl-kos>(</span><span class=pl-kos>)</span><span class=pl-kos>{</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>documentHeight</span><span class=pl-c1>=</span><span class=pl-c1>0</span><span class=pl-kos>,</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-en>update</span><span class=pl-kos>(</span><span class=pl-kos>)</span><span class=pl-kos>}</span><span class=pl-kos>}</span><span class=pl-k>return</span> <span class=pl-s1>t</span><span class=pl-kos>.</span><span class=pl-c1>prototype</span><span class=pl-kos>.</span><span class=pl-en>listenToDOM</span><span class=pl-c1>=</span><span class=pl-k>function</span><span class=pl-kos>(</span><span class=pl-kos>)</span><span class=pl-kos>{</span><span class=pl-s1>a</span><span class=pl-c1>&amp;&amp;</span><span class=pl-kos>(</span><span class=pl-smi>window</span><span class=pl-kos>.</span><span class=pl-c1>addEventListener</span>?<span class=pl-kos>(</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>item</span><span class=pl-c1>===</span><span class=pl-smi>document</span><span class=pl-kos>.</span><span class=pl-c1>body</span>?<span class=pl-smi>window</span><span class=pl-kos>.</span><span class=pl-en>addEventListener</span><span class=pl-kos>(</span><span class=pl-s>&quot;scroll&quot;</span><span class=pl-kos>,</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>DOMListener</span><span class=pl-kos>)</span>:<span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>item</span><span class=pl-kos>.</span><span class=pl-en>addEventListener</span><span class=pl-kos>(</span><span class=pl-s>&quot;scroll&quot;</span><span class=pl-kos>,</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>DOMListener</span><span class=pl-kos>)</span><span class=pl-kos>,</span><span class=pl-smi>window</span><span class=pl-kos>.</span><span class=pl-en>addEventListener</span><span class=pl-kos>(</span><span class=pl-s>&quot;resize&quot;</span><span class=pl-kos>,</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>DOMListener</span><span class=pl-kos>)</span><span class=pl-kos>)</span>:<span class=pl-kos>(</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>item</span><span class=pl-c1>===</span><span class=pl-smi>document</span><span class=pl-kos>.</span><span class=pl-c1>body</span>?<span class=pl-smi>window</span><span class=pl-kos>.</span><span class=pl-en>attachEvent</span><span class=pl-kos>(</span><span class=pl-s>&quot;onscroll&quot;</span><span class=pl-kos>,</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>DOMListener</span><span class=pl-kos>)</span>:<span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>item</span><span class=pl-kos>.</span><span class=pl-en>attachEvent</span><span class=pl-kos>(</span><span class=pl-s>&quot;onscroll&quot;</span><span class=pl-kos>,</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>DOMListener</span><span class=pl-kos>)</span><span class=pl-kos>,</span><span class=pl-smi>window</span><span class=pl-kos>.</span><span class=pl-en>attachEvent</span><span class=pl-kos>(</span><span class=pl-s>&quot;onresize&quot;</span><span class=pl-kos>,</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>DOMListener</span><span class=pl-kos>)</span><span class=pl-kos>)</span><span class=pl-kos>,</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-en>destroy</span><span class=pl-c1>=</span><span class=pl-k>function</span><span class=pl-kos>(</span><span class=pl-kos>)</span><span class=pl-kos>{</span><span class=pl-smi>window</span><span class=pl-kos>.</span><span class=pl-c1>addEventListener</span>?<span class=pl-kos>(</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>item</span><span class=pl-c1>===</span><span class=pl-smi>document</span><span class=pl-kos>.</span><span class=pl-c1>body</span>?<span class=pl-kos>(</span><span class=pl-smi>window</span><span class=pl-kos>.</span><span class=pl-en>removeEventListener</span><span class=pl-kos>(</span><span class=pl-s>&quot;scroll&quot;</span><span class=pl-kos>,</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>DOMListener</span><span class=pl-kos>)</span><span class=pl-kos>,</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>containerWatcher</span><span class=pl-kos>.</span><span class=pl-en>destroy</span><span class=pl-kos>(</span><span class=pl-kos>)</span><span class=pl-kos>)</span>:<span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>item</span><span class=pl-kos>.</span><span class=pl-en>removeEventListener</span><span class=pl-kos>(</span><span class=pl-s>&quot;scroll&quot;</span><span class=pl-kos>,</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>DOMListener</span><span class=pl-kos>)</span><span class=pl-kos>,</span><span class=pl-smi>window</span><span class=pl-kos>.</span><span class=pl-en>removeEventListener</span><span class=pl-kos>(</span><span class=pl-s>&quot;resize&quot;</span><span class=pl-kos>,</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>DOMListener</span><span class=pl-kos>)</span><span class=pl-kos>)</span>:<span class=pl-kos>(</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>item</span><span class=pl-c1>===</span><span class=pl-smi>document</span><span class=pl-kos>.</span><span class=pl-c1>body</span>?<span class=pl-kos>(</span><span class=pl-smi>window</span><span class=pl-kos>.</span><span class=pl-en>detachEvent</span><span class=pl-kos>(</span><span class=pl-s>&quot;onscroll&quot;</span><span class=pl-kos>,</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>DOMListener</span><span class=pl-kos>)</span><span class=pl-kos>,</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>containerWatcher</span><span class=pl-kos>.</span><span class=pl-en>destroy</span><span class=pl-kos>(</span><span class=pl-kos>)</span><span class=pl-kos>)</span>:<span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>item</span><span class=pl-kos>.</span><span class=pl-en>detachEvent</span><span class=pl-kos>(</span><span class=pl-s>&quot;onscroll&quot;</span><span class=pl-kos>,</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>DOMListener</span><span class=pl-kos>)</span><span class=pl-kos>,</span><span class=pl-smi>window</span><span class=pl-kos>.</span><span class=pl-en>detachEvent</span><span class=pl-kos>(</span><span class=pl-s>&quot;onresize&quot;</span><span class=pl-kos>,</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>DOMListener</span><span class=pl-kos>)</span><span class=pl-kos>)</span><span class=pl-kos>}</span><span class=pl-kos>)</span><span class=pl-kos>}</span><span class=pl-kos>,</span><span class=pl-s1>t</span><span class=pl-kos>.</span><span class=pl-c1>prototype</span><span class=pl-kos>.</span><span class=pl-en>destroy</span><span class=pl-c1>=</span><span class=pl-k>function</span><span class=pl-kos>(</span><span class=pl-kos>)</span><span class=pl-kos>{</span><span class=pl-kos>}</span><span class=pl-kos>,</span><span class=pl-s1>t</span><span class=pl-kos>.</span><span class=pl-c1>prototype</span><span class=pl-kos>.</span><span class=pl-en>DOMListener</span><span class=pl-c1>=</span><span class=pl-k>function</span><span class=pl-kos>(</span><span class=pl-s1>t</span><span class=pl-kos>)</span><span class=pl-kos>{</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-en>setStateFromDOM</span><span class=pl-kos>(</span><span class=pl-s1>t</span><span class=pl-kos>)</span><span class=pl-kos>,</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-en>updateAndTriggerWatchers</span><span class=pl-kos>(</span><span class=pl-s1>t</span><span class=pl-kos>)</span><span class=pl-kos>}</span><span class=pl-kos>,</span><span class=pl-s1>t</span><span class=pl-kos>.</span><span class=pl-c1>prototype</span><span class=pl-kos>.</span><span class=pl-en>setStateFromDOM</span><span class=pl-c1>=</span><span class=pl-k>function</span><span class=pl-kos>(</span><span class=pl-s1>t</span><span class=pl-kos>)</span><span class=pl-kos>{</span><span class=pl-k>var</span> <span class=pl-s1>e</span><span class=pl-c1>=</span><span class=pl-en>r</span><span class=pl-kos>(</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>item</span><span class=pl-kos>)</span><span class=pl-kos>,</span><span class=pl-s1>i</span><span class=pl-c1>=</span><span class=pl-en>s</span><span class=pl-kos>(</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>item</span><span class=pl-kos>)</span><span class=pl-kos>,</span><span class=pl-s1>o</span><span class=pl-c1>=</span><span class=pl-en>n</span><span class=pl-kos>(</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>item</span><span class=pl-kos>)</span><span class=pl-kos>;</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-en>setState</span><span class=pl-kos>(</span><span class=pl-s1>e</span><span class=pl-kos>,</span><span class=pl-s1>i</span><span class=pl-kos>,</span><span class=pl-s1>o</span><span class=pl-kos>,</span><span class=pl-s1>t</span><span class=pl-kos>)</span><span class=pl-kos>}</span><span class=pl-kos>,</span><span class=pl-s1>t</span><span class=pl-kos>.</span><span class=pl-c1>prototype</span><span class=pl-kos>.</span><span class=pl-en>setState</span><span class=pl-c1>=</span><span class=pl-k>function</span><span class=pl-kos>(</span><span class=pl-s1>t</span><span class=pl-kos>,</span><span class=pl-s1>e</span><span class=pl-kos>,</span><span class=pl-s1>i</span><span class=pl-kos>,</span><span class=pl-s1>o</span><span class=pl-kos>)</span><span class=pl-kos>{</span><span class=pl-k>var</span> <span class=pl-s1>s</span><span class=pl-c1>=</span><span class=pl-s1>e</span><span class=pl-c1>!==</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>viewportHeight</span><span class=pl-c1>||</span><span class=pl-s1>i</span><span class=pl-c1>!==</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>contentHeight</span><span class=pl-kos>;</span><span class=pl-k>if</span><span class=pl-kos>(</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>latestEvent</span><span class=pl-c1>=</span><span class=pl-s1>o</span><span class=pl-kos>,</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>viewportTop</span><span class=pl-c1>=</span><span class=pl-s1>t</span><span class=pl-kos>,</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>viewportHeight</span><span class=pl-c1>=</span><span class=pl-s1>e</span><span class=pl-kos>,</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>viewportBottom</span><span class=pl-c1>=</span><span class=pl-s1>t</span><span class=pl-c1>+</span><span class=pl-s1>e</span><span class=pl-kos>,</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>contentHeight</span><span class=pl-c1>=</span><span class=pl-s1>i</span><span class=pl-kos>,</span><span class=pl-s1>s</span><span class=pl-kos>)</span><span class=pl-k>for</span><span class=pl-kos>(</span><span class=pl-k>var</span> <span class=pl-s1>n</span><span class=pl-c1>=</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>watchers</span><span class=pl-kos>.</span><span class=pl-c1>length</span><span class=pl-kos>;</span><span class=pl-s1>n</span><span class=pl-c1>--</span><span class=pl-kos>;</span><span class=pl-kos>)</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>watchers</span><span class=pl-kos>[</span><span class=pl-s1>n</span><span class=pl-kos>]</span><span class=pl-kos>.</span><span class=pl-en>recalculateLocation</span><span class=pl-kos>(</span><span class=pl-kos>)</span><span class=pl-kos>;</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-en>updateAndTriggerWatchers</span><span class=pl-kos>(</span><span class=pl-s1>o</span><span class=pl-kos>)</span><span class=pl-kos>}</span><span class=pl-kos>,</span><span class=pl-s1>t</span><span class=pl-kos>.</span><span class=pl-c1>prototype</span><span class=pl-kos>.</span><span class=pl-en>updateAndTriggerWatchers</span><span class=pl-c1>=</span><span class=pl-k>function</span><span class=pl-kos>(</span><span class=pl-s1>t</span><span class=pl-kos>)</span><span class=pl-kos>{</span><span class=pl-k>for</span><span class=pl-kos>(</span><span class=pl-k>var</span> <span class=pl-s1>e</span><span class=pl-c1>=</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>watchers</span><span class=pl-kos>.</span><span class=pl-c1>length</span><span class=pl-kos>;</span><span class=pl-s1>e</span><span class=pl-c1>--</span><span class=pl-kos>;</span><span class=pl-kos>)</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>watchers</span><span class=pl-kos>[</span><span class=pl-s1>e</span><span class=pl-kos>]</span><span class=pl-kos>.</span><span class=pl-en>update</span><span class=pl-kos>(</span><span class=pl-kos>)</span><span class=pl-kos>;</span><span class=pl-k>for</span><span class=pl-kos>(</span><span class=pl-s1>e</span><span class=pl-c1>=</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>watchers</span><span class=pl-kos>.</span><span class=pl-c1>length</span><span class=pl-kos>;</span><span class=pl-s1>e</span><span class=pl-c1>--</span><span class=pl-kos>;</span><span class=pl-kos>)</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>watchers</span><span class=pl-kos>[</span><span class=pl-s1>e</span><span class=pl-kos>]</span><span class=pl-kos>.</span><span class=pl-en>triggerCallbacks</span><span class=pl-kos>(</span><span class=pl-s1>t</span><span class=pl-kos>)</span><span class=pl-kos>}</span><span class=pl-kos>,</span><span class=pl-s1>t</span><span class=pl-kos>.</span><span class=pl-c1>prototype</span><span class=pl-kos>.</span><span class=pl-en>createCustomContainer</span><span class=pl-c1>=</span><span class=pl-k>function</span><span class=pl-kos>(</span><span class=pl-kos>)</span><span class=pl-kos>{</span><span class=pl-k>return</span> <span class=pl-k>new</span> <span class=pl-s1>t</span><span class=pl-kos>}</span><span class=pl-kos>,</span><span class=pl-s1>t</span><span class=pl-kos>.</span><span class=pl-c1>prototype</span><span class=pl-kos>.</span><span class=pl-en>createContainer</span><span class=pl-c1>=</span><span class=pl-k>function</span><span class=pl-kos>(</span><span class=pl-s1>e</span><span class=pl-kos>)</span><span class=pl-kos>{</span><span class=pl-s>&quot;string&quot;</span><span class=pl-c1>==</span><span class=pl-k>typeof</span> <span class=pl-s1>e</span>?<span class=pl-s1>e</span><span class=pl-c1>=</span><span class=pl-smi>document</span><span class=pl-kos>.</span><span class=pl-en>querySelector</span><span class=pl-kos>(</span><span class=pl-s1>e</span><span class=pl-kos>)</span>:<span class=pl-s1>e</span><span class=pl-c1>&amp;&amp;</span><span class=pl-s1>e</span><span class=pl-kos>.</span><span class=pl-c1>length</span><span class=pl-c1>&gt;</span><span class=pl-c1>0</span><span class=pl-c1>&amp;&amp;</span><span class=pl-kos>(</span><span class=pl-s1>e</span><span class=pl-c1>=</span><span class=pl-s1>e</span><span class=pl-kos>[</span><span class=pl-c1>0</span><span class=pl-kos>]</span><span class=pl-kos>)</span><span class=pl-kos>;</span><span class=pl-k>var</span> <span class=pl-s1>i</span><span class=pl-c1>=</span><span class=pl-k>new</span> <span class=pl-s1>t</span><span class=pl-kos>(</span><span class=pl-s1>e</span><span class=pl-kos>,</span><span class=pl-smi>this</span><span class=pl-kos>)</span><span class=pl-kos>;</span><span class=pl-k>return</span> <span class=pl-s1>i</span><span class=pl-kos>.</span><span class=pl-en>setStateFromDOM</span><span class=pl-kos>(</span><span class=pl-kos>)</span><span class=pl-kos>,</span><span class=pl-s1>i</span><span class=pl-kos>.</span><span class=pl-en>listenToDOM</span><span class=pl-kos>(</span><span class=pl-kos>)</span><span class=pl-kos>,</span><span class=pl-s1>i</span><span class=pl-kos>}</span><span class=pl-kos>,</span><span class=pl-s1>t</span><span class=pl-kos>.</span><span class=pl-c1>prototype</span><span class=pl-kos>.</span><span class=pl-en>create</span><span class=pl-c1>=</span><span class=pl-k>function</span><span class=pl-kos>(</span><span class=pl-s1>t</span><span class=pl-kos>,</span><span class=pl-s1>e</span><span class=pl-kos>)</span><span class=pl-kos>{</span><span class=pl-s>&quot;string&quot;</span><span class=pl-c1>==</span><span class=pl-k>typeof</span> <span class=pl-s1>t</span>?<span class=pl-s1>t</span><span class=pl-c1>=</span><span class=pl-smi>document</span><span class=pl-kos>.</span><span class=pl-en>querySelector</span><span class=pl-kos>(</span><span class=pl-s1>t</span><span class=pl-kos>)</span>:<span class=pl-s1>t</span><span class=pl-c1>&amp;&amp;</span><span class=pl-s1>t</span><span class=pl-kos>.</span><span class=pl-c1>length</span><span class=pl-c1>&gt;</span><span class=pl-c1>0</span><span class=pl-c1>&amp;&amp;</span><span class=pl-kos>(</span><span class=pl-s1>t</span><span class=pl-c1>=</span><span class=pl-s1>t</span><span class=pl-kos>[</span><span class=pl-c1>0</span><span class=pl-kos>]</span><span class=pl-kos>)</span><span class=pl-kos>;</span><span class=pl-k>var</span> <span class=pl-s1>i</span><span class=pl-c1>=</span><span class=pl-k>new</span> <span class=pl-s1>p</span><span class=pl-kos>(</span><span class=pl-smi>this</span><span class=pl-kos>,</span><span class=pl-s1>t</span><span class=pl-kos>,</span><span class=pl-s1>e</span><span class=pl-kos>)</span><span class=pl-kos>;</span><span class=pl-k>return</span> <span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>watchers</span><span class=pl-kos>.</span><span class=pl-en>push</span><span class=pl-kos>(</span><span class=pl-s1>i</span><span class=pl-kos>)</span><span class=pl-kos>,</span><span class=pl-s1>i</span><span class=pl-kos>}</span><span class=pl-kos>,</span><span class=pl-s1>t</span><span class=pl-kos>.</span><span class=pl-c1>prototype</span><span class=pl-kos>.</span><span class=pl-en>beget</span><span class=pl-c1>=</span><span class=pl-k>function</span><span class=pl-kos>(</span><span class=pl-s1>t</span><span class=pl-kos>,</span><span class=pl-s1>e</span><span class=pl-kos>)</span><span class=pl-kos>{</span><span class=pl-k>return</span> <span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-en>create</span><span class=pl-kos>(</span><span class=pl-s1>t</span><span class=pl-kos>,</span><span class=pl-s1>e</span><span class=pl-kos>)</span><span class=pl-kos>}</span><span class=pl-kos>,</span><span class=pl-s1>t</span><span class=pl-kos>}</span><span class=pl-kos>(</span><span class=pl-kos>)</span><span class=pl-kos>;</span><span class=pl-s1>t</span><span class=pl-kos>.</span><span class=pl-c1>exports</span><span class=pl-c1>=</span><span class=pl-s1>u</span><span class=pl-kos>}</span><span class=pl-kos>,</span><span class=pl-k>function</span><span class=pl-kos>(</span><span class=pl-s1>t</span><span class=pl-kos>,</span><span class=pl-s1>e</span><span class=pl-kos>,</span><span class=pl-s1>i</span><span class=pl-kos>)</span><span class=pl-kos>{</span><span class=pl-s>&quot;use strict&quot;</span><span class=pl-kos>;</span><span class=pl-k>function</span> <span class=pl-en>o</span><span class=pl-kos>(</span><span class=pl-s1>t</span><span class=pl-kos>,</span><span class=pl-s1>e</span><span class=pl-kos>,</span><span class=pl-s1>i</span><span class=pl-kos>)</span><span class=pl-kos>{</span><span class=pl-k>function</span> <span class=pl-en>o</span><span class=pl-kos>(</span><span class=pl-s1>t</span><span class=pl-kos>,</span><span class=pl-s1>e</span><span class=pl-kos>)</span><span class=pl-kos>{</span><span class=pl-k>if</span><span class=pl-kos>(</span><span class=pl-c1>0</span><span class=pl-c1>!==</span><span class=pl-s1>t</span><span class=pl-kos>.</span><span class=pl-c1>length</span><span class=pl-kos>)</span><span class=pl-k>for</span><span class=pl-kos>(</span><span class=pl-v>E</span><span class=pl-c1>=</span><span class=pl-s1>t</span><span class=pl-kos>.</span><span class=pl-c1>length</span><span class=pl-kos>;</span><span class=pl-v>E</span><span class=pl-c1>--</span><span class=pl-kos>;</span><span class=pl-kos>)</span><span class=pl-v>T</span><span class=pl-c1>=</span><span class=pl-s1>t</span><span class=pl-kos>[</span><span class=pl-v>E</span><span class=pl-kos>]</span><span class=pl-kos>,</span><span class=pl-v>T</span><span class=pl-kos>.</span><span class=pl-c1>callback</span><span class=pl-kos>.</span><span class=pl-en>call</span><span class=pl-kos>(</span><span class=pl-s1>s</span><span class=pl-kos>,</span><span class=pl-s1>e</span><span class=pl-kos>,</span><span class=pl-s1>s</span><span class=pl-kos>)</span><span class=pl-kos>,</span><span class=pl-v>T</span><span class=pl-kos>.</span><span class=pl-c1>isOne</span><span class=pl-c1>&amp;&amp;</span><span class=pl-s1>t</span><span class=pl-kos>.</span><span class=pl-en>splice</span><span class=pl-kos>(</span><span class=pl-v>E</span><span class=pl-kos>,</span><span class=pl-c1>1</span><span class=pl-kos>)</span><span class=pl-kos>}</span><span class=pl-k>var</span> <span class=pl-s1>s</span><span class=pl-c1>=</span><span class=pl-smi>this</span><span class=pl-kos>;</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>watchItem</span><span class=pl-c1>=</span><span class=pl-s1>e</span><span class=pl-kos>,</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>container</span><span class=pl-c1>=</span><span class=pl-s1>t</span><span class=pl-kos>,</span><span class=pl-s1>i</span>?<span class=pl-s1>i</span><span class=pl-c1>===</span><span class=pl-c1>+</span><span class=pl-s1>i</span>?<span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>offsets</span><span class=pl-c1>=</span><span class=pl-kos>{</span><span class=pl-c1>top</span>:<span class=pl-s1>i</span><span class=pl-kos>,</span><span class=pl-c1>bottom</span>:<span class=pl-s1>i</span><span class=pl-kos>}</span>:<span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>offsets</span><span class=pl-c1>=</span><span class=pl-kos>{</span><span class=pl-c1>top</span>:<span class=pl-s1>i</span><span class=pl-kos>.</span><span class=pl-c1>top</span><span class=pl-c1>||</span><span class=pl-s1>w</span><span class=pl-kos>.</span><span class=pl-c1>top</span><span class=pl-kos>,</span><span class=pl-c1>bottom</span>:<span class=pl-s1>i</span><span class=pl-kos>.</span><span class=pl-c1>bottom</span><span class=pl-c1>||</span><span class=pl-s1>w</span><span class=pl-kos>.</span><span class=pl-c1>bottom</span><span class=pl-kos>}</span>:<span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>offsets</span><span class=pl-c1>=</span><span class=pl-s1>w</span><span class=pl-kos>,</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>callbacks</span><span class=pl-c1>=</span><span class=pl-kos>{</span><span class=pl-kos>}</span><span class=pl-kos>;</span><span class=pl-k>for</span><span class=pl-kos>(</span><span class=pl-k>var</span> <span class=pl-s1>d</span><span class=pl-c1>=</span><span class=pl-c1>0</span><span class=pl-kos>,</span><span class=pl-s1>f</span><span class=pl-c1>=</span><span class=pl-s1>u</span><span class=pl-kos>.</span><span class=pl-c1>length</span><span class=pl-kos>;</span><span class=pl-s1>d</span><span class=pl-c1>&lt;</span><span class=pl-s1>f</span><span class=pl-kos>;</span><span class=pl-s1>d</span><span class=pl-c1>++</span><span class=pl-kos>)</span><span class=pl-s1>s</span><span class=pl-kos>.</span><span class=pl-c1>callbacks</span><span class=pl-kos>[</span><span class=pl-s1>u</span><span class=pl-kos>[</span><span class=pl-s1>d</span><span class=pl-kos>]</span><span class=pl-kos>]</span><span class=pl-c1>=</span><span class=pl-kos>[</span><span class=pl-kos>]</span><span class=pl-kos>;</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>locked</span><span class=pl-c1>=</span><span class=pl-c1>!</span><span class=pl-c1>1</span><span class=pl-kos>;</span><span class=pl-k>var</span> <span class=pl-s1>m</span><span class=pl-kos>,</span><span class=pl-s1>v</span><span class=pl-kos>,</span><span class=pl-s1>b</span><span class=pl-kos>,</span><span class=pl-v>I</span><span class=pl-kos>,</span><span class=pl-v>E</span><span class=pl-kos>,</span><span class=pl-v>T</span><span class=pl-kos>;</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-en>triggerCallbacks</span><span class=pl-c1>=</span><span class=pl-k>function</span><span class=pl-kos>(</span><span class=pl-s1>t</span><span class=pl-kos>)</span><span class=pl-kos>{</span><span class=pl-k>switch</span><span class=pl-kos>(</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>isInViewport</span><span class=pl-c1>&amp;&amp;</span><span class=pl-c1>!</span><span class=pl-s1>m</span><span class=pl-c1>&amp;&amp;</span><span class=pl-en>o</span><span class=pl-kos>(</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>callbacks</span><span class=pl-kos>[</span><span class=pl-s1>r</span><span class=pl-kos>]</span><span class=pl-kos>,</span><span class=pl-s1>t</span><span class=pl-kos>)</span><span class=pl-kos>,</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>isFullyInViewport</span><span class=pl-c1>&amp;&amp;</span><span class=pl-c1>!</span><span class=pl-s1>v</span><span class=pl-c1>&amp;&amp;</span><span class=pl-en>o</span><span class=pl-kos>(</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>callbacks</span><span class=pl-kos>[</span><span class=pl-s1>h</span><span class=pl-kos>]</span><span class=pl-kos>,</span><span class=pl-s1>t</span><span class=pl-kos>)</span><span class=pl-kos>,</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>isAboveViewport</span><span class=pl-c1>!==</span><span class=pl-s1>b</span><span class=pl-c1>&amp;&amp;</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>isBelowViewport</span><span class=pl-c1>!==</span><span class=pl-v>I</span><span class=pl-c1>&amp;&amp;</span><span class=pl-kos>(</span><span class=pl-en>o</span><span class=pl-kos>(</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>callbacks</span><span class=pl-kos>[</span><span class=pl-s1>n</span><span class=pl-kos>]</span><span class=pl-kos>,</span><span class=pl-s1>t</span><span class=pl-kos>)</span><span class=pl-kos>,</span><span class=pl-s1>v</span><span class=pl-c1>||</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>isFullyInViewport</span><span class=pl-c1>||</span><span class=pl-kos>(</span><span class=pl-en>o</span><span class=pl-kos>(</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>callbacks</span><span class=pl-kos>[</span><span class=pl-s1>h</span><span class=pl-kos>]</span><span class=pl-kos>,</span><span class=pl-s1>t</span><span class=pl-kos>)</span><span class=pl-kos>,</span><span class=pl-en>o</span><span class=pl-kos>(</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>callbacks</span><span class=pl-kos>[</span><span class=pl-s1>a</span><span class=pl-kos>]</span><span class=pl-kos>,</span><span class=pl-s1>t</span><span class=pl-kos>)</span><span class=pl-kos>)</span><span class=pl-kos>,</span><span class=pl-s1>m</span><span class=pl-c1>||</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>isInViewport</span><span class=pl-c1>||</span><span class=pl-kos>(</span><span class=pl-en>o</span><span class=pl-kos>(</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>callbacks</span><span class=pl-kos>[</span><span class=pl-s1>r</span><span class=pl-kos>]</span><span class=pl-kos>,</span><span class=pl-s1>t</span><span class=pl-kos>)</span><span class=pl-kos>,</span><span class=pl-en>o</span><span class=pl-kos>(</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>callbacks</span><span class=pl-kos>[</span><span class=pl-s1>c</span><span class=pl-kos>]</span><span class=pl-kos>,</span><span class=pl-s1>t</span><span class=pl-kos>)</span><span class=pl-kos>)</span><span class=pl-kos>)</span><span class=pl-kos>,</span><span class=pl-c1>!</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>isFullyInViewport</span><span class=pl-c1>&amp;&amp;</span><span class=pl-s1>v</span><span class=pl-c1>&amp;&amp;</span><span class=pl-en>o</span><span class=pl-kos>(</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>callbacks</span><span class=pl-kos>[</span><span class=pl-s1>a</span><span class=pl-kos>]</span><span class=pl-kos>,</span><span class=pl-s1>t</span><span class=pl-kos>)</span><span class=pl-kos>,</span><span class=pl-c1>!</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>isInViewport</span><span class=pl-c1>&amp;&amp;</span><span class=pl-s1>m</span><span class=pl-c1>&amp;&amp;</span><span class=pl-en>o</span><span class=pl-kos>(</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>callbacks</span><span class=pl-kos>[</span><span class=pl-s1>c</span><span class=pl-kos>]</span><span class=pl-kos>,</span><span class=pl-s1>t</span><span class=pl-kos>)</span><span class=pl-kos>,</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>isInViewport</span><span class=pl-c1>!==</span><span class=pl-s1>m</span><span class=pl-c1>&amp;&amp;</span><span class=pl-en>o</span><span class=pl-kos>(</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>callbacks</span><span class=pl-kos>[</span><span class=pl-s1>n</span><span class=pl-kos>]</span><span class=pl-kos>,</span><span class=pl-s1>t</span><span class=pl-kos>)</span><span class=pl-kos>,</span><span class=pl-c1>!</span><span class=pl-c1>0</span><span class=pl-kos>)</span><span class=pl-kos>{</span><span class=pl-k>case</span> <span class=pl-s1>m</span><span class=pl-c1>!==</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>isInViewport</span>:<span class=pl-k>case</span> <span class=pl-s1>v</span><span class=pl-c1>!==</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>isFullyInViewport</span>:<span class=pl-k>case</span> <span class=pl-s1>b</span><span class=pl-c1>!==</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>isAboveViewport</span>:<span class=pl-k>case</span> <span class=pl-v>I</span><span class=pl-c1>!==</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>isBelowViewport</span>:<span class=pl-en>o</span><span class=pl-kos>(</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>callbacks</span><span class=pl-kos>[</span><span class=pl-s1>p</span><span class=pl-kos>]</span><span class=pl-kos>,</span><span class=pl-s1>t</span><span class=pl-kos>)</span><span class=pl-kos>}</span><span class=pl-s1>m</span><span class=pl-c1>=</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>isInViewport</span><span class=pl-kos>,</span><span class=pl-s1>v</span><span class=pl-c1>=</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>isFullyInViewport</span><span class=pl-kos>,</span><span class=pl-s1>b</span><span class=pl-c1>=</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>isAboveViewport</span><span class=pl-kos>,</span><span class=pl-v>I</span><span class=pl-c1>=</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>isBelowViewport</span><span class=pl-kos>}</span><span class=pl-kos>,</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-en>recalculateLocation</span><span class=pl-c1>=</span><span class=pl-k>function</span><span class=pl-kos>(</span><span class=pl-kos>)</span><span class=pl-kos>{</span><span class=pl-k>if</span><span class=pl-kos>(</span><span class=pl-c1>!</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>locked</span><span class=pl-kos>)</span><span class=pl-kos>{</span><span class=pl-k>var</span> <span class=pl-s1>t</span><span class=pl-c1>=</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>top</span><span class=pl-kos>,</span><span class=pl-s1>e</span><span class=pl-c1>=</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>bottom</span><span class=pl-kos>;</span><span class=pl-k>if</span><span class=pl-kos>(</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>watchItem</span><span class=pl-kos>.</span><span class=pl-c1>nodeName</span><span class=pl-kos>)</span><span class=pl-kos>{</span><span class=pl-k>var</span> <span class=pl-s1>i</span><span class=pl-c1>=</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>watchItem</span><span class=pl-kos>.</span><span class=pl-c1>style</span><span class=pl-kos>.</span><span class=pl-c1>display</span><span class=pl-kos>;</span><span class=pl-s>&quot;none&quot;</span><span class=pl-c1>===</span><span class=pl-s1>i</span><span class=pl-c1>&amp;&amp;</span><span class=pl-kos>(</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>watchItem</span><span class=pl-kos>.</span><span class=pl-c1>style</span><span class=pl-kos>.</span><span class=pl-c1>display</span><span class=pl-c1>=</span><span class=pl-s>&quot;&quot;</span><span class=pl-kos>)</span><span class=pl-kos>;</span><span class=pl-k>for</span><span class=pl-kos>(</span><span class=pl-k>var</span> <span class=pl-s1>s</span><span class=pl-c1>=</span><span class=pl-c1>0</span><span class=pl-kos>,</span><span class=pl-s1>n</span><span class=pl-c1>=</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>container</span><span class=pl-kos>;</span><span class=pl-s1>n</span><span class=pl-kos>.</span><span class=pl-c1>containerWatcher</span><span class=pl-kos>;</span><span class=pl-kos>)</span><span class=pl-s1>s</span><span class=pl-c1>+=</span><span class=pl-s1>n</span><span class=pl-kos>.</span><span class=pl-c1>containerWatcher</span><span class=pl-kos>.</span><span class=pl-c1>top</span><span class=pl-c1>-</span><span class=pl-s1>n</span><span class=pl-kos>.</span><span class=pl-c1>containerWatcher</span><span class=pl-kos>.</span><span class=pl-c1>container</span><span class=pl-kos>.</span><span class=pl-c1>viewportTop</span><span class=pl-kos>,</span><span class=pl-s1>n</span><span class=pl-c1>=</span><span class=pl-s1>n</span><span class=pl-kos>.</span><span class=pl-c1>containerWatcher</span><span class=pl-kos>.</span><span class=pl-c1>container</span><span class=pl-kos>;</span><span class=pl-k>var</span> <span class=pl-s1>r</span><span class=pl-c1>=</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>watchItem</span><span class=pl-kos>.</span><span class=pl-en>getBoundingClientRect</span><span class=pl-kos>(</span><span class=pl-kos>)</span><span class=pl-kos>;</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>top</span><span class=pl-c1>=</span><span class=pl-s1>r</span><span class=pl-kos>.</span><span class=pl-c1>top</span><span class=pl-c1>+</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>container</span><span class=pl-kos>.</span><span class=pl-c1>viewportTop</span><span class=pl-c1>-</span><span class=pl-s1>s</span><span class=pl-kos>,</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>bottom</span><span class=pl-c1>=</span><span class=pl-s1>r</span><span class=pl-kos>.</span><span class=pl-c1>bottom</span><span class=pl-c1>+</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>container</span><span class=pl-kos>.</span><span class=pl-c1>viewportTop</span><span class=pl-c1>-</span><span class=pl-s1>s</span><span class=pl-kos>,</span><span class=pl-s>&quot;none&quot;</span><span class=pl-c1>===</span><span class=pl-s1>i</span><span class=pl-c1>&amp;&amp;</span><span class=pl-kos>(</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>watchItem</span><span class=pl-kos>.</span><span class=pl-c1>style</span><span class=pl-kos>.</span><span class=pl-c1>display</span><span class=pl-c1>=</span><span class=pl-s1>i</span><span class=pl-kos>)</span><span class=pl-kos>}</span><span class=pl-k>else</span> <span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>watchItem</span><span class=pl-c1>===</span><span class=pl-c1>+</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>watchItem</span>?<span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>watchItem</span><span class=pl-c1>&gt;</span><span class=pl-c1>0</span>?<span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>top</span><span class=pl-c1>=</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>bottom</span><span class=pl-c1>=</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>watchItem</span>:<span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>top</span><span class=pl-c1>=</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>bottom</span><span class=pl-c1>=</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>container</span><span class=pl-kos>.</span><span class=pl-c1>documentHeight</span><span class=pl-c1>-</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>watchItem</span>:<span class=pl-kos>(</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>top</span><span class=pl-c1>=</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>watchItem</span><span class=pl-kos>.</span><span class=pl-c1>top</span><span class=pl-kos>,</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>bottom</span><span class=pl-c1>=</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>watchItem</span><span class=pl-kos>.</span><span class=pl-c1>bottom</span><span class=pl-kos>)</span><span class=pl-kos>;</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>top</span><span class=pl-c1>-=</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>offsets</span><span class=pl-kos>.</span><span class=pl-c1>top</span><span class=pl-kos>,</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>bottom</span><span class=pl-c1>+=</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>offsets</span><span class=pl-kos>.</span><span class=pl-c1>bottom</span><span class=pl-kos>,</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>height</span><span class=pl-c1>=</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>bottom</span><span class=pl-c1>-</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>top</span><span class=pl-kos>,</span><span class=pl-k>void</span> <span class=pl-c1>0</span><span class=pl-c1>===</span><span class=pl-s1>t</span><span class=pl-c1>&amp;&amp;</span><span class=pl-k>void</span> <span class=pl-c1>0</span><span class=pl-c1>===</span><span class=pl-s1>e</span><span class=pl-c1>||</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>top</span><span class=pl-c1>===</span><span class=pl-s1>t</span><span class=pl-c1>&amp;&amp;</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>bottom</span><span class=pl-c1>===</span><span class=pl-s1>e</span><span class=pl-c1>||</span><span class=pl-en>o</span><span class=pl-kos>(</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>callbacks</span><span class=pl-kos>[</span><span class=pl-s1>l</span><span class=pl-kos>]</span><span class=pl-kos>,</span><span class=pl-c1>null</span><span class=pl-kos>)</span><span class=pl-kos>}</span><span class=pl-kos>}</span><span class=pl-kos>,</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-en>recalculateLocation</span><span class=pl-kos>(</span><span class=pl-kos>)</span><span class=pl-kos>,</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-en>update</span><span class=pl-kos>(</span><span class=pl-kos>)</span><span class=pl-kos>,</span><span class=pl-s1>m</span><span class=pl-c1>=</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>isInViewport</span><span class=pl-kos>,</span><span class=pl-s1>v</span><span class=pl-c1>=</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>isFullyInViewport</span><span class=pl-kos>,</span><span class=pl-s1>b</span><span class=pl-c1>=</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>isAboveViewport</span><span class=pl-kos>,</span><span class=pl-v>I</span><span class=pl-c1>=</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>isBelowViewport</span><span class=pl-kos>}</span><span class=pl-k>var</span> <span class=pl-s1>s</span><span class=pl-c1>=</span><span class=pl-s1>i</span><span class=pl-kos>(</span><span class=pl-c1>1</span><span class=pl-kos>)</span><span class=pl-kos>,</span><span class=pl-s1>n</span><span class=pl-c1>=</span><span class=pl-s1>s</span><span class=pl-kos>.</span><span class=pl-c1>VISIBILITYCHANGE</span><span class=pl-kos>,</span><span class=pl-s1>r</span><span class=pl-c1>=</span><span class=pl-s1>s</span><span class=pl-kos>.</span><span class=pl-c1>ENTERVIEWPORT</span><span class=pl-kos>,</span><span class=pl-s1>h</span><span class=pl-c1>=</span><span class=pl-s1>s</span><span class=pl-kos>.</span><span class=pl-c1>FULLYENTERVIEWPORT</span><span class=pl-kos>,</span><span class=pl-s1>c</span><span class=pl-c1>=</span><span class=pl-s1>s</span><span class=pl-kos>.</span><span class=pl-c1>EXITVIEWPORT</span><span class=pl-kos>,</span><span class=pl-s1>a</span><span class=pl-c1>=</span><span class=pl-s1>s</span><span class=pl-kos>.</span><span class=pl-c1>PARTIALLYEXITVIEWPORT</span><span class=pl-kos>,</span><span class=pl-s1>l</span><span class=pl-c1>=</span><span class=pl-s1>s</span><span class=pl-kos>.</span><span class=pl-c1>LOCATIONCHANGE</span><span class=pl-kos>,</span><span class=pl-s1>p</span><span class=pl-c1>=</span><span class=pl-s1>s</span><span class=pl-kos>.</span><span class=pl-c1>STATECHANGE</span><span class=pl-kos>,</span><span class=pl-s1>u</span><span class=pl-c1>=</span><span class=pl-s1>s</span><span class=pl-kos>.</span><span class=pl-c1>eventTypes</span><span class=pl-kos>,</span><span class=pl-s1>w</span><span class=pl-c1>=</span><span class=pl-s1>s</span><span class=pl-kos>.</span><span class=pl-c1>defaultOffsets</span><span class=pl-kos>;</span><span class=pl-s1>o</span><span class=pl-kos>.</span><span class=pl-c1>prototype</span><span class=pl-c1>=</span><span class=pl-kos>{</span><span class=pl-en>on</span>:<span class=pl-k>function</span><span class=pl-kos>(</span><span class=pl-s1>t</span><span class=pl-kos>,</span><span class=pl-s1>e</span><span class=pl-kos>,</span><span class=pl-s1>i</span><span class=pl-kos>)</span><span class=pl-kos>{</span><span class=pl-k>switch</span><span class=pl-kos>(</span><span class=pl-c1>!</span><span class=pl-c1>0</span><span class=pl-kos>)</span><span class=pl-kos>{</span><span class=pl-k>case</span> <span class=pl-s1>t</span><span class=pl-c1>===</span><span class=pl-s1>n</span><span class=pl-c1>&amp;&amp;</span><span class=pl-c1>!</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>isInViewport</span><span class=pl-c1>&amp;&amp;</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>isAboveViewport</span>:<span class=pl-k>case</span> <span class=pl-s1>t</span><span class=pl-c1>===</span><span class=pl-s1>r</span><span class=pl-c1>&amp;&amp;</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>isInViewport</span>:<span class=pl-k>case</span> <span class=pl-s1>t</span><span class=pl-c1>===</span><span class=pl-s1>h</span><span class=pl-c1>&amp;&amp;</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>isFullyInViewport</span>:<span class=pl-k>case</span> <span class=pl-s1>t</span><span class=pl-c1>===</span><span class=pl-s1>c</span><span class=pl-c1>&amp;&amp;</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>isAboveViewport</span><span class=pl-c1>&amp;&amp;</span><span class=pl-c1>!</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>isInViewport</span>:<span class=pl-k>case</span> <span class=pl-s1>t</span><span class=pl-c1>===</span><span class=pl-s1>a</span><span class=pl-c1>&amp;&amp;</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>isAboveViewport</span>:<span class=pl-k>if</span><span class=pl-kos>(</span><span class=pl-s1>e</span><span class=pl-kos>.</span><span class=pl-en>call</span><span class=pl-kos>(</span><span class=pl-smi>this</span><span class=pl-kos>,</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>container</span><span class=pl-kos>.</span><span class=pl-c1>latestEvent</span><span class=pl-kos>,</span><span class=pl-smi>this</span><span class=pl-kos>)</span><span class=pl-kos>,</span><span class=pl-s1>i</span><span class=pl-kos>)</span><span class=pl-k>return</span><span class=pl-kos>}</span><span class=pl-k>if</span><span class=pl-kos>(</span><span class=pl-c1>!</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>callbacks</span><span class=pl-kos>[</span><span class=pl-s1>t</span><span class=pl-kos>]</span><span class=pl-kos>)</span><span class=pl-k>throw</span> <span class=pl-k>new</span> <span class=pl-v>Error</span><span class=pl-kos>(</span><span class=pl-s>&quot;Tried to add a scroll monitor listener of type &quot;</span><span class=pl-c1>+</span><span class=pl-s1>t</span><span class=pl-c1>+</span><span class=pl-s>&quot;. Your options are: &quot;</span><span class=pl-c1>+</span><span class=pl-s1>u</span><span class=pl-kos>.</span><span class=pl-en>join</span><span class=pl-kos>(</span><span class=pl-s>&quot;, &quot;</span><span class=pl-kos>)</span><span class=pl-kos>)</span><span class=pl-kos>;</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>callbacks</span><span class=pl-kos>[</span><span class=pl-s1>t</span><span class=pl-kos>]</span><span class=pl-kos>.</span><span class=pl-en>push</span><span class=pl-kos>(</span><span class=pl-kos>{</span><span class=pl-c1>callback</span>:<span class=pl-s1>e</span><span class=pl-kos>,</span><span class=pl-c1>isOne</span>:<span class=pl-s1>i</span><span class=pl-c1>||</span><span class=pl-c1>!</span><span class=pl-c1>1</span><span class=pl-kos>}</span><span class=pl-kos>)</span><span class=pl-kos>}</span><span class=pl-kos>,</span><span class=pl-en>off</span>:<span class=pl-k>function</span><span class=pl-kos>(</span><span class=pl-s1>t</span><span class=pl-kos>,</span><span class=pl-s1>e</span><span class=pl-kos>)</span><span class=pl-kos>{</span><span class=pl-k>if</span><span class=pl-kos>(</span><span class=pl-c1>!</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>callbacks</span><span class=pl-kos>[</span><span class=pl-s1>t</span><span class=pl-kos>]</span><span class=pl-kos>)</span><span class=pl-k>throw</span> <span class=pl-k>new</span> <span class=pl-v>Error</span><span class=pl-kos>(</span><span class=pl-s>&quot;Tried to remove a scroll monitor listener of type &quot;</span><span class=pl-c1>+</span><span class=pl-s1>t</span><span class=pl-c1>+</span><span class=pl-s>&quot;. Your options are: &quot;</span><span class=pl-c1>+</span><span class=pl-s1>u</span><span class=pl-kos>.</span><span class=pl-en>join</span><span class=pl-kos>(</span><span class=pl-s>&quot;, &quot;</span><span class=pl-kos>)</span><span class=pl-kos>)</span><span class=pl-kos>;</span><span class=pl-k>for</span><span class=pl-kos>(</span><span class=pl-k>var</span> <span class=pl-s1>i</span><span class=pl-kos>,</span><span class=pl-s1>o</span><span class=pl-c1>=</span><span class=pl-c1>0</span><span class=pl-kos>;</span><span class=pl-s1>i</span><span class=pl-c1>=</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>callbacks</span><span class=pl-kos>[</span><span class=pl-s1>t</span><span class=pl-kos>]</span><span class=pl-kos>[</span><span class=pl-s1>o</span><span class=pl-kos>]</span><span class=pl-kos>;</span><span class=pl-s1>o</span><span class=pl-c1>++</span><span class=pl-kos>)</span><span class=pl-k>if</span><span class=pl-kos>(</span><span class=pl-s1>i</span><span class=pl-kos>.</span><span class=pl-c1>callback</span><span class=pl-c1>===</span><span class=pl-s1>e</span><span class=pl-kos>)</span><span class=pl-kos>{</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>callbacks</span><span class=pl-kos>[</span><span class=pl-s1>t</span><span class=pl-kos>]</span><span class=pl-kos>.</span><span class=pl-en>splice</span><span class=pl-kos>(</span><span class=pl-s1>o</span><span class=pl-kos>,</span><span class=pl-c1>1</span><span class=pl-kos>)</span><span class=pl-kos>;</span><span class=pl-k>break</span><span class=pl-kos>}</span><span class=pl-kos>}</span><span class=pl-kos>,</span><span class=pl-en>one</span>:<span class=pl-k>function</span><span class=pl-kos>(</span><span class=pl-s1>t</span><span class=pl-kos>,</span><span class=pl-s1>e</span><span class=pl-kos>)</span><span class=pl-kos>{</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-en>on</span><span class=pl-kos>(</span><span class=pl-s1>t</span><span class=pl-kos>,</span><span class=pl-s1>e</span><span class=pl-kos>,</span><span class=pl-c1>!</span><span class=pl-c1>0</span><span class=pl-kos>)</span><span class=pl-kos>}</span><span class=pl-kos>,</span><span class=pl-en>recalculateSize</span>:<span class=pl-k>function</span><span class=pl-kos>(</span><span class=pl-kos>)</span><span class=pl-kos>{</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>height</span><span class=pl-c1>=</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>watchItem</span><span class=pl-kos>.</span><span class=pl-c1>offsetHeight</span><span class=pl-c1>+</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>offsets</span><span class=pl-kos>.</span><span class=pl-c1>top</span><span class=pl-c1>+</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>offsets</span><span class=pl-kos>.</span><span class=pl-c1>bottom</span><span class=pl-kos>,</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>bottom</span><span class=pl-c1>=</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>top</span><span class=pl-c1>+</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>height</span><span class=pl-kos>}</span><span class=pl-kos>,</span><span class=pl-en>update</span>:<span class=pl-k>function</span><span class=pl-kos>(</span><span class=pl-kos>)</span><span class=pl-kos>{</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>isAboveViewport</span><span class=pl-c1>=</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>top</span><span class=pl-c1>&lt;</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>container</span><span class=pl-kos>.</span><span class=pl-c1>viewportTop</span><span class=pl-kos>,</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>isBelowViewport</span><span class=pl-c1>=</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>bottom</span><span class=pl-c1>&gt;</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>container</span><span class=pl-kos>.</span><span class=pl-c1>viewportBottom</span><span class=pl-kos>,</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>isInViewport</span><span class=pl-c1>=</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>top</span><span class=pl-c1>&lt;</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>container</span><span class=pl-kos>.</span><span class=pl-c1>viewportBottom</span><span class=pl-c1>&amp;&amp;</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>bottom</span><span class=pl-c1>&gt;</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>container</span><span class=pl-kos>.</span><span class=pl-c1>viewportTop</span><span class=pl-kos>,</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>isFullyInViewport</span><span class=pl-c1>=</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>top</span><span class=pl-c1>&gt;=</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>container</span><span class=pl-kos>.</span><span class=pl-c1>viewportTop</span><span class=pl-c1>&amp;&amp;</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>bottom</span><span class=pl-c1>&lt;=</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>container</span><span class=pl-kos>.</span><span class=pl-c1>viewportBottom</span><span class=pl-c1>||</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>isAboveViewport</span><span class=pl-c1>&amp;&amp;</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>isBelowViewport</span><span class=pl-kos>}</span><span class=pl-kos>,</span><span class=pl-en>destroy</span>:<span class=pl-k>function</span><span class=pl-kos>(</span><span class=pl-kos>)</span><span class=pl-kos>{</span><span class=pl-k>var</span> <span class=pl-s1>t</span><span class=pl-c1>=</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>container</span><span class=pl-kos>.</span><span class=pl-c1>watchers</span><span class=pl-kos>.</span><span class=pl-en>indexOf</span><span class=pl-kos>(</span><span class=pl-smi>this</span><span class=pl-kos>)</span><span class=pl-kos>,</span><span class=pl-s1>e</span><span class=pl-c1>=</span><span class=pl-smi>this</span><span class=pl-kos>;</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>container</span><span class=pl-kos>.</span><span class=pl-c1>watchers</span><span class=pl-kos>.</span><span class=pl-en>splice</span><span class=pl-kos>(</span><span class=pl-s1>t</span><span class=pl-kos>,</span><span class=pl-c1>1</span><span class=pl-kos>)</span><span class=pl-kos>;</span><span class=pl-k>for</span><span class=pl-kos>(</span><span class=pl-k>var</span> <span class=pl-s1>i</span><span class=pl-c1>=</span><span class=pl-c1>0</span><span class=pl-kos>,</span><span class=pl-s1>o</span><span class=pl-c1>=</span><span class=pl-s1>u</span><span class=pl-kos>.</span><span class=pl-c1>length</span><span class=pl-kos>;</span><span class=pl-s1>i</span><span class=pl-c1>&lt;</span><span class=pl-s1>o</span><span class=pl-kos>;</span><span class=pl-s1>i</span><span class=pl-c1>++</span><span class=pl-kos>)</span><span class=pl-s1>e</span><span class=pl-kos>.</span><span class=pl-c1>callbacks</span><span class=pl-kos>[</span><span class=pl-s1>u</span><span class=pl-kos>[</span><span class=pl-s1>i</span><span class=pl-kos>]</span><span class=pl-kos>]</span><span class=pl-kos>.</span><span class=pl-c1>length</span><span class=pl-c1>=</span><span class=pl-c1>0</span><span class=pl-kos>}</span><span class=pl-kos>,</span><span class=pl-en>lock</span>:<span class=pl-k>function</span><span class=pl-kos>(</span><span class=pl-kos>)</span><span class=pl-kos>{</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>locked</span><span class=pl-c1>=</span><span class=pl-c1>!</span><span class=pl-c1>0</span><span class=pl-kos>}</span><span class=pl-kos>,</span><span class=pl-en>unlock</span>:<span class=pl-k>function</span><span class=pl-kos>(</span><span class=pl-kos>)</span><span class=pl-kos>{</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>locked</span><span class=pl-c1>=</span><span class=pl-c1>!</span><span class=pl-c1>1</span><span class=pl-kos>}</span><span class=pl-kos>}</span><span class=pl-kos>;</span><span class=pl-k>for</span><span class=pl-kos>(</span><span class=pl-k>var</span> <span class=pl-en>d</span><span class=pl-c1>=</span><span class=pl-k>function</span><span class=pl-kos>(</span><span class=pl-s1>t</span><span class=pl-kos>)</span><span class=pl-kos>{</span><span class=pl-k>return</span> <span class=pl-k>function</span><span class=pl-kos>(</span><span class=pl-s1>e</span><span class=pl-kos>,</span><span class=pl-s1>i</span><span class=pl-kos>)</span><span class=pl-kos>{</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>on</span><span class=pl-kos>.</span><span class=pl-en>call</span><span class=pl-kos>(</span><span class=pl-smi>this</span><span class=pl-kos>,</span><span class=pl-s1>t</span><span class=pl-kos>,</span><span class=pl-s1>e</span><span class=pl-kos>,</span><span class=pl-s1>i</span><span class=pl-kos>)</span><span class=pl-kos>}</span><span class=pl-kos>}</span><span class=pl-kos>,</span><span class=pl-s1>f</span><span class=pl-c1>=</span><span class=pl-c1>0</span><span class=pl-kos>,</span><span class=pl-s1>m</span><span class=pl-c1>=</span><span class=pl-s1>u</span><span class=pl-kos>.</span><span class=pl-c1>length</span><span class=pl-kos>;</span><span class=pl-s1>f</span><span class=pl-c1>&lt;</span><span class=pl-s1>m</span><span class=pl-kos>;</span><span class=pl-s1>f</span><span class=pl-c1>++</span><span class=pl-kos>)</span><span class=pl-kos>{</span><span class=pl-k>var</span> <span class=pl-s1>v</span><span class=pl-c1>=</span><span class=pl-s1>u</span><span class=pl-kos>[</span><span class=pl-s1>f</span><span class=pl-kos>]</span><span class=pl-kos>;</span><span class=pl-s1>o</span><span class=pl-kos>.</span><span class=pl-c1>prototype</span><span class=pl-kos>[</span><span class=pl-s1>v</span><span class=pl-kos>]</span><span class=pl-c1>=</span><span class=pl-en>d</span><span class=pl-kos>(</span><span class=pl-s1>v</span><span class=pl-kos>)</span><span class=pl-kos>}</span><span class=pl-s1>t</span><span class=pl-kos>.</span><span class=pl-c1>exports</span><span class=pl-c1>=</span><span class=pl-s1>o</span><span class=pl-kos>}</span><span class=pl-kos>]</span><span class=pl-kos>)</span><span class=pl-kos>}</span><span class=pl-kos>)</span><span class=pl-kos>;</span></td>
         </tr>
         <tr>
           <td id="L2" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="2"></td>
-          <td id="LC2" class="blob-code blob-code-inner js-file-line"><span class=pl-c> * main.js</span></td>
-        </tr>
-        <tr>
-          <td id="L3" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="3"></td>
-          <td id="LC3" class="blob-code blob-code-inner js-file-line"><span class=pl-c> * http://www.codrops.com</span></td>
-        </tr>
-        <tr>
-          <td id="L4" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="4"></td>
-          <td id="LC4" class="blob-code blob-code-inner js-file-line"><span class=pl-c> *</span></td>
-        </tr>
-        <tr>
-          <td id="L5" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="5"></td>
-          <td id="LC5" class="blob-code blob-code-inner js-file-line"><span class=pl-c> * Licensed under the MIT license.</span></td>
-        </tr>
-        <tr>
-          <td id="L6" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="6"></td>
-          <td id="LC6" class="blob-code blob-code-inner js-file-line"><span class=pl-c> * http://www.opensource.org/licenses/mit-license.php</span></td>
-        </tr>
-        <tr>
-          <td id="L7" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="7"></td>
-          <td id="LC7" class="blob-code blob-code-inner js-file-line"><span class=pl-c> * </span></td>
-        </tr>
-        <tr>
-          <td id="L8" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="8"></td>
-          <td id="LC8" class="blob-code blob-code-inner js-file-line"><span class=pl-c> * Copyright 2016, Codrops</span></td>
-        </tr>
-        <tr>
-          <td id="L9" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="9"></td>
-          <td id="LC9" class="blob-code blob-code-inner js-file-line"><span class=pl-c> * http://www.codrops.com</span></td>
-        </tr>
-        <tr>
-          <td id="L10" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="10"></td>
-          <td id="LC10" class="blob-code blob-code-inner js-file-line"><span class=pl-c> */</span></td>
-        </tr>
-        <tr>
-          <td id="L11" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="11"></td>
-          <td id="LC11" class="blob-code blob-code-inner js-file-line"><span class=pl-kos>;</span><span class=pl-kos>(</span><span class=pl-k>function</span><span class=pl-kos>(</span><span class=pl-s1>window</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
-        </tr>
-        <tr>
-          <td id="L12" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="12"></td>
-          <td id="LC12" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L13" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="13"></td>
-          <td id="LC13" class="blob-code blob-code-inner js-file-line">	<span class=pl-s>&#39;use strict&#39;</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L14" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="14"></td>
-          <td id="LC14" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L15" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="15"></td>
-          <td id="LC15" class="blob-code blob-code-inner js-file-line">	<span class=pl-c>// Helper vars and functions.</span></td>
-        </tr>
-        <tr>
-          <td id="L16" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="16"></td>
-          <td id="LC16" class="blob-code blob-code-inner js-file-line">	<span class=pl-k>function</span> <span class=pl-en>extend</span><span class=pl-kos>(</span><span class=pl-s1>a</span><span class=pl-kos>,</span> <span class=pl-s1>b</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
-        </tr>
-        <tr>
-          <td id="L17" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="17"></td>
-          <td id="LC17" class="blob-code blob-code-inner js-file-line">		<span class=pl-k>for</span><span class=pl-kos>(</span><span class=pl-k>var</span> <span class=pl-s1>key</span> <span class=pl-k>in</span> <span class=pl-s1>b</span><span class=pl-kos>)</span> <span class=pl-kos>{</span> </td>
-        </tr>
-        <tr>
-          <td id="L18" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="18"></td>
-          <td id="LC18" class="blob-code blob-code-inner js-file-line">			<span class=pl-k>if</span><span class=pl-kos>(</span> <span class=pl-s1>b</span><span class=pl-kos>.</span><span class=pl-en>hasOwnProperty</span><span class=pl-kos>(</span> <span class=pl-s1>key</span> <span class=pl-kos>)</span> <span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
-        </tr>
-        <tr>
-          <td id="L19" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="19"></td>
-          <td id="LC19" class="blob-code blob-code-inner js-file-line">				<span class=pl-s1>a</span><span class=pl-kos>[</span><span class=pl-s1>key</span><span class=pl-kos>]</span> <span class=pl-c1>=</span> <span class=pl-s1>b</span><span class=pl-kos>[</span><span class=pl-s1>key</span><span class=pl-kos>]</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L20" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="20"></td>
-          <td id="LC20" class="blob-code blob-code-inner js-file-line">			<span class=pl-kos>}</span></td>
-        </tr>
-        <tr>
-          <td id="L21" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="21"></td>
-          <td id="LC21" class="blob-code blob-code-inner js-file-line">		<span class=pl-kos>}</span></td>
-        </tr>
-        <tr>
-          <td id="L22" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="22"></td>
-          <td id="LC22" class="blob-code blob-code-inner js-file-line">		<span class=pl-k>return</span> <span class=pl-s1>a</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L23" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="23"></td>
-          <td id="LC23" class="blob-code blob-code-inner js-file-line">	<span class=pl-kos>}</span></td>
-        </tr>
-        <tr>
-          <td id="L24" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="24"></td>
-          <td id="LC24" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L25" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="25"></td>
-          <td id="LC25" class="blob-code blob-code-inner js-file-line">	<span class=pl-k>function</span> <span class=pl-en>createDOMEl</span><span class=pl-kos>(</span><span class=pl-s1>type</span><span class=pl-kos>,</span> <span class=pl-s1>className</span><span class=pl-kos>,</span> <span class=pl-s1>content</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
-        </tr>
-        <tr>
-          <td id="L26" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="26"></td>
-          <td id="LC26" class="blob-code blob-code-inner js-file-line">		<span class=pl-k>var</span> <span class=pl-s1>el</span> <span class=pl-c1>=</span> <span class=pl-smi>document</span><span class=pl-kos>.</span><span class=pl-en>createElement</span><span class=pl-kos>(</span><span class=pl-s1>type</span><span class=pl-kos>)</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L27" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="27"></td>
-          <td id="LC27" class="blob-code blob-code-inner js-file-line">		<span class=pl-s1>el</span><span class=pl-kos>.</span><span class=pl-c1>className</span> <span class=pl-c1>=</span> <span class=pl-s1>className</span> <span class=pl-c1>||</span> <span class=pl-s>&#39;&#39;</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L28" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="28"></td>
-          <td id="LC28" class="blob-code blob-code-inner js-file-line">		<span class=pl-s1>el</span><span class=pl-kos>.</span><span class=pl-c1>innerHTML</span> <span class=pl-c1>=</span> <span class=pl-s1>content</span> <span class=pl-c1>||</span> <span class=pl-s>&#39;&#39;</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L29" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="29"></td>
-          <td id="LC29" class="blob-code blob-code-inner js-file-line">		<span class=pl-k>return</span> <span class=pl-s1>el</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L30" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="30"></td>
-          <td id="LC30" class="blob-code blob-code-inner js-file-line">	<span class=pl-kos>}</span></td>
-        </tr>
-        <tr>
-          <td id="L31" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="31"></td>
-          <td id="LC31" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L32" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="32"></td>
-          <td id="LC32" class="blob-code blob-code-inner js-file-line">	<span class=pl-c>/**</span></td>
-        </tr>
-        <tr>
-          <td id="L33" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="33"></td>
-          <td id="LC33" class="blob-code blob-code-inner js-file-line"><span class=pl-c>	 * RevealFx obj.</span></td>
-        </tr>
-        <tr>
-          <td id="L34" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="34"></td>
-          <td id="LC34" class="blob-code blob-code-inner js-file-line"><span class=pl-c>	 */</span></td>
-        </tr>
-        <tr>
-          <td id="L35" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="35"></td>
-          <td id="LC35" class="blob-code blob-code-inner js-file-line">	<span class=pl-k>function</span> <span class=pl-v>RevealFx</span><span class=pl-kos>(</span><span class=pl-s1>el</span><span class=pl-kos>,</span> <span class=pl-s1>options</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
-        </tr>
-        <tr>
-          <td id="L36" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="36"></td>
-          <td id="LC36" class="blob-code blob-code-inner js-file-line">		<span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>el</span> <span class=pl-c1>=</span> <span class=pl-s1>el</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L37" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="37"></td>
-          <td id="LC37" class="blob-code blob-code-inner js-file-line">		<span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>options</span> <span class=pl-c1>=</span> <span class=pl-en>extend</span><span class=pl-kos>(</span><span class=pl-kos>{</span><span class=pl-kos>}</span><span class=pl-kos>,</span> <span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>options</span><span class=pl-kos>)</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L38" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="38"></td>
-          <td id="LC38" class="blob-code blob-code-inner js-file-line">		<span class=pl-en>extend</span><span class=pl-kos>(</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>options</span><span class=pl-kos>,</span> <span class=pl-s1>options</span><span class=pl-kos>)</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L39" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="39"></td>
-          <td id="LC39" class="blob-code blob-code-inner js-file-line">		<span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-en>_init</span><span class=pl-kos>(</span><span class=pl-kos>)</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L40" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="40"></td>
-          <td id="LC40" class="blob-code blob-code-inner js-file-line">	<span class=pl-kos>}</span></td>
-        </tr>
-        <tr>
-          <td id="L41" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="41"></td>
-          <td id="LC41" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L42" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="42"></td>
-          <td id="LC42" class="blob-code blob-code-inner js-file-line">	<span class=pl-c>/**</span></td>
-        </tr>
-        <tr>
-          <td id="L43" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="43"></td>
-          <td id="LC43" class="blob-code blob-code-inner js-file-line"><span class=pl-c>	 * RevealFx options.</span></td>
-        </tr>
-        <tr>
-          <td id="L44" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="44"></td>
-          <td id="LC44" class="blob-code blob-code-inner js-file-line"><span class=pl-c>	 */</span></td>
-        </tr>
-        <tr>
-          <td id="L45" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="45"></td>
-          <td id="LC45" class="blob-code blob-code-inner js-file-line">	<span class=pl-v>RevealFx</span><span class=pl-kos>.</span><span class=pl-c1>prototype</span><span class=pl-kos>.</span><span class=pl-c1>options</span> <span class=pl-c1>=</span> <span class=pl-kos>{</span></td>
-        </tr>
-        <tr>
-          <td id="L46" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="46"></td>
-          <td id="LC46" class="blob-code blob-code-inner js-file-line">		<span class=pl-c>// If true, then the content will be hidden until it´s &quot;revealed&quot;.</span></td>
-        </tr>
-        <tr>
-          <td id="L47" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="47"></td>
-          <td id="LC47" class="blob-code blob-code-inner js-file-line">		<span class=pl-c1>isContentHidden</span>: <span class=pl-c1>true</span><span class=pl-kos>,</span></td>
-        </tr>
-        <tr>
-          <td id="L48" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="48"></td>
-          <td id="LC48" class="blob-code blob-code-inner js-file-line">		<span class=pl-c>// The animation/reveal settings. This can be set initially or passed when calling the reveal method.</span></td>
-        </tr>
-        <tr>
-          <td id="L49" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="49"></td>
-          <td id="LC49" class="blob-code blob-code-inner js-file-line">		<span class=pl-c1>revealSettings</span>: <span class=pl-kos>{</span></td>
-        </tr>
-        <tr>
-          <td id="L50" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="50"></td>
-          <td id="LC50" class="blob-code blob-code-inner js-file-line">			<span class=pl-c>// Animation direction: left right (lr) || right left (rl) || top bottom (tb) || bottom top (bt).</span></td>
-        </tr>
-        <tr>
-          <td id="L51" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="51"></td>
-          <td id="LC51" class="blob-code blob-code-inner js-file-line">			<span class=pl-c1>direction</span>: <span class=pl-s>&#39;lr&#39;</span><span class=pl-kos>,</span></td>
-        </tr>
-        <tr>
-          <td id="L52" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="52"></td>
-          <td id="LC52" class="blob-code blob-code-inner js-file-line">			<span class=pl-c>// Revealer´s background color.</span></td>
-        </tr>
-        <tr>
-          <td id="L53" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="53"></td>
-          <td id="LC53" class="blob-code blob-code-inner js-file-line">			<span class=pl-c1>bgcolor</span>: <span class=pl-s>&#39;#f0f0f0&#39;</span><span class=pl-kos>,</span></td>
-        </tr>
-        <tr>
-          <td id="L54" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="54"></td>
-          <td id="LC54" class="blob-code blob-code-inner js-file-line">			<span class=pl-c>// Animation speed. This is the speed to &quot;cover&quot; and also &quot;uncover&quot; the element (seperately, not the total time).</span></td>
-        </tr>
-        <tr>
-          <td id="L55" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="55"></td>
-          <td id="LC55" class="blob-code blob-code-inner js-file-line">			<span class=pl-c1>duration</span>: <span class=pl-c1>500</span><span class=pl-kos>,</span></td>
-        </tr>
-        <tr>
-          <td id="L56" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="56"></td>
-          <td id="LC56" class="blob-code blob-code-inner js-file-line">			<span class=pl-c>// Animation easing. This is the easing to &quot;cover&quot; and also &quot;uncover&quot; the element.</span></td>
-        </tr>
-        <tr>
-          <td id="L57" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="57"></td>
-          <td id="LC57" class="blob-code blob-code-inner js-file-line">			<span class=pl-c1>easing</span>: <span class=pl-s>&#39;easeInOutQuint&#39;</span><span class=pl-kos>,</span></td>
-        </tr>
-        <tr>
-          <td id="L58" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="58"></td>
-          <td id="LC58" class="blob-code blob-code-inner js-file-line">			<span class=pl-c>// percentage-based value representing how much of the area should be left covered.</span></td>
-        </tr>
-        <tr>
-          <td id="L59" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="59"></td>
-          <td id="LC59" class="blob-code blob-code-inner js-file-line">			<span class=pl-c1>coverArea</span>: <span class=pl-c1>0</span><span class=pl-kos>,</span></td>
-        </tr>
-        <tr>
-          <td id="L60" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="60"></td>
-          <td id="LC60" class="blob-code blob-code-inner js-file-line">			<span class=pl-c>// Callback for when the revealer is covering the element (halfway through of the whole animation).</span></td>
-        </tr>
-        <tr>
-          <td id="L61" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="61"></td>
-          <td id="LC61" class="blob-code blob-code-inner js-file-line">			<span class=pl-en>onCover</span>: <span class=pl-k>function</span><span class=pl-kos>(</span><span class=pl-s1>contentEl</span><span class=pl-kos>,</span> <span class=pl-s1>revealerEl</span><span class=pl-kos>)</span> <span class=pl-kos>{</span> <span class=pl-k>return</span> <span class=pl-c1>false</span><span class=pl-kos>;</span> <span class=pl-kos>}</span><span class=pl-kos>,</span></td>
-        </tr>
-        <tr>
-          <td id="L62" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="62"></td>
-          <td id="LC62" class="blob-code blob-code-inner js-file-line">			<span class=pl-c>// Callback for when the animation starts (animation start).</span></td>
-        </tr>
-        <tr>
-          <td id="L63" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="63"></td>
-          <td id="LC63" class="blob-code blob-code-inner js-file-line">			<span class=pl-en>onStart</span>: <span class=pl-k>function</span><span class=pl-kos>(</span><span class=pl-s1>contentEl</span><span class=pl-kos>,</span> <span class=pl-s1>revealerEl</span><span class=pl-kos>)</span> <span class=pl-kos>{</span> <span class=pl-k>return</span> <span class=pl-c1>false</span><span class=pl-kos>;</span> <span class=pl-kos>}</span><span class=pl-kos>,</span></td>
-        </tr>
-        <tr>
-          <td id="L64" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="64"></td>
-          <td id="LC64" class="blob-code blob-code-inner js-file-line">			<span class=pl-c>// Callback for when the revealer has completed uncovering (animation end).</span></td>
-        </tr>
-        <tr>
-          <td id="L65" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="65"></td>
-          <td id="LC65" class="blob-code blob-code-inner js-file-line">			<span class=pl-en>onComplete</span>: <span class=pl-k>function</span><span class=pl-kos>(</span><span class=pl-s1>contentEl</span><span class=pl-kos>,</span> <span class=pl-s1>revealerEl</span><span class=pl-kos>)</span> <span class=pl-kos>{</span> <span class=pl-k>return</span> <span class=pl-c1>false</span><span class=pl-kos>;</span> <span class=pl-kos>}</span></td>
-        </tr>
-        <tr>
-          <td id="L66" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="66"></td>
-          <td id="LC66" class="blob-code blob-code-inner js-file-line">		<span class=pl-kos>}</span></td>
-        </tr>
-        <tr>
-          <td id="L67" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="67"></td>
-          <td id="LC67" class="blob-code blob-code-inner js-file-line">	<span class=pl-kos>}</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L68" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="68"></td>
-          <td id="LC68" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L69" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="69"></td>
-          <td id="LC69" class="blob-code blob-code-inner js-file-line">	<span class=pl-c>/**</span></td>
-        </tr>
-        <tr>
-          <td id="L70" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="70"></td>
-          <td id="LC70" class="blob-code blob-code-inner js-file-line"><span class=pl-c>	 * Init.</span></td>
-        </tr>
-        <tr>
-          <td id="L71" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="71"></td>
-          <td id="LC71" class="blob-code blob-code-inner js-file-line"><span class=pl-c>	 */</span></td>
-        </tr>
-        <tr>
-          <td id="L72" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="72"></td>
-          <td id="LC72" class="blob-code blob-code-inner js-file-line">	<span class=pl-v>RevealFx</span><span class=pl-kos>.</span><span class=pl-c1>prototype</span><span class=pl-kos>.</span><span class=pl-en>_init</span> <span class=pl-c1>=</span> <span class=pl-k>function</span><span class=pl-kos>(</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
-        </tr>
-        <tr>
-          <td id="L73" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="73"></td>
-          <td id="LC73" class="blob-code blob-code-inner js-file-line">		<span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-en>_layout</span><span class=pl-kos>(</span><span class=pl-kos>)</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L74" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="74"></td>
-          <td id="LC74" class="blob-code blob-code-inner js-file-line">	<span class=pl-kos>}</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L75" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="75"></td>
-          <td id="LC75" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L76" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="76"></td>
-          <td id="LC76" class="blob-code blob-code-inner js-file-line">	<span class=pl-c>/**</span></td>
-        </tr>
-        <tr>
-          <td id="L77" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="77"></td>
-          <td id="LC77" class="blob-code blob-code-inner js-file-line"><span class=pl-c>	 * Build the necessary structure.</span></td>
-        </tr>
-        <tr>
-          <td id="L78" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="78"></td>
-          <td id="LC78" class="blob-code blob-code-inner js-file-line"><span class=pl-c>	 */</span></td>
-        </tr>
-        <tr>
-          <td id="L79" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="79"></td>
-          <td id="LC79" class="blob-code blob-code-inner js-file-line">	<span class=pl-v>RevealFx</span><span class=pl-kos>.</span><span class=pl-c1>prototype</span><span class=pl-kos>.</span><span class=pl-en>_layout</span> <span class=pl-c1>=</span> <span class=pl-k>function</span><span class=pl-kos>(</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
-        </tr>
-        <tr>
-          <td id="L80" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="80"></td>
-          <td id="LC80" class="blob-code blob-code-inner js-file-line">		<span class=pl-k>var</span> <span class=pl-s1>position</span> <span class=pl-c1>=</span> <span class=pl-en>getComputedStyle</span><span class=pl-kos>(</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>el</span><span class=pl-kos>)</span><span class=pl-kos>.</span><span class=pl-c1>position</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L81" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="81"></td>
-          <td id="LC81" class="blob-code blob-code-inner js-file-line">		<span class=pl-k>if</span><span class=pl-kos>(</span> <span class=pl-s1>position</span> <span class=pl-c1>!==</span> <span class=pl-s>&#39;fixed&#39;</span> <span class=pl-c1>&amp;&amp;</span> <span class=pl-s1>position</span> <span class=pl-c1>!==</span> <span class=pl-s>&#39;absolute&#39;</span> <span class=pl-c1>&amp;&amp;</span> <span class=pl-s1>position</span> <span class=pl-c1>!==</span> <span class=pl-s>&#39;relative&#39;</span> <span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
-        </tr>
-        <tr>
-          <td id="L82" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="82"></td>
-          <td id="LC82" class="blob-code blob-code-inner js-file-line">			<span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>el</span><span class=pl-kos>.</span><span class=pl-c1>style</span><span class=pl-kos>.</span><span class=pl-c1>position</span> <span class=pl-c1>=</span> <span class=pl-s>&#39;relative&#39;</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L83" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="83"></td>
-          <td id="LC83" class="blob-code blob-code-inner js-file-line">		<span class=pl-kos>}</span></td>
-        </tr>
-        <tr>
-          <td id="L84" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="84"></td>
-          <td id="LC84" class="blob-code blob-code-inner js-file-line">		<span class=pl-c>// Content element.</span></td>
-        </tr>
-        <tr>
-          <td id="L85" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="85"></td>
-          <td id="LC85" class="blob-code blob-code-inner js-file-line">		<span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>content</span> <span class=pl-c1>=</span> <span class=pl-en>createDOMEl</span><span class=pl-kos>(</span><span class=pl-s>&#39;div&#39;</span><span class=pl-kos>,</span> <span class=pl-s>&#39;block-revealer__content&#39;</span><span class=pl-kos>,</span> <span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>el</span><span class=pl-kos>.</span><span class=pl-c1>innerHTML</span><span class=pl-kos>)</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L86" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="86"></td>
-          <td id="LC86" class="blob-code blob-code-inner js-file-line">		<span class=pl-k>if</span><span class=pl-kos>(</span> <span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>options</span><span class=pl-kos>.</span><span class=pl-c1>isContentHidden</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
-        </tr>
-        <tr>
-          <td id="L87" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="87"></td>
-          <td id="LC87" class="blob-code blob-code-inner js-file-line">			<span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>content</span><span class=pl-kos>.</span><span class=pl-c1>style</span><span class=pl-kos>.</span><span class=pl-c1>opacity</span> <span class=pl-c1>=</span> <span class=pl-c1>0</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L88" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="88"></td>
-          <td id="LC88" class="blob-code blob-code-inner js-file-line">		<span class=pl-kos>}</span></td>
-        </tr>
-        <tr>
-          <td id="L89" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="89"></td>
-          <td id="LC89" class="blob-code blob-code-inner js-file-line">		<span class=pl-c>// Revealer element (the one that animates)</span></td>
-        </tr>
-        <tr>
-          <td id="L90" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="90"></td>
-          <td id="LC90" class="blob-code blob-code-inner js-file-line">		<span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>revealer</span> <span class=pl-c1>=</span> <span class=pl-en>createDOMEl</span><span class=pl-kos>(</span><span class=pl-s>&#39;div&#39;</span><span class=pl-kos>,</span> <span class=pl-s>&#39;block-revealer__element&#39;</span><span class=pl-kos>)</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L91" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="91"></td>
-          <td id="LC91" class="blob-code blob-code-inner js-file-line">		<span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>el</span><span class=pl-kos>.</span><span class=pl-c1>classList</span><span class=pl-kos>.</span><span class=pl-en>add</span><span class=pl-kos>(</span><span class=pl-s>&#39;block-revealer&#39;</span><span class=pl-kos>)</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L92" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="92"></td>
-          <td id="LC92" class="blob-code blob-code-inner js-file-line">		<span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>el</span><span class=pl-kos>.</span><span class=pl-c1>innerHTML</span> <span class=pl-c1>=</span> <span class=pl-s>&#39;&#39;</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L93" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="93"></td>
-          <td id="LC93" class="blob-code blob-code-inner js-file-line">		<span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>el</span><span class=pl-kos>.</span><span class=pl-en>appendChild</span><span class=pl-kos>(</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>content</span><span class=pl-kos>)</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L94" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="94"></td>
-          <td id="LC94" class="blob-code blob-code-inner js-file-line">		<span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>el</span><span class=pl-kos>.</span><span class=pl-en>appendChild</span><span class=pl-kos>(</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>revealer</span><span class=pl-kos>)</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L95" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="95"></td>
-          <td id="LC95" class="blob-code blob-code-inner js-file-line">	<span class=pl-kos>}</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L96" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="96"></td>
-          <td id="LC96" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L97" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="97"></td>
-          <td id="LC97" class="blob-code blob-code-inner js-file-line">	<span class=pl-c>/**</span></td>
-        </tr>
-        <tr>
-          <td id="L98" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="98"></td>
-          <td id="LC98" class="blob-code blob-code-inner js-file-line"><span class=pl-c>	 * Gets the revealer element´s transform and transform origin.</span></td>
-        </tr>
-        <tr>
-          <td id="L99" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="99"></td>
-          <td id="LC99" class="blob-code blob-code-inner js-file-line"><span class=pl-c>	 */</span></td>
-        </tr>
-        <tr>
-          <td id="L100" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="100"></td>
-          <td id="LC100" class="blob-code blob-code-inner js-file-line">	<span class=pl-v>RevealFx</span><span class=pl-kos>.</span><span class=pl-c1>prototype</span><span class=pl-kos>.</span><span class=pl-en>_getTransformSettings</span> <span class=pl-c1>=</span> <span class=pl-k>function</span><span class=pl-kos>(</span><span class=pl-s1>direction</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
-        </tr>
-        <tr>
-          <td id="L101" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="101"></td>
-          <td id="LC101" class="blob-code blob-code-inner js-file-line">		<span class=pl-k>var</span> <span class=pl-s1>val</span><span class=pl-kos>,</span> <span class=pl-s1>origin</span><span class=pl-kos>,</span> <span class=pl-s1>origin_2</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L102" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="102"></td>
-          <td id="LC102" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L103" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="103"></td>
-          <td id="LC103" class="blob-code blob-code-inner js-file-line">		<span class=pl-k>switch</span> <span class=pl-kos>(</span><span class=pl-s1>direction</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
-        </tr>
-        <tr>
-          <td id="L104" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="104"></td>
-          <td id="LC104" class="blob-code blob-code-inner js-file-line">			<span class=pl-k>case</span> <span class=pl-s>&#39;lr&#39;</span> : </td>
-        </tr>
-        <tr>
-          <td id="L105" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="105"></td>
-          <td id="LC105" class="blob-code blob-code-inner js-file-line">				<span class=pl-s1>val</span> <span class=pl-c1>=</span> <span class=pl-s>&#39;scale3d(0,1,1)&#39;</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L106" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="106"></td>
-          <td id="LC106" class="blob-code blob-code-inner js-file-line">				<span class=pl-s1>origin</span> <span class=pl-c1>=</span> <span class=pl-s>&#39;0 50%&#39;</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L107" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="107"></td>
-          <td id="LC107" class="blob-code blob-code-inner js-file-line">				<span class=pl-s1>origin_2</span> <span class=pl-c1>=</span> <span class=pl-s>&#39;100% 50%&#39;</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L108" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="108"></td>
-          <td id="LC108" class="blob-code blob-code-inner js-file-line">				<span class=pl-k>break</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L109" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="109"></td>
-          <td id="LC109" class="blob-code blob-code-inner js-file-line">			<span class=pl-k>case</span> <span class=pl-s>&#39;rl&#39;</span> : </td>
-        </tr>
-        <tr>
-          <td id="L110" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="110"></td>
-          <td id="LC110" class="blob-code blob-code-inner js-file-line">				<span class=pl-s1>val</span> <span class=pl-c1>=</span> <span class=pl-s>&#39;scale3d(0,1,1)&#39;</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L111" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="111"></td>
-          <td id="LC111" class="blob-code blob-code-inner js-file-line">				<span class=pl-s1>origin</span> <span class=pl-c1>=</span> <span class=pl-s>&#39;100% 50%&#39;</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L112" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="112"></td>
-          <td id="LC112" class="blob-code blob-code-inner js-file-line">				<span class=pl-s1>origin_2</span> <span class=pl-c1>=</span> <span class=pl-s>&#39;0 50%&#39;</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L113" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="113"></td>
-          <td id="LC113" class="blob-code blob-code-inner js-file-line">				<span class=pl-k>break</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L114" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="114"></td>
-          <td id="LC114" class="blob-code blob-code-inner js-file-line">			<span class=pl-k>case</span> <span class=pl-s>&#39;tb&#39;</span> : </td>
-        </tr>
-        <tr>
-          <td id="L115" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="115"></td>
-          <td id="LC115" class="blob-code blob-code-inner js-file-line">				<span class=pl-s1>val</span> <span class=pl-c1>=</span> <span class=pl-s>&#39;scale3d(1,0,1)&#39;</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L116" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="116"></td>
-          <td id="LC116" class="blob-code blob-code-inner js-file-line">				<span class=pl-s1>origin</span> <span class=pl-c1>=</span> <span class=pl-s>&#39;50% 0&#39;</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L117" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="117"></td>
-          <td id="LC117" class="blob-code blob-code-inner js-file-line">				<span class=pl-s1>origin_2</span> <span class=pl-c1>=</span> <span class=pl-s>&#39;50% 100%&#39;</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L118" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="118"></td>
-          <td id="LC118" class="blob-code blob-code-inner js-file-line">				<span class=pl-k>break</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L119" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="119"></td>
-          <td id="LC119" class="blob-code blob-code-inner js-file-line">			<span class=pl-k>case</span> <span class=pl-s>&#39;bt&#39;</span> : </td>
-        </tr>
-        <tr>
-          <td id="L120" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="120"></td>
-          <td id="LC120" class="blob-code blob-code-inner js-file-line">				<span class=pl-s1>val</span> <span class=pl-c1>=</span> <span class=pl-s>&#39;scale3d(1,0,1)&#39;</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L121" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="121"></td>
-          <td id="LC121" class="blob-code blob-code-inner js-file-line">				<span class=pl-s1>origin</span> <span class=pl-c1>=</span> <span class=pl-s>&#39;50% 100%&#39;</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L122" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="122"></td>
-          <td id="LC122" class="blob-code blob-code-inner js-file-line">				<span class=pl-s1>origin_2</span> <span class=pl-c1>=</span> <span class=pl-s>&#39;50% 0&#39;</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L123" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="123"></td>
-          <td id="LC123" class="blob-code blob-code-inner js-file-line">				<span class=pl-k>break</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L124" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="124"></td>
-          <td id="LC124" class="blob-code blob-code-inner js-file-line">			<span class=pl-k>default</span> : </td>
-        </tr>
-        <tr>
-          <td id="L125" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="125"></td>
-          <td id="LC125" class="blob-code blob-code-inner js-file-line">				<span class=pl-s1>val</span> <span class=pl-c1>=</span> <span class=pl-s>&#39;scale3d(0,1,1)&#39;</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L126" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="126"></td>
-          <td id="LC126" class="blob-code blob-code-inner js-file-line">				<span class=pl-s1>origin</span> <span class=pl-c1>=</span> <span class=pl-s>&#39;0 50%&#39;</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L127" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="127"></td>
-          <td id="LC127" class="blob-code blob-code-inner js-file-line">				<span class=pl-s1>origin_2</span> <span class=pl-c1>=</span> <span class=pl-s>&#39;100% 50%&#39;</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L128" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="128"></td>
-          <td id="LC128" class="blob-code blob-code-inner js-file-line">				<span class=pl-k>break</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L129" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="129"></td>
-          <td id="LC129" class="blob-code blob-code-inner js-file-line">		<span class=pl-kos>}</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L130" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="130"></td>
-          <td id="LC130" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L131" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="131"></td>
-          <td id="LC131" class="blob-code blob-code-inner js-file-line">		<span class=pl-k>return</span> <span class=pl-kos>{</span></td>
-        </tr>
-        <tr>
-          <td id="L132" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="132"></td>
-          <td id="LC132" class="blob-code blob-code-inner js-file-line">			<span class=pl-c>// transform value.</span></td>
-        </tr>
-        <tr>
-          <td id="L133" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="133"></td>
-          <td id="LC133" class="blob-code blob-code-inner js-file-line">			<span class=pl-c1>val</span>: <span class=pl-s1>val</span><span class=pl-kos>,</span></td>
-        </tr>
-        <tr>
-          <td id="L134" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="134"></td>
-          <td id="LC134" class="blob-code blob-code-inner js-file-line">			<span class=pl-c>// initial and halfway/final transform origin.</span></td>
-        </tr>
-        <tr>
-          <td id="L135" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="135"></td>
-          <td id="LC135" class="blob-code blob-code-inner js-file-line">			<span class=pl-c1>origin</span>: <span class=pl-kos>{</span><span class=pl-c1>initial</span>: <span class=pl-s1>origin</span><span class=pl-kos>,</span> <span class=pl-c1>halfway</span>: <span class=pl-s1>origin_2</span><span class=pl-kos>}</span><span class=pl-kos>,</span></td>
-        </tr>
-        <tr>
-          <td id="L136" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="136"></td>
-          <td id="LC136" class="blob-code blob-code-inner js-file-line">		<span class=pl-kos>}</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L137" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="137"></td>
-          <td id="LC137" class="blob-code blob-code-inner js-file-line">	<span class=pl-kos>}</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L138" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="138"></td>
-          <td id="LC138" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L139" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="139"></td>
-          <td id="LC139" class="blob-code blob-code-inner js-file-line">	<span class=pl-c>/**</span></td>
-        </tr>
-        <tr>
-          <td id="L140" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="140"></td>
-          <td id="LC140" class="blob-code blob-code-inner js-file-line"><span class=pl-c>	 * Reveal animation. If revealSettings is passed, then it will overwrite the options.revealSettings.</span></td>
-        </tr>
-        <tr>
-          <td id="L141" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="141"></td>
-          <td id="LC141" class="blob-code blob-code-inner js-file-line"><span class=pl-c>	 */</span></td>
-        </tr>
-        <tr>
-          <td id="L142" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="142"></td>
-          <td id="LC142" class="blob-code blob-code-inner js-file-line">	<span class=pl-v>RevealFx</span><span class=pl-kos>.</span><span class=pl-c1>prototype</span><span class=pl-kos>.</span><span class=pl-en>reveal</span> <span class=pl-c1>=</span> <span class=pl-k>function</span><span class=pl-kos>(</span><span class=pl-s1>revealSettings</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
-        </tr>
-        <tr>
-          <td id="L143" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="143"></td>
-          <td id="LC143" class="blob-code blob-code-inner js-file-line">		<span class=pl-c>// Do nothing if currently animating.</span></td>
-        </tr>
-        <tr>
-          <td id="L144" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="144"></td>
-          <td id="LC144" class="blob-code blob-code-inner js-file-line">		<span class=pl-k>if</span><span class=pl-kos>(</span> <span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>isAnimating</span> <span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
-        </tr>
-        <tr>
-          <td id="L145" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="145"></td>
-          <td id="LC145" class="blob-code blob-code-inner js-file-line">			<span class=pl-k>return</span> <span class=pl-c1>false</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L146" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="146"></td>
-          <td id="LC146" class="blob-code blob-code-inner js-file-line">		<span class=pl-kos>}</span></td>
-        </tr>
-        <tr>
-          <td id="L147" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="147"></td>
-          <td id="LC147" class="blob-code blob-code-inner js-file-line">		<span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>isAnimating</span> <span class=pl-c1>=</span> <span class=pl-c1>true</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L148" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="148"></td>
-          <td id="LC148" class="blob-code blob-code-inner js-file-line">		</td>
-        </tr>
-        <tr>
-          <td id="L149" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="149"></td>
-          <td id="LC149" class="blob-code blob-code-inner js-file-line">		<span class=pl-c>// Set the revealer element´s transform and transform origin.</span></td>
-        </tr>
-        <tr>
-          <td id="L150" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="150"></td>
-          <td id="LC150" class="blob-code blob-code-inner js-file-line">		<span class=pl-k>var</span> <span class=pl-s1>defaults</span> <span class=pl-c1>=</span> <span class=pl-kos>{</span> <span class=pl-c>// In case revealSettings is incomplete, its properties deafault to:</span></td>
-        </tr>
-        <tr>
-          <td id="L151" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="151"></td>
-          <td id="LC151" class="blob-code blob-code-inner js-file-line">				<span class=pl-c1>duration</span>: <span class=pl-c1>500</span><span class=pl-kos>,</span></td>
-        </tr>
-        <tr>
-          <td id="L152" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="152"></td>
-          <td id="LC152" class="blob-code blob-code-inner js-file-line">				<span class=pl-c1>easing</span>: <span class=pl-s>&#39;easeInOutQuint&#39;</span><span class=pl-kos>,</span></td>
-        </tr>
-        <tr>
-          <td id="L153" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="153"></td>
-          <td id="LC153" class="blob-code blob-code-inner js-file-line">				<span class=pl-c1>delay</span>: <span class=pl-c1>0</span><span class=pl-kos>,</span></td>
-        </tr>
-        <tr>
-          <td id="L154" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="154"></td>
-          <td id="LC154" class="blob-code blob-code-inner js-file-line">				<span class=pl-c1>bgcolor</span>: <span class=pl-s>&#39;#f0f0f0&#39;</span><span class=pl-kos>,</span></td>
-        </tr>
-        <tr>
-          <td id="L155" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="155"></td>
-          <td id="LC155" class="blob-code blob-code-inner js-file-line">				<span class=pl-c1>direction</span>: <span class=pl-s>&#39;lr&#39;</span><span class=pl-kos>,</span></td>
-        </tr>
-        <tr>
-          <td id="L156" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="156"></td>
-          <td id="LC156" class="blob-code blob-code-inner js-file-line">				<span class=pl-c1>coverArea</span>: <span class=pl-c1>0</span></td>
-        </tr>
-        <tr>
-          <td id="L157" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="157"></td>
-          <td id="LC157" class="blob-code blob-code-inner js-file-line">			<span class=pl-kos>}</span><span class=pl-kos>,</span></td>
-        </tr>
-        <tr>
-          <td id="L158" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="158"></td>
-          <td id="LC158" class="blob-code blob-code-inner js-file-line">			<span class=pl-s1>revealSettings</span> <span class=pl-c1>=</span> <span class=pl-s1>revealSettings</span> <span class=pl-c1>||</span> <span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>options</span><span class=pl-kos>.</span><span class=pl-c1>revealSettings</span><span class=pl-kos>,</span></td>
-        </tr>
-        <tr>
-          <td id="L159" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="159"></td>
-          <td id="LC159" class="blob-code blob-code-inner js-file-line">			<span class=pl-s1>direction</span> <span class=pl-c1>=</span> <span class=pl-s1>revealSettings</span><span class=pl-kos>.</span><span class=pl-c1>direction</span> <span class=pl-c1>||</span> <span class=pl-s1>defaults</span><span class=pl-kos>.</span><span class=pl-c1>direction</span><span class=pl-kos>,</span></td>
-        </tr>
-        <tr>
-          <td id="L160" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="160"></td>
-          <td id="LC160" class="blob-code blob-code-inner js-file-line">			<span class=pl-s1>transformSettings</span> <span class=pl-c1>=</span> <span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-en>_getTransformSettings</span><span class=pl-kos>(</span><span class=pl-s1>direction</span><span class=pl-kos>)</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L161" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="161"></td>
-          <td id="LC161" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L162" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="162"></td>
-          <td id="LC162" class="blob-code blob-code-inner js-file-line">		<span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>revealer</span><span class=pl-kos>.</span><span class=pl-c1>style</span><span class=pl-kos>.</span><span class=pl-c1>WebkitTransform</span> <span class=pl-c1>=</span> <span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>revealer</span><span class=pl-kos>.</span><span class=pl-c1>style</span><span class=pl-kos>.</span><span class=pl-c1>transform</span> <span class=pl-c1>=</span>  <span class=pl-s1>transformSettings</span><span class=pl-kos>.</span><span class=pl-c1>val</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L163" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="163"></td>
-          <td id="LC163" class="blob-code blob-code-inner js-file-line">		<span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>revealer</span><span class=pl-kos>.</span><span class=pl-c1>style</span><span class=pl-kos>.</span><span class=pl-c1>WebkitTransformOrigin</span> <span class=pl-c1>=</span> <span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>revealer</span><span class=pl-kos>.</span><span class=pl-c1>style</span><span class=pl-kos>.</span><span class=pl-c1>transformOrigin</span> <span class=pl-c1>=</span>  <span class=pl-s1>transformSettings</span><span class=pl-kos>.</span><span class=pl-c1>origin</span><span class=pl-kos>.</span><span class=pl-c1>initial</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L164" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="164"></td>
-          <td id="LC164" class="blob-code blob-code-inner js-file-line">		</td>
-        </tr>
-        <tr>
-          <td id="L165" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="165"></td>
-          <td id="LC165" class="blob-code blob-code-inner js-file-line">		<span class=pl-c>// Set the Revealer´s background color.</span></td>
-        </tr>
-        <tr>
-          <td id="L166" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="166"></td>
-          <td id="LC166" class="blob-code blob-code-inner js-file-line">		<span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>revealer</span><span class=pl-kos>.</span><span class=pl-c1>style</span><span class=pl-kos>.</span><span class=pl-c1>backgroundColor</span> <span class=pl-c1>=</span> <span class=pl-s1>revealSettings</span><span class=pl-kos>.</span><span class=pl-c1>bgcolor</span> <span class=pl-c1>||</span> <span class=pl-s1>defaults</span><span class=pl-kos>.</span><span class=pl-c1>bgcolor</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L167" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="167"></td>
-          <td id="LC167" class="blob-code blob-code-inner js-file-line">		</td>
-        </tr>
-        <tr>
-          <td id="L168" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="168"></td>
-          <td id="LC168" class="blob-code blob-code-inner js-file-line">		<span class=pl-c>// Show it. By default the revealer element has opacity = 0 (CSS).</span></td>
-        </tr>
-        <tr>
-          <td id="L169" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="169"></td>
-          <td id="LC169" class="blob-code blob-code-inner js-file-line">		<span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>revealer</span><span class=pl-kos>.</span><span class=pl-c1>style</span><span class=pl-kos>.</span><span class=pl-c1>opacity</span> <span class=pl-c1>=</span> <span class=pl-c1>1</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L170" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="170"></td>
-          <td id="LC170" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L171" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="171"></td>
-          <td id="LC171" class="blob-code blob-code-inner js-file-line">		<span class=pl-c>// Animate it.</span></td>
-        </tr>
-        <tr>
-          <td id="L172" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="172"></td>
-          <td id="LC172" class="blob-code blob-code-inner js-file-line">		<span class=pl-k>var</span> <span class=pl-s1>self</span> <span class=pl-c1>=</span> <span class=pl-smi>this</span><span class=pl-kos>,</span></td>
-        </tr>
-        <tr>
-          <td id="L173" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="173"></td>
-          <td id="LC173" class="blob-code blob-code-inner js-file-line">			<span class=pl-c>// Second animation step.</span></td>
-        </tr>
-        <tr>
-          <td id="L174" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="174"></td>
-          <td id="LC174" class="blob-code blob-code-inner js-file-line">			<span class=pl-s1>animationSettings_2</span> <span class=pl-c1>=</span> <span class=pl-kos>{</span></td>
-        </tr>
-        <tr>
-          <td id="L175" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="175"></td>
-          <td id="LC175" class="blob-code blob-code-inner js-file-line">				<span class=pl-en>complete</span>: <span class=pl-k>function</span><span class=pl-kos>(</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
-        </tr>
-        <tr>
-          <td id="L176" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="176"></td>
-          <td id="LC176" class="blob-code blob-code-inner js-file-line">					<span class=pl-s1>self</span><span class=pl-kos>.</span><span class=pl-c1>isAnimating</span> <span class=pl-c1>=</span> <span class=pl-c1>false</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L177" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="177"></td>
-          <td id="LC177" class="blob-code blob-code-inner js-file-line">					<span class=pl-k>if</span><span class=pl-kos>(</span> <span class=pl-k>typeof</span> <span class=pl-s1>revealSettings</span><span class=pl-kos>.</span><span class=pl-c1>onComplete</span> <span class=pl-c1>===</span> <span class=pl-s>&#39;function&#39;</span> <span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
-        </tr>
-        <tr>
-          <td id="L178" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="178"></td>
-          <td id="LC178" class="blob-code blob-code-inner js-file-line">						<span class=pl-s1>revealSettings</span><span class=pl-kos>.</span><span class=pl-en>onComplete</span><span class=pl-kos>(</span><span class=pl-s1>self</span><span class=pl-kos>.</span><span class=pl-c1>content</span><span class=pl-kos>,</span> <span class=pl-s1>self</span><span class=pl-kos>.</span><span class=pl-c1>revealer</span><span class=pl-kos>)</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L179" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="179"></td>
-          <td id="LC179" class="blob-code blob-code-inner js-file-line">					<span class=pl-kos>}</span></td>
-        </tr>
-        <tr>
-          <td id="L180" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="180"></td>
-          <td id="LC180" class="blob-code blob-code-inner js-file-line">				<span class=pl-kos>}</span></td>
-        </tr>
-        <tr>
-          <td id="L181" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="181"></td>
-          <td id="LC181" class="blob-code blob-code-inner js-file-line">			<span class=pl-kos>}</span><span class=pl-kos>,</span></td>
-        </tr>
-        <tr>
-          <td id="L182" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="182"></td>
-          <td id="LC182" class="blob-code blob-code-inner js-file-line">			<span class=pl-c>// First animation step.</span></td>
-        </tr>
-        <tr>
-          <td id="L183" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="183"></td>
-          <td id="LC183" class="blob-code blob-code-inner js-file-line">			<span class=pl-s1>animationSettings</span> <span class=pl-c1>=</span> <span class=pl-kos>{</span></td>
-        </tr>
-        <tr>
-          <td id="L184" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="184"></td>
-          <td id="LC184" class="blob-code blob-code-inner js-file-line">				<span class=pl-c1>delay</span>: <span class=pl-s1>revealSettings</span><span class=pl-kos>.</span><span class=pl-c1>delay</span> <span class=pl-c1>||</span> <span class=pl-s1>defaults</span><span class=pl-kos>.</span><span class=pl-c1>delay</span><span class=pl-kos>,</span></td>
-        </tr>
-        <tr>
-          <td id="L185" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="185"></td>
-          <td id="LC185" class="blob-code blob-code-inner js-file-line">				<span class=pl-en>complete</span>: <span class=pl-k>function</span><span class=pl-kos>(</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
-        </tr>
-        <tr>
-          <td id="L186" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="186"></td>
-          <td id="LC186" class="blob-code blob-code-inner js-file-line">					<span class=pl-s1>self</span><span class=pl-kos>.</span><span class=pl-c1>revealer</span><span class=pl-kos>.</span><span class=pl-c1>style</span><span class=pl-kos>.</span><span class=pl-c1>WebkitTransformOrigin</span> <span class=pl-c1>=</span> <span class=pl-s1>self</span><span class=pl-kos>.</span><span class=pl-c1>revealer</span><span class=pl-kos>.</span><span class=pl-c1>style</span><span class=pl-kos>.</span><span class=pl-c1>transformOrigin</span> <span class=pl-c1>=</span> <span class=pl-s1>transformSettings</span><span class=pl-kos>.</span><span class=pl-c1>origin</span><span class=pl-kos>.</span><span class=pl-c1>halfway</span><span class=pl-kos>;</span>		</td>
-        </tr>
-        <tr>
-          <td id="L187" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="187"></td>
-          <td id="LC187" class="blob-code blob-code-inner js-file-line">					<span class=pl-k>if</span><span class=pl-kos>(</span> <span class=pl-k>typeof</span> <span class=pl-s1>revealSettings</span><span class=pl-kos>.</span><span class=pl-c1>onCover</span> <span class=pl-c1>===</span> <span class=pl-s>&#39;function&#39;</span> <span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
-        </tr>
-        <tr>
-          <td id="L188" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="188"></td>
-          <td id="LC188" class="blob-code blob-code-inner js-file-line">						<span class=pl-s1>revealSettings</span><span class=pl-kos>.</span><span class=pl-en>onCover</span><span class=pl-kos>(</span><span class=pl-s1>self</span><span class=pl-kos>.</span><span class=pl-c1>content</span><span class=pl-kos>,</span> <span class=pl-s1>self</span><span class=pl-kos>.</span><span class=pl-c1>revealer</span><span class=pl-kos>)</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L189" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="189"></td>
-          <td id="LC189" class="blob-code blob-code-inner js-file-line">					<span class=pl-kos>}</span></td>
-        </tr>
-        <tr>
-          <td id="L190" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="190"></td>
-          <td id="LC190" class="blob-code blob-code-inner js-file-line">					<span class=pl-en>anime</span><span class=pl-kos>(</span><span class=pl-s1>animationSettings_2</span><span class=pl-kos>)</span><span class=pl-kos>;</span>		</td>
-        </tr>
-        <tr>
-          <td id="L191" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="191"></td>
-          <td id="LC191" class="blob-code blob-code-inner js-file-line">				<span class=pl-kos>}</span></td>
-        </tr>
-        <tr>
-          <td id="L192" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="192"></td>
-          <td id="LC192" class="blob-code blob-code-inner js-file-line">			<span class=pl-kos>}</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L193" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="193"></td>
-          <td id="LC193" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L194" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="194"></td>
-          <td id="LC194" class="blob-code blob-code-inner js-file-line">		<span class=pl-s1>animationSettings</span><span class=pl-kos>.</span><span class=pl-c1>targets</span> <span class=pl-c1>=</span> <span class=pl-s1>animationSettings_2</span><span class=pl-kos>.</span><span class=pl-c1>targets</span> <span class=pl-c1>=</span> <span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>revealer</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L195" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="195"></td>
-          <td id="LC195" class="blob-code blob-code-inner js-file-line">		<span class=pl-s1>animationSettings</span><span class=pl-kos>.</span><span class=pl-c1>duration</span> <span class=pl-c1>=</span> <span class=pl-s1>animationSettings_2</span><span class=pl-kos>.</span><span class=pl-c1>duration</span> <span class=pl-c1>=</span> <span class=pl-s1>revealSettings</span><span class=pl-kos>.</span><span class=pl-c1>duration</span> <span class=pl-c1>||</span> <span class=pl-s1>defaults</span><span class=pl-kos>.</span><span class=pl-c1>duration</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L196" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="196"></td>
-          <td id="LC196" class="blob-code blob-code-inner js-file-line">		<span class=pl-s1>animationSettings</span><span class=pl-kos>.</span><span class=pl-c1>easing</span> <span class=pl-c1>=</span> <span class=pl-s1>animationSettings_2</span><span class=pl-kos>.</span><span class=pl-c1>easing</span> <span class=pl-c1>=</span> <span class=pl-s1>revealSettings</span><span class=pl-kos>.</span><span class=pl-c1>easing</span> <span class=pl-c1>||</span> <span class=pl-s1>defaults</span><span class=pl-kos>.</span><span class=pl-c1>easing</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L197" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="197"></td>
-          <td id="LC197" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L198" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="198"></td>
-          <td id="LC198" class="blob-code blob-code-inner js-file-line">		<span class=pl-k>var</span> <span class=pl-s1>coverArea</span> <span class=pl-c1>=</span> <span class=pl-s1>revealSettings</span><span class=pl-kos>.</span><span class=pl-c1>coverArea</span> <span class=pl-c1>||</span> <span class=pl-s1>defaults</span><span class=pl-kos>.</span><span class=pl-c1>coverArea</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L199" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="199"></td>
-          <td id="LC199" class="blob-code blob-code-inner js-file-line">		<span class=pl-k>if</span><span class=pl-kos>(</span> <span class=pl-s1>direction</span> <span class=pl-c1>===</span> <span class=pl-s>&#39;lr&#39;</span> <span class=pl-c1>||</span> <span class=pl-s1>direction</span> <span class=pl-c1>===</span> <span class=pl-s>&#39;rl&#39;</span> <span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
-        </tr>
-        <tr>
-          <td id="L200" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="200"></td>
-          <td id="LC200" class="blob-code blob-code-inner js-file-line">			<span class=pl-s1>animationSettings</span><span class=pl-kos>.</span><span class=pl-c1>scaleX</span> <span class=pl-c1>=</span> <span class=pl-kos>[</span><span class=pl-c1>0</span><span class=pl-kos>,</span><span class=pl-c1>1</span><span class=pl-kos>]</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L201" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="201"></td>
-          <td id="LC201" class="blob-code blob-code-inner js-file-line">			<span class=pl-s1>animationSettings_2</span><span class=pl-kos>.</span><span class=pl-c1>scaleX</span> <span class=pl-c1>=</span> <span class=pl-kos>[</span><span class=pl-c1>1</span><span class=pl-kos>,</span><span class=pl-s1>coverArea</span><span class=pl-c1>/</span><span class=pl-c1>100</span><span class=pl-kos>]</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L202" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="202"></td>
-          <td id="LC202" class="blob-code blob-code-inner js-file-line">		<span class=pl-kos>}</span></td>
-        </tr>
-        <tr>
-          <td id="L203" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="203"></td>
-          <td id="LC203" class="blob-code blob-code-inner js-file-line">		<span class=pl-k>else</span> <span class=pl-kos>{</span></td>
-        </tr>
-        <tr>
-          <td id="L204" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="204"></td>
-          <td id="LC204" class="blob-code blob-code-inner js-file-line">			<span class=pl-s1>animationSettings</span><span class=pl-kos>.</span><span class=pl-c1>scaleY</span> <span class=pl-c1>=</span> <span class=pl-kos>[</span><span class=pl-c1>0</span><span class=pl-kos>,</span><span class=pl-c1>1</span><span class=pl-kos>]</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L205" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="205"></td>
-          <td id="LC205" class="blob-code blob-code-inner js-file-line">			<span class=pl-s1>animationSettings_2</span><span class=pl-kos>.</span><span class=pl-c1>scaleY</span> <span class=pl-c1>=</span> <span class=pl-kos>[</span><span class=pl-c1>1</span><span class=pl-kos>,</span><span class=pl-s1>coverArea</span><span class=pl-c1>/</span><span class=pl-c1>100</span><span class=pl-kos>]</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L206" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="206"></td>
-          <td id="LC206" class="blob-code blob-code-inner js-file-line">		<span class=pl-kos>}</span></td>
-        </tr>
-        <tr>
-          <td id="L207" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="207"></td>
-          <td id="LC207" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L208" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="208"></td>
-          <td id="LC208" class="blob-code blob-code-inner js-file-line">		<span class=pl-k>if</span><span class=pl-kos>(</span> <span class=pl-k>typeof</span> <span class=pl-s1>revealSettings</span><span class=pl-kos>.</span><span class=pl-c1>onStart</span> <span class=pl-c1>===</span> <span class=pl-s>&#39;function&#39;</span> <span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
-        </tr>
-        <tr>
-          <td id="L209" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="209"></td>
-          <td id="LC209" class="blob-code blob-code-inner js-file-line">			<span class=pl-s1>revealSettings</span><span class=pl-kos>.</span><span class=pl-en>onStart</span><span class=pl-kos>(</span><span class=pl-s1>self</span><span class=pl-kos>.</span><span class=pl-c1>content</span><span class=pl-kos>,</span> <span class=pl-s1>self</span><span class=pl-kos>.</span><span class=pl-c1>revealer</span><span class=pl-kos>)</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L210" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="210"></td>
-          <td id="LC210" class="blob-code blob-code-inner js-file-line">		<span class=pl-kos>}</span></td>
-        </tr>
-        <tr>
-          <td id="L211" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="211"></td>
-          <td id="LC211" class="blob-code blob-code-inner js-file-line">		<span class=pl-en>anime</span><span class=pl-kos>(</span><span class=pl-s1>animationSettings</span><span class=pl-kos>)</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L212" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="212"></td>
-          <td id="LC212" class="blob-code blob-code-inner js-file-line">	<span class=pl-kos>}</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L213" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="213"></td>
-          <td id="LC213" class="blob-code blob-code-inner js-file-line">	</td>
-        </tr>
-        <tr>
-          <td id="L214" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="214"></td>
-          <td id="LC214" class="blob-code blob-code-inner js-file-line">	<span class=pl-s1>window</span><span class=pl-kos>.</span><span class=pl-c1>RevealFx</span> <span class=pl-c1>=</span> <span class=pl-v>RevealFx</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L215" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="215"></td>
-          <td id="LC215" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L216" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="216"></td>
-          <td id="LC216" class="blob-code blob-code-inner js-file-line"><span class=pl-kos>}</span><span class=pl-kos>)</span><span class=pl-kos>(</span><span class=pl-smi>window</span><span class=pl-kos>)</span><span class=pl-kos>;</span></td>
+          <td id="LC2" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//# sourceMappingURL=scrollMonitor.js.map</span></td>
         </tr>
   </table>
 </div>
@@ -3747,7 +2945,7 @@
             Copy permalink
           </clipboard-copy>
         </li>
-        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/codrops/BlockRevealers/blame/f8bc11a648756c32701106a33f19f0b795f1d794/js/main.js">View git blame</a></li>
+        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/codrops/BlockRevealers/blame/f8bc11a648756c32701106a33f19f0b795f1d794/js/scrollMonitor.js">View git blame</a></li>
           <li><a class="dropdown-item" id="js-new-issue" role="menuitem" href="/codrops/BlockRevealers/issues/new">Reference in new issue</a></li>
       </ul>
     </details-menu>
