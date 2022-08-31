@@ -6,7 +6,7 @@
             watcher_1 = scrollMonitor.create(scrollElemToWatch_1, -10), 
             rev1 = new RevealFx(scrollElemToWatch_1, {
                 revealSettings : {
-                    bgcolor :'#000000',
+                    bgcolor :'#FFCC33',
                     duration: 300, 
                     direction:'rl',
                     onStart:function(contentEl, revealerEl){
@@ -16,7 +16,7 @@
                     onCover: function(contentEl, revealerEl){
                         contentEl.style.opacity = 1;
                         anime ({
-                            target : contentEl,
+                            targets : contentEl,
                             duration : 100, 
                             delay:10, 
                             easing: 'easeOutExpo',
@@ -28,7 +28,6 @@
             watcher_1.entterViewport(function() {
                 rev1.reveal();
                     watcher_1.destroy();
-                
             });
       }
 })();
