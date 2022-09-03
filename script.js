@@ -1,9 +1,9 @@
 
 (function() {
-    setTimeout(index01, 10);
-      function index01() {
-        var scrollElemToWatch_1 = document.getElementById('index01')
-            watcher_1 = scrollMonitor.create(scrollElemToWatch_1, -10), 
+    setTimeout(init, 10);
+      function init() {
+        var scrollElemToWatch_1 = document.getElementById('index01') //指定
+            watcher_1 = scrollMonitor.create(scrollElemToWatch_1, -300), 
             rev1 = new RevealFx(scrollElemToWatch_1, {
                 revealSettings : {
                     bgcolor :'#FFCC33',
