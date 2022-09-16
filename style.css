@@ -106,12 +106,35 @@ About
   align-items: center;
 }
 
+/* 動きをつけるために追加中 */
 #about img {
   width: 200px;
   height: 200px;
   border-radius: 50%;
   margin-right: 100px;
+  opacity: 0;
 }
+
+.fadeUp {
+  animation-name: fadeUpAnime;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+@keyframes fadeUpAnime {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0)
+  }
+}
+
+/* ここまで */
 
 #about .text {
   text-align: left;
