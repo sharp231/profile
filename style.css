@@ -387,9 +387,17 @@ input[type="text"] {
 }
 
 @media (max-width:640px) {
-  .contact-message {
+  /* .contact-message {
       text-align: left;
-  }
+  } */
+  .contact-message{
+    display: inline-block;
+      font-size: 2rem;
+      text-align: center;
+      margin-bottom: 60px;
+      border-bottom: solid 1px #383e45;
+    }
+    
 
   .contact-area .text {
       text-align: left;
@@ -411,11 +419,4 @@ input[type="text"] {
   height:80px;
   background:#4169e1;
   margin: 20px;
-}
-.contact-message{
-display: inline-block;
-  font-size: 2rem;
-  text-align: center;
-  margin-bottom: 60px;
-  border-bottom: solid 1px #383e45;
 }
