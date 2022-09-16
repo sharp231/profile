@@ -3,27 +3,34 @@
 html {
   font-size: 100%;
 }
+
 body {
   color: #383e45;
   font-size: 1rem;
 }
+
 a {
   text-decoration: none;
 }
+
 img {
   max-width: 100%;
 }
+
 li {
   list-style: none;
 }
+
 .site-title {
   width: 120px;
   line-height: 1px;
   padding: 10px 0;
 }
+
 .site-title a {
   display: block;
 }
+
 .section-title {
   display: inline-block;
   font-size: 2rem;
@@ -31,10 +38,12 @@ li {
   margin-bottom: 60px;
   border-bottom: solid 1px #383e45;
 }
+
 .content-title {
   font-size: 1rem;
   margin: 10px 0;
 }
+
 .headline {
   max-width: 960px;
   margin: 0 auto 100px auto;
@@ -55,16 +64,21 @@ li {
   align-items: center;
   margin: 0 auto;
 }
+
 #header ul {
   display: flex;
   padding: 10px 0;
 }
+
 #header li {
   margin-left: 30px;
 }
+
 #header li a {
   color: #24292e;
+  font-size: 20px;
 }
+
 #header li a:hover {
   opacity: 0.7;
 }
@@ -75,6 +89,7 @@ Mainvisual
 #mainvisual {
   margin-bottom: 80px;
 }
+
 #mainvisual img {
   width: 100%;
   max-width: 1920px;
@@ -90,12 +105,14 @@ About
   justify-content: center;
   align-items: center;
 }
+
 #about img {
   width: 200px;
   height: 200px;
   border-radius: 50%;
   margin-right: 100px;
 }
+
 #about .text {
   text-align: left;
 }
@@ -104,9 +121,10 @@ About
 プロフィール
 -------------------------------------------*/
 #hobby ul {
-display: flex;
+  display: flex;
   justify-content: space-between;
 }
+
 #hobby li {
   width: 32%;
 }
@@ -138,6 +156,7 @@ SP
   #about .content {
     flex-direction: column;
   }
+
   #about img {
     margin-right: 0;
   }
@@ -147,8 +166,9 @@ SP
   -------------------------------------------*/
   #Contact ul {
     flex-direction: column;
-  } */
-   #Contact li {
+  }
+
+  */ #Contact li {
     width: 100%;
     margin-bottom: 30px;
   }
@@ -239,7 +259,8 @@ textarea {
   height: 200px;
   padding: 0;
   border: 1px solid #c4c4c4;
-  resize: vertical; /* 横方向のみサイズを固定する */
+  resize: vertical;
+  /* 横方向のみサイズを固定する */
 }
 
 
@@ -295,128 +316,129 @@ input[type="text"] {
 
 @media(max-width:1200px) {
   .contact-area {
-      width: 80%;
-      padding: 60px;
+    width: 80%;
+    padding: 60px;
   }
 }
 
 @media(max-width:1024px) {
   .contact-area {
-      padding: 50px 15px;
+    padding: 50px 15px;
   }
 
   .table-list th {
-      width: 180px;
+    width: 180px;
   }
 
   .table-list td {
-      width: 100%;
+    width: 100%;
   }
 
   .input-area {
-      width: 500px;
-      height: 40px;
+    width: 500px;
+    height: 40px;
   }
 
   textarea {
-      width: 500px;
-      height: 200px;
+    width: 500px;
+    height: 200px;
   }
 
   .contact-message {
-      margin-bottom: 30px;
+    margin-bottom: 30px;
   }
 
   .contact-area .text {
-      margin-bottom: 30px;
+    margin-bottom: 30px;
   }
 }
 
 
 @media(max-width:834px) {
   .contact-bg {
-      margin: 50px auto 0;
-      padding: 50px 0;
+    margin: 50px auto 0;
+    padding: 50px 0;
   }
 
   .contact-area {
-      margin: 50px auto;
-      padding: 50px 20px;
+    margin: 50px auto;
+    padding: 50px 20px;
   }
 
   .check-box label {
-      width: 100%;
+    width: 100%;
   }
 
   .input-area {
-      width: 100%;
-      height: 30px;
+    width: 100%;
+    height: 30px;
   }
 
   textarea {
-      width: 100%;
-      height: 200px;
+    width: 100%;
+    height: 200px;
   }
 
   .table-list {
-      flex-wrap: wrap;
-      margin-bottom: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
   }
 
   .table-list th {
-      font-size: 12px;
-      width: 200px;
-      margin-bottom: 10px;
+    font-size: 12px;
+    width: 200px;
+    margin-bottom: 10px;
   }
 
   .table-list td {
-      font-size: 12px;
+    font-size: 12px;
   }
 
   .table-list td {
-      width: 100%;
+    width: 100%;
   }
 
   .contact-message {
-      font-size: 13px;
+    font-size: 13px;
   }
 
   .contact-area .text {
-      font-size: 13px;
+    font-size: 13px;
   }
 }
 
 @media (max-width:640px) {
+
   /* .contact-message {
       text-align: left;
   } */
-  .contact-message{
+  .contact-message {
     display: inline-block;
-      font-size: 2rem;
-      text-align: center;
-      margin-bottom: 60px;
-      border-bottom: solid 1px #383e45;
-    }
-    
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 60px;
+    border-bottom: solid 1px #383e45;
+  }
+
 
   .contact-area .text {
-      text-align: left;
+    text-align: left;
   }
 }
 
 @media(max-width:320px) {
   .input-area {
-      width: 100%;
+    width: 100%;
   }
 
   textarea {
-      width: 100%;
+    width: 100%;
   }
 }
 
 #item {
   width: 80px;
-  height:80px;
-  background:#4169e1;
+  height: 80px;
+  background: #4169e1;
   margin: 20px;
 }
