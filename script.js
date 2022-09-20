@@ -1,12 +1,12 @@
 function Scroll() {
-    let time = 0.2; //時間
+    let time = 0.3; //時間
     let value = time;
-    $('.delayscroll').each(function () {
+    $('.delayScroll').each(function () {
         let parent = this; //親要素
         let elemPos = $(this).offset().top; //要素の位置
         let scroll = $(window).scrollTop(); //スクロール
         let windowHeight = $(window).height(); // 画面の高さ
-        let childs = $(this).childern(); //子要素
+        let childs = $(this).children(); //子要素
 
         //｛｝はスクロールをしたら動くまたは親要素にクラスplayがない
         if (scroll >= elemPos - windowHeight && !$(parent).hasClass("play")) {
@@ -27,7 +27,7 @@ function Scroll() {
                 }
             })
         } else {
-            $(childs).removeClass("fedeUp"); //クラス名を削除
+            $(childs).removeClass("fadeUp"); //クラス名を削除
             value = time; //delay初期値の数値に戻す
         }
     })
