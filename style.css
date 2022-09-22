@@ -42,6 +42,7 @@ li {
 .content-title {
   font-size: 25px;
   margin: 10px 0;
+
 }
 
 .headline {
@@ -111,7 +112,7 @@ About
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  margin-right: 100px;
+  /* margin-right: 100px; */
   opacity: 0;
 }
 
@@ -457,11 +458,4 @@ input[type="text"] {
   textarea {
     width: 100%;
   }
-}
-
-#item {
-  width: 80px;
-  height: 80px;
-  background: #4169e1;
-  margin: 20px;
 }
